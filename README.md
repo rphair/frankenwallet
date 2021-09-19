@@ -16,4 +16,4 @@ Please submit these suggestions here: https://github.com/rphair/frankenwallet/is
 
 For announcements regarding the Frankenwallet please follow https://twitter.com/COSDpool.
 
-To support our work on the Frankenwallet, Cardano users please delegate your ada to COSD stake pool: https://cosd.com/pool
+To support our work on the Frankenwallet, Cardano users please delegate your ada to **COSD** stake pool: https://cosd.com/pool
