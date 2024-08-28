@@ -1,6 +1,6 @@
 # frankenwallet
 
-## Air-gapped secure transaction building, key backup, and secure environment for Cardano &amp; other cryptos
+## Air-gapped transaction building, key backup, and secured browser wallets for Cardano &amp; other cryptos
 
 For all documentation and scripts see https://cosd.com/frankenwallet.
 
