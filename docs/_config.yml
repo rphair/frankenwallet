@@ -10,12 +10,6 @@ url: https://frankenwallet.com
 aux_links:
   Source: https://github.com/rphair/frankenwallet
 
-# Might only be used in Jekyll default Minima...? TODO delete these if Just the Docs doesn't use them:
-email: fw@cosd.com
-domain: frankenwallet.com
-twitter_username: COSDpool
-github_username: rphair
-
 # https://www.reddit.com/r/Jekyll/comments/zunif0/help_please_i_keep_getting_deprecation_warnings/
 sass:
   quiet_deps: true
