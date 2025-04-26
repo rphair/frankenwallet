@@ -1,8 +1,15 @@
 source 'https://rubygems.org'
 
 gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
+# TODO REMOVE once GitHub pages build is happy:
 # gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
 
-# (rphair) we are not using exotic features to unanticipated upgrades should be fine.
+# we are not using exotic features to unanticipated upgrades should be fine.
 # gem "just-the-docs", "0.10.1" # pinned to the current release
 gem "just-the-docs"        # always download the latest release
+
+# behavioural dependencies for this project:
+
+# https://github.com/jekyll/jekyll-sass-converter/pull/164
+# https://github.com/jekyll/jekyll-sass-converter/releases/tag/v3.1.0
+gem "jekyll-sass-converter", ">=3.1.0"

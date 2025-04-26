@@ -11,5 +11,9 @@ aux_links:
   Source: https://github.com/rphair/frankenwallet
 
 # https://www.reddit.com/r/Jekyll/comments/zunif0/help_please_i_keep_getting_deprecation_warnings/
+# https://github.com/jekyll/jekyll-sass-converter#configuration-options
 sass:
-  quiet_deps: true
+  silence_deprecations:
+    - import
+    - color-functions
+    - global-builtin
