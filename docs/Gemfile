@@ -4,6 +4,7 @@ source "https://rubygems.org"
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
 #     bundle exec jekyll serve
+#     bundle exec jekyll serve --livereload     # rphair
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
@@ -15,6 +16,9 @@ gem "minima", "~> 2.5"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+# rphair: can this list be empty?  It's a dependency of github-pages; WHY is it here?
+# rphair: I see items added here don't have to be put into "plugins:" in _config.yml
+#   (as per https://jekyllrb.com/docs/themes/#converting-gem-based-themes-to-regular-themes)
   gem "jekyll-feed", "~> 0.12"
 end
 
