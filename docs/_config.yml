@@ -9,6 +9,7 @@ theme: just-the-docs
 url: https://frankenwallet.com
 aux_links:
   Frankenwallet on GitHub: https://github.com/rphair/frankenwallet
+color_scheme: green
 
 # https://www.reddit.com/r/Jekyll/comments/zunif0/help_please_i_keep_getting_deprecation_warnings/
 # https://github.com/jekyll/jekyll-sass-converter#configuration-options
