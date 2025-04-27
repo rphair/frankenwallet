@@ -1,4 +1,4 @@
-# The Frankenwallet
+# [The Frankenwallet](https://frankenwallet.com)
 
 ## Air-gappable transaction building & key backup and secured browser wallets for Cardano & other cryptos
 
