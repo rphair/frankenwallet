@@ -12,6 +12,24 @@ aux_links:
 color_scheme: green
 timezone: Etc/UTC
 
+# https://just-the-docs.com/docs/configuration/#callouts
+# (copied from) https://github.com/just-the-docs/just-the-docs/blob/main/_config.yml
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
 # https://www.reddit.com/r/Jekyll/comments/zunif0/help_please_i_keep_getting_deprecation_warnings/
 # https://github.com/jekyll/jekyll-sass-converter#configuration-options
 sass:
