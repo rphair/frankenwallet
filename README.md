@@ -1,6 +1,6 @@
 # The Frankenwallet
 
-## Air-gapped transaction building & key backup and secured browser wallets for Cardano & other cryptos
+## Air-gappable transaction building & key backup and secured browser wallets for Cardano & other cryptos
 
 In progress: migrating all documentation and scripts from "classic" version at https://cosd.com/frankenwallet - where it has been posted for over 3 years.
 

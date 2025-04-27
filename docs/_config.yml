@@ -8,7 +8,7 @@ description: Air-gapped transaction building & key backup, secured browser walle
 theme: just-the-docs
 url: https://frankenwallet.com
 aux_links:
-  Source: https://github.com/rphair/frankenwallet
+  Frankenwallet on GitHub: https://github.com/rphair/frankenwallet
 
 # https://www.reddit.com/r/Jekyll/comments/zunif0/help_please_i_keep_getting_deprecation_warnings/
 # https://github.com/jekyll/jekyll-sass-converter#configuration-options
