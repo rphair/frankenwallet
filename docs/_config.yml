@@ -12,6 +12,10 @@ aux_links:
 color_scheme: green
 timezone: Etc/UTC
 
+# CONTENT PLUGINS (should match Gemfile)
+plugins:
+  - jekyll-target-blank
+
 # https://just-the-docs.com/docs/configuration/#callouts
 # (copied from) https://github.com/just-the-docs/just-the-docs/blob/main/_config.yml
 callouts:
