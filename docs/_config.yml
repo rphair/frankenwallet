@@ -30,6 +30,8 @@ callouts:
     title: Warning
     color: red
 
+# OPERATIONAL SETTINGS
+
 # https://www.reddit.com/r/Jekyll/comments/zunif0/help_please_i_keep_getting_deprecation_warnings/
 # https://github.com/jekyll/jekyll-sass-converter#configuration-options
 sass:

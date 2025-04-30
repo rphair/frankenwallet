@@ -8,7 +8,6 @@ _site/
 .bundle/
 vendor/
 
-# (rphair) gitignored for GitHub pages site "built from branch", but since we carry our own
-#   versioning requirements for this theme & GitHub Actions I think we have to omit it
-#   so the production (public) will can be built the same as our local version:
-# Gemfile.lock
+# (rphair) TODO before publication: create & commit this file "for real" (for now don't want cached icon)
+# eventually when site is published we will create this "for real"
+favicon.ico
