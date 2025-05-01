@@ -11,6 +11,7 @@ aux_links:
   Frankenwallet on GitHub: https://github.com/rphair/frankenwallet
 color_scheme: green
 timezone: Etc/UTC
+permalink: pretty
 
 # CONTENT PLUGINS (should match Gemfile)
 plugins:
