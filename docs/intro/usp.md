@@ -1,7 +1,8 @@
 ---
-title: What's unique about it?
+layout: page
+nav_order: 10
 parent: Introduction
-layout: default
+title: What's unique about it?
 ---
 
 # What's unique about it?
