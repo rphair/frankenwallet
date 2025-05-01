@@ -1,6 +1,7 @@
 ---
 title: Introduction
 layout: default
+nav_order: 10
 ---
 
 # Introduction to the Frankenwallet
@@ -14,7 +15,7 @@ When one's primary computer is booted from this removable drive, a strict securi
 - follow instructions and save encrypted files on the "insecure" host machine
 - make encrypted backups without ever revealing keys or passwords in the insecure host environment.
 
-## What the Cardano [COSD pool](https://cosd.com/pool) has been hoping to achieve with the Frankenwallet
+## What the Cardano [COSD pool](https://cosd.com/pool) has hoped to achieve with the Frankenwallet
 
 The result of the Frankenwallet becoming more popular will be the option *not* to have a second machine and/or hardware wallet for secure Cardano operations.  A second machine is an inconvenience to many operators, and either a hardware wallet *or* a dedicated machine would be a prohibitive expense in the growing Cardano community in the developing worlds of Africa and Asia... as well as the growing masses of nomadic workers.
 

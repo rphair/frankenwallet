@@ -2,6 +2,7 @@
 layout: home
 title: The Frankenwallet
 description: An air-gappable transaction building & key backup and secured browser wallets for Cardano & other cryptos.
+nav_order: 00
 ---
 
 # An encrypted, air-gapped Linux bootable USB drive for Cardano & other cryptocurrency secure operations
