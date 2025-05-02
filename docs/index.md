@@ -60,4 +60,5 @@ Keep in mind this material is **under construction** until further notice, with 
 
 The goal will be to keep refining not only the instructions but the guides themselves: most importantly, the security standards.  If you have a well defined suggestion or correction, please post it on the repository when the community feedback period is announced (in mid-2025).
 
-##### Site last built: {{ site.time | date: "%d %B %Y at %R %Z" }}
+{: .highlight }
+**Site last built: {{ site.time | date: "%d %B %Y at %R %Z" }}**
