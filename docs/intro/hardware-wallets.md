@@ -5,7 +5,7 @@ parent: Introduction
 title: vs. Hardware wallets
 ---
 
-# "But hardware wallets are more secure&hellip;"
+# "But hardware wallets are more secure..."
 
 Here are some points you might still consider along with that premise:
 
