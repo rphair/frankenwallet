@@ -26,7 +26,8 @@ Therefore, you should check your BIOS settings especially on older computers to 
 - (**if** **`/boot`** **is not encrypted**, or if you're not sure) **Never put your Frankenwallet into a system that was not booted from it**... since malicious software on that computer might be able to write to and compromise the unencrypted `/boot` partition.
 - In your host computer's BIOS settings, move the USB / removable disk higher up in the "boot order" or "boot priority" than your computer's disk... to avoid accidentally booting from the host operating system while the Frankenwallet is still connected as an ordinary writable drive.
 
-➤ **Warning** in case you plan to use your Frankenwallet on multiple host computers: If your Frankenwallet is installed in UEFI mode, it will not boot on (usually very old) computers whose BIOS is set to boot only in Legacy Mode.
+{: .warning }
+In case you plan to use your Frankenwallet on multiple host computers: If your Frankenwallet is installed in UEFI mode, it will not boot on (usually very old) computers whose BIOS is set to boot only in Legacy Mode.
 
 - The reverse is also true — Legacy Mode installations won't boot on computers that can only boot UEFI formatted disks & media — but most UEFI compliant computers are set to search for boot devices in Legacy Mode after failing to find any UEFI devices… so that isn't so much of a problem.
 
@@ -45,7 +46,10 @@ Notes on whether full disk encryption can be set up by the installer (i.e. wheth
 
 Without a detailed reading & understanding of these two links above, you might not be able to predict whether your Frankenwallet installation (with full disk encryption, of course) will have an encrypted `/boot` partition... until you try it.
 
-➤ If you have more insights about this issue that you would like to see included in these instructions, based on experience or experimentation, please report them [here](https://github.com/rphair/frankenwallet).
+{: .new-title} 
+> Help Wanted
+>
+> If you have more insights about this issue that you would like to see included in these instructions, based on experience or experimentation, please report them [here](https://github.com/rphair/frankenwallet).
 
 ### Notes on Secure Boot and UEFI
 
