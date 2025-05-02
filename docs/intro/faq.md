@@ -21,7 +21,6 @@ XFCE probably would save about 1GB of RAM and a lot of disk bandwidth across the
 - Ubuntu has better support for the installer, especially with unusual disc configurations like putting the OS partition on a memory stick.
 - For first time or new Linux users, there is more documentation based on the GNOME UI than for XFCE and its own default applications.
 - Having Ubuntu 20.04, also common to VPS (cloud server) configurations, will allow `cardano-cli` to be built on your (hopefully secure) VPS if you have one… so you wouldn't have to build it on the Frankenwallet.
-- If using Frankenwallet for the Cardano node wallet (Daedalus), the only Ubuntu version currently certified is mainstream one with GNOME.
 
 ## What can an [Evil Maid](http://theinvisiblethings.blogspot.com/2009/01/why-do-i-miss-microsoft-bitlocker.html) do to compromise my Frankenwallet or its use on a host computer… i.e. if either equipment is covertly tampered with by a malicious and competent adversary? {#evil-maid}
 
