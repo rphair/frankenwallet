@@ -35,7 +35,7 @@ Obviously you'll be pointing the OS installer at the Frankenwallet memory stick�
 
 This will make it less likely to confuse these partitions during the installation procedure.  Most disks will also show the vendor / manufacturer, which can also be used to tell the disks apart during installation.
 
-➤ Create a **host directory / folder** (if you haven't already) which will have the bulk of your files read & written from the Frankenwallet.
+➤ Create a [**host directory / folder**](/prepare/#host-folder) (if you haven't already) which will have the bulk of your files read & written from the Frankenwallet.
 
 You can begin using that folder by saving key web pages from the the next section ([**Installation**](/install) in that folder, to make it easier to continue the Frankenwallet configuration — from the booted Frankenwallet itself — without connecting to the Internet.
 
