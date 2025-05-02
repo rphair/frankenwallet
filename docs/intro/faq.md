@@ -2,7 +2,7 @@
 layout: page
 nav_order: 60
 parent: Introduction
-title: Common deployment questions
+title: Common initial questions
 ---
 # Miscellaneous FAQ's
 
@@ -31,6 +31,7 @@ Please consider whether the following risks are real enough to justify your choi
   - Note this is not a risk if your system boots with UEFI and therefore was able to encrypt the `/boot` partition as well as the OS partition when the Frankenwallet was created.
 - Your Evil Maid sneaks onto the computer where you use Frankenwallet and patches in a malicious BIOS that can log the key presses even as they are entered into programs that are loaded by GRUB (including the LUKS prompt where you enter your drive's decryption password).
 
-Therefore you should make sure that no super-hacking Evil Maids are ever able to physically get to the Frankenwallet *or* the computer(s) that you use it on.
+Therefore you should make sure that no super-hacking Evil Maids are ever able to physically get to the Frankenwallet *or* the computer(s) that you use it on.  More seriousl, and generally:
 
-- More generally: if and when using the Frankenwallet on a physically insecure public computer, keep in mind the risk that computer might have a tampered or institutionally compromised BIOS.
+{: .warning }
+If and when using the Frankenwallet on a physically insecure public computer, keep in mind the risk that computer might have a tampered or institutionally compromised BIOS.
