@@ -36,7 +36,7 @@ You should *not* browse the Internet during the Ubuntu installation… nor shoul
 
 ➤ Reboot the computer from the installation media.  You should eventually get to a graphical screen where it will ask you "Try Ubuntu" or "Install Ubuntu" — select **Install Ubuntu**:
 
-![ubuntu try or install](/assets/images/010-try-or-install-cam.jpg)
+![ubuntu try or install](/assets/images/010-try-or-install_cam.jpg)
 
 If you get stuck at any point before you see this screen, seek help according to the type of computer you have… these problems are beyond the scope of this manual.
 
