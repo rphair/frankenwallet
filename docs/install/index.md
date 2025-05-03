@@ -8,7 +8,7 @@ title: Installation
 You will be mostly following the official instructions here:
 
 {: .important-title }
-> FYI (don't begin this procedure)
+> FYI (don't begin from this link)
 >
 > [**Install Ubuntu desktop**](https://ubuntu.com/tutorials/install-ubuntu-desktop)
 

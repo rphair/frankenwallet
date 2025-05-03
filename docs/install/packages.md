@@ -23,9 +23,9 @@ type this stuff into Terminal
 
 ## Check & set time zone {#time-zone}
 
-(**optional**) If you want to **set local UTC time zone**, to match timestamps on your node software, for instance):
+(**optional**{: .text-green-200 }) If you want to **set local UTC time zone**, to match timestamps on your node software, for instance):
 
-``` plaintext
+```bash
 sudo timedatectl set-timezone UTC
 ```
 
@@ -33,7 +33,7 @@ sudo timedatectl set-timezone UTC
 
 Some of these may have side effects and/or security consequences if we ever connect to the Internet.
 
-(**optional**) **Uninstall** **`snap`** **and remove all snaps**
+### <span>Optional</span>{: .text-green-200 }: Uninstall `snap` and remove all snaps {#kill-snap}
 
 [Snaps](https://snapcraft.io/) are prefabricated images containing all components of an application, including libraries which may supersede the security vetted libraries of the OS itself.  Snaps may contain closed source components.
 
