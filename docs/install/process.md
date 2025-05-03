@@ -123,7 +123,7 @@ Upon confirming the user details, you will see this slide show (with progress in
 
 ![ubuntu installation process finished](/assets/images/020-installation-complete_cam.jpg)
 
-Remove the boot media when prompted.
+➤ Remove the boot media when prompted.
 
 {: .warning-title }
 > very important tip
