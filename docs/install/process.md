@@ -33,7 +33,7 @@ Unfortunately closed source can be subverted with no visibility or accountabilit
 
 It is unlikely that you would need the correct WiFi drivers to be installed in your Frankenwallet anyway (since you might arrange a cable connection during one-time or occasional software updates), and the Frankenwallet operations won't need any more than rudimentary graphics capabilities.
 
-## Create a new Ubuntu partition on a fully encrypted drive (#encrypted-partition}
+## Create a new Ubuntu partition on a fully encrypted drive {#encrypted-partition}
 
 First, specify a brand new installation and enable the volume encryption.
 
