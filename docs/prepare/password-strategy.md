@@ -12,11 +12,11 @@ title: Password strategy
 
 You will need to know you can type both the low & high security passwords repeatedly from memory, and I have found this strategy works well:
 
-➤ For the low security password, open up a Text Editor on your host computer — one that doesn't save a "buffer" as you are typing unsaved changes (as an unencrypted LibreOffice or MS Word document would) — to come up with a string of 20+ characters that you can type dozens of times in a row: observing that you've typed them exactly the same.  *Don't save this file by mistake*!
+➤ For the [low security password](/prepare/password-low), open up a Text Editor on your host computer — one that doesn't save a "buffer" as you are typing unsaved changes (as an unencrypted LibreOffice or MS Word document would) — to come up with a string of 20+ characters that you can type dozens of times in a row: observing that you've typed them exactly the same.  *Don't save this file by mistake*!
 
-➤ For the Frankenwallet / high security password, you cannot do this — since any password typed on the host computer should be considered "blown" — so your options to explore a good password, and commit it to memory, are more restrictive… e.g.:
+➤ For the [Frankenwallet / high security password](/prepare/password-high), you cannot do this — since any password typed on the host computer should be considered "blown" — so your options to explore a good password, and commit it to memory, are more restrictive… e.g.:
 
-- Boot your host computer in the [Tails environment](https://tails.boum.org/) and practice it in a text editor there.
+- Boot your host computer in the [Tails environment](https://tails.net) and practice it in a text editor there.
 - Postpone this step until you're setting up your encrypted partition in the Ubuntu installer... and then open up a text editor in that temporary Linux environment to practice it there.
 - Write down in advance **very clearly** what you plan to use as a Frankenwallet password, and throw it away (or lock it in your safe) when you have typed the password from memory enough times.
 
