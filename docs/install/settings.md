@@ -153,8 +153,9 @@ We offered this question for "expert" discussion here ([boot methods & encryptio
 
 ➤ **Run the** ***Disks*** **application** to see if the partition where the `/boot` filesystem was created — which should be the smallest one on your Frankenwallet memory stick — shows up as an LUKS partition.
 
-- LUKS confirms it's encrypted: if you don't see that, then /boot is unencrypted & you should avoid putting this Frankenwallet ever into any booted system *or* leave your Frankenwallet in a system that's being booted some other way.
+{: .important }
+LUKS will confirm here if it's encrypted.  If you don't see that for a `/boot` partition, it's unencrypted & so you should avoid putting this Frankenwallet into any booted system *or* leaving your Frankenwallet in a system that's being booted some other way.
 
 ## Get ready for work at the command line {#settings-done}
 
-That's it for the application level system settings (part 1 of 2).  The second part of this installation will be some finer work with packages (installations & upgrades)… including ***one*** judicious connection to the Internet.
+That's it for the application level system settings (part 1 of 2).  The second part of this installation will be some finer work with packages (installations & upgrades)… including ***one*** judicious connection to the Internet...
