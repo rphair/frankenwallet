@@ -4,8 +4,6 @@ nav_order: 50
 parent: Installation
 title: Securing the browser
 ---
-
-
 # Securing the Firefox browser (to the extent this may be possible) {#reasons-to-secure-firefox}
 {: .no_toc }
 - TOC
