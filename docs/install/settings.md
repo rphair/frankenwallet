@@ -106,7 +106,7 @@ on the **Ubuntu Software** tab:
 - Make sure **Proprietary drivers for devices** is **unticked.**
 
 {: .important }
-Just because you didn't select Proprietary Drivers, as recommended in the installation step, doesn't mean it'll be unselected here!
+Just because you didn't select Proprietary Drivers, as recommended in the [OS configuration step](/install/process/#settings-update), doesn't mean it'll be unselected here!
 
 As explained in that step, the possibility these drivers may be subversive is more significant than any improvement to your display or enabling a WiFi you will generally never use.
 
