@@ -5,7 +5,8 @@ parent: Installation
 title: First boot & login
 ---
 # Booting the Frankenwallet
-
+{: .no_toc }
+- TOC
 {:toc}
 
 ##  What you see when Frankenwallet is booted for the first time {#first-boot}
@@ -49,7 +50,7 @@ How it looks after you enter the disk decryption password successfully:
 
 ![response from entering luks password correctly](/assets/images/025-decryption-password-correct_cam.jpg)
 
-### FYI: File system checking (`fsck`), with delays on older and slower drives {#fsck}
+## FYI: File system checking (`fsck`), with delays on older and slower drives {#fsck}
 
 You won't see this the first time (because the root filesystem hasn't been booted yet)… and you may never see it if you have a fast USB connection with good write bandwidth… but perhaps on future logins if you've built the Frankenwallet on a slow USB drive:
 

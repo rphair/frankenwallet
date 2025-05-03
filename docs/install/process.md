@@ -5,6 +5,9 @@ parent: Installation
 title: Set up encrypted Ubuntu
 ---
 # Set up Ubuntu encrypted drive
+{: .no_toc }
+- TOC
+{:toc}
 
 ## Wireless & network settings {#settings-network}
 
