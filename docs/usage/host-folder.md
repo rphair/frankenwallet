@@ -30,7 +30,7 @@ Then choose the disk where your user files are:
 {: .new-title }
 > tip
 >
-> You can bookmark _both_ your PC's user directory _and_ the subdirectory within it that you have designated as the "host folder" — and if you give them distinctive bookmark names, it'll be harder to confuse them with Linux home directory on the Frankenwallet itself... which you might never use at all.
+> Bookmark _both_ your PC's user directory _and_ the subdirectory within it that you have designated as the "host folder" — if you give them distinctive bookmark names, it'll be harder to confuse them with Linux home directory on the Frankenwallet itself (which you may never use directly).
 
 Files you store in the Frankenwallet can be stored anywhere: on the `Desktop` that you see when you log in (the folder with path `~/Desktop`), or in a folder that you create as an icon on that desktop or anywhere else.
 
