@@ -18,7 +18,7 @@ The Frankenwallet demonstrates this is **not true**, because:
 {: .highlight }
 When booting this "cold" air-gapped environment created on "USB key or other removable media" you are able to read and write files natively on the usual hard drive of that "hot environment" — so those files are never moved physically at all.
 
-This creates an opportunity to save those high-security files on the hard drive encrypted with a maximum-security password, used as the basis for AES encryption (via LibreOffice or the 7z archive utility): a password which has never been entered via that hard drive's operating system (or anywhere else outside the Frankenwallet!).
+This creates an opportunity to save those high-security files on the hard drive encrypted with a [maximum-security password](/prepare/password-high), used as the basis for AES encryption (via LibreOffice or the 7z archive utility): a password which has never been entered via that hard drive's operating system (or anywhere else outside the Frankenwallet!).
 
 File encrypted as such can be even backed up with impunity — to regular backup media from the host computer, over the Internet, with cloud services, even emailed — which safeguards the financial and operational components of a user's cryptocurrency portfolio and/or staking enterprise from theft, fire, or other unpredictable loss, damage or destruction.
 

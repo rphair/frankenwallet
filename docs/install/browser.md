@@ -88,7 +88,7 @@ Sync \> disabled by default.  Don't ever use this!
 
 ## For Google Chrome users
 
-If you are incapacitated on the Internet without Google Chrome, FYI you can [install the Brave package](https://brave.com/linux) which provides similar UI conventions and conveniences without the famous Google intrusions upon user privacy:
+If you are incapacitated on the Internet or in HTML document viewing without Google Chrome, FYI you can [install the Brave package](https://brave.com/linux) which provides similar UI conventions and conveniences without the famous Google intrusions upon user privacy:
 
 ... before closing your air gap in the final installation step (on next page).
 

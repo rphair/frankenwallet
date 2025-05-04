@@ -4,8 +4,10 @@ layout: page
 nav_order: 10
 title: The Frankenwallet
 ---
-
 # An encrypted, air-gapped Linux bootable USB drive for Cardano & other cryptocurrency secure operations
+{: .no_toc }
+- TOC
+{:toc}
 
 ## Who needs it?
 
@@ -62,6 +64,12 @@ Head over the the Frankenwallet repository (linked in the upper right hand corne
 Keep in mind this material is **under construction** until further notice, with calls for community comments planned for **late May 2025**: so to avoid duplication of effort, please save issues & change requests until then.
 
 The goal will be to keep refining not only the instructions but the guides themselves: most importantly, the security standards.  If you have a well defined suggestion or correction, please post it on the repository when the community feedback period is announced (in mid-2025).
+
+## Where to begin?
+
+[History & motivation for the Frankenwallet](/intro){: .btn .btn-purple }
+
+[Begin creating your device](/prepare){: .btn .btn-green }
 
 {: .highlight }
 **Site last built: {{ site.time | date: "%d %B %Y at %R %Z" }}**
