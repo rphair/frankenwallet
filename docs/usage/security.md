@@ -47,9 +47,9 @@ Use the password you normally use to encrypt files on the main computer, as sugg
 {: .highlight }
 This is called the "low security" password for the Frankenwallet environment, even though it's likely to be the _most confidential_ encryption password that you ever ever use in your daily computing environment.
 
-Consider your transaction records, and if a developer also copies of scripts used for any sensitive or confidential operations... e.g. token minting or smart contract creation that may have confidential _public_ keys & addresses in them.
+Consider your transaction records, or (if you're a developer) copies of scripts used for any sensitive or confidential operations... e.g. token minting or smart contract creation that may have confidential _public_ keys & addresses in them.
 
-In the simple case you might simply have a file or spreadsheet with cryptocurrency transfers and holdings which you wish to keep confidential, because you would feel "in trouble" if it fell into the wrong hands... although not suffering any catastrophic or asset loss from such a breach.
+In the simplest case you might have a file or spreadsheet with cryptocurrency transfers and holdings which you wish to keep confidential, because you would feel "in trouble" if it fell into the wrong hands... although not suffering any catastrophic or asset loss from such a breach.
 
 Therefore this data is at a lower security level, since it might be used to establish ownership but cannot be used to steal your funds.
 
