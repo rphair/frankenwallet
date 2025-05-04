@@ -115,7 +115,7 @@ The greatest benefit of the Frankenwallet is to use LibreOffice and the 7z archi
     sudo apt install libreoffice p7zip-full p7zip-rar
 ```
 
-➤ Now you can ****disconnect again from the Internet****, and leave it unconnected indefinitely… until if and when you need to download any CLI software or install network dependent applications for a "cool" environment.
+➤ Now you can **disconnect again from the Internet**, and leave it unconnected indefinitely… until if and when you need to download any CLI software or install network dependent applications for a "cool" environment.
 
 ## Reboot (for the first time) {#first-reboot}
 
