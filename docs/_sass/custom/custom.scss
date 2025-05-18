@@ -1,0 +1,10 @@
+// these 2 rules might be better combined in SASS (not plain CSS)
+main img {
+//        max-width: 100%; height: auto;     ... doesn't appear to be needed
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+main a:hover img {
+  -webkit-box-shadow: 0px 0px 10px white;
+          box-shadow: 0px 0px 10px white;
+}
