@@ -7,7 +7,7 @@ title: What's unique about it?
 
 # What's unique about it?
 
-## Your removable drive is used to provide rich features and security isolation, rather than simple file transfer.
+## Your removable drive is used to provide rich features and security isolation, rather than simple file transfer. {#unique-proposition}
 
 To quote [a popular stake pool creation guide](https://forum.cardano.org/t/moving-and-installing-cardano-cli-to-cold-environment/64631/8?u=cosdpool) in 2021:
 

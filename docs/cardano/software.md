@@ -62,7 +62,7 @@ cardano-cli --version
 ```
 
 {: .note }
-This version is currently likely to be greater than — in fact, in a different sequence of numbers from — the version number of the `cardano-node` package you downloaded & named the file with.  This is a consequnce of the maintainers' release process.
+This version is currently likely to be greater than — in fact, in a different sequence of numbers from — the version number of the `cardano-node` package you downloaded & named the file with.  This is a consequence of the maintainers' release process.
 
 {: .new-title }
 > tip
