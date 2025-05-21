@@ -12,7 +12,7 @@ The web site is built from the files in the [`/docs`](docs) directory using:
 ## Site setup & previewing local changes
 
 1. Ensure dependencies are installed: https://jekyllrb.com/docs/installation
-1. Clone the site (as per the `Code` button on the [front page](/)).
+1. Clone the site (as per the `Code` button on the [front page](.)).
 1. Change into the `/docs` directory.
 1. Run `bundle exec jekyll serve --livereload`.
 
