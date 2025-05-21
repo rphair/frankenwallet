@@ -13,8 +13,11 @@ The web site is built from the files in the [`/docs`](docs) directory using:
 
 1. Ensure dependencies are installed: https://jekyllrb.com/docs/installation
 1. Clone the site, as per the `Code` button on the [front page](https://github.com/rphair/frankenwallet).
-1. Change into the `/docs` directory.
+1. Change into your local `/docs` directory.
 1. Run `bundle exec jekyll serve --livereload`.
+
+> [!NOTE]  
+> Specifying `--livereload` is optional: for immediate browser reload when content is updated.
 
 Clicking the preview link that it shows (generally `http://127.0.0.1:4000`) will produce a web site that updates immediately whenever you update the content files, SCSS, or Javascript.  Note:
 * Changes to `_config.yml` will require restarting the `bundle` command.
