@@ -1,4 +1,4 @@
-CC BY-SA 4.0 (Attribution, ShareAlike) license: [https://creativecommons.org/licenses/by-sa/4.0]()
+[CC BY-SA 4.0 (Attribution, ShareAlike) license](https://creativecommons.org/licenses/by-sa/4.0)
 
 AS PER LICENSE TERMS:
 
