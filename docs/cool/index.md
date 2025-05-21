@@ -48,11 +48,11 @@ Therefore, from this point the "cool" configuration is simple:
 ➤ Allow your Frankenwallet to connect to the Internet again, and keep it connected going forward.
 
 This means reversing whatever steps you may have taken to disconnect your new Frankenwallet from the Internet, including any or all of these:
-- Turn off airplane node.
+- Turn off airplane mode.
 - Reconnect your Internet cable.
 - Attach, or reattach, to your WiFi network.
 
-{: new-title }
+{: .new-title }
 > tip
 >
 > Browsers (particularly the [Google Chrome substitute Brave](/install/browser/#for-google-chrome-users)) and their software dependencies go out of date quickly: so any "cool" Frankenwallet should also permit software updates: but **do not** enable updates from [closed source repositories](/install/process/#settings-update) unless you believe the disk is justifiable.
