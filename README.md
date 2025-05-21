@@ -4,7 +4,7 @@
 
 This repository contains the web content that is automatically built into the official web site: **https://frankenwallet.com**
 
-As with all security procedures, these instructions are subjective and will contain many personal preferences and opinions.  The original author hopes that more of these opinions, preferences & experiences building the Frankenwallet will be contributed over time so this becomes a peer reviewed and independently evolving community resource.
+As with all security procedures, these instructions are subjective and will contain many personal preferences and opinions.  The original author hopes that more of these opinions, preferences & experiences building the Frankenwallet will be contributed over time so this becomes a peer reviewed, independently evolving community resource.
 
 In the cases where there may be more than one preference, or additional material that would broaden the target audience, this documentation is expected to grow over time to accomodate differences and expansions in both theory and practice: so please feel free to suggest these.
 
@@ -22,7 +22,7 @@ If you think your issue requires discussion before identifying a particular prob
 
 Interested and informed users are welcome to contribute new material by pull request: https://github.com/rphair/frankenwallet/pulls
 
-For contribution guidelines & the process of how the web site is built, see [**CONTRIBUTING.md**].
+For contribution guidelines — including process of how the web site is built — see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ## Related links
 
