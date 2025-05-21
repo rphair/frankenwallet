@@ -28,7 +28,7 @@ Once your intended change looks & works properly in your local fork, you can sub
 
 ## Automation
 
-The [workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) (process GitHub uses to build the site) is defined here: ([.github/workflows/pages.yml](.github/workflows/pages.yml)
+The [workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) (process GitHub uses to build the site) is defined here: [.github/workflows/pages.yml](.github/workflows/pages.yml)
 * ... which is based on: [just-the-docs-template](https://github.com/just-the-docs/just-the-docs-template) > [.github/workflows/pages.yml](https://github.com/just-the-docs/just-the-docs-template/blob/main/.github/workflows/pages.yml)
 
 This updates the site whenever content is pushed to the `/docs` folder in the `main` branch, which happens whenever:
