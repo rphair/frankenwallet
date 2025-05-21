@@ -47,7 +47,7 @@ These resources are meant to be managed similarly to wallets: so users should fo
 
 ## dApp use case: Cardano DEX
 
-Since these web sites will automatically locate a user's funds based on the wallet that is active in the same browser (e.g. for Eternl, see [Setting up your DApp Browser account or DApp connection](https://wiki.eternl.io/en/2_user-guide/dapps)), the only essential step to prepare in your host environment before executing swaps in the Frankenwallet is:
+Since these web sites will automatically locate a user's funds based on the wallet active in the same browser (e.g. for Eternl, see [Setting up your DApp Browser account or DApp connection](https://wiki.eternl.io/en/2_user-guide/dapps)), the only essential step to prepare in your host environment before executing swaps in the Frankenwallet is:
 
 ➤ In your host environment, and according to recommended [use of the "scratch" file](/cool/#record-common-data), validate and record the URLs for all swap sites, DEX aggregators, or exchanges you might use.
 
@@ -56,7 +56,7 @@ You will then be able to launch these in the "cool" Frankenwallet without a spur
 {: .new-title }
 > hint
 >
-> The URLs for all your dApps can be generously bookmarked, even on the browser toolbar, of the Frankenwallet browser without giving away any of your crypto activity as it would if done on your host machine.
+> The URLs for all your dApps can be generously bookmarked, even on the browser toolbar, of the Frankenwallet browser without giving away any of your crypto activity as it might if you did this on your host machine.
 
 Keeping these browser bookmarks for all commonly used staking, trading, and other dApp activity will keep your Frankenwallet off of explicit Internet search... and using all these sites _**only** in the Frankenwallet_ will avoid associating any of your crypto account activity with the "real world" identying activities on your host machine.
 
