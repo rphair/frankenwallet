@@ -22,7 +22,7 @@ If you think your issue requires discussion before identifying a particular prob
 
 Interested and informed users are welcome to contribute new material by pull request: https://github.com/rphair/frankenwallet/pulls
 
-For contribution guidelines — including process of how the web site is built — see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+For contribution guidelines and the process how the web site is built, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ## Related links
 

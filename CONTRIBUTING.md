@@ -4,8 +4,7 @@
 
 The web site is built from the files in the [`/docs`](docs) directory using:
 * the [Jekyll](https://jekyllrb.com/) static site generator ([documentation](https://jekyllrb.com/docs/)) which incorporates:
-  * the [Liquid](https://shopify.github.io/liquid/) templating language
-  * [extensions to Liquid syntax for Jekyll](https://jekyllrb.com/docs/liquid/)
+  * the [Liquid](https://shopify.github.io/liquid/) templating language, with [extensions to Liquid syntax for Jekyll](https://jekyllrb.com/docs/liquid/)
   * the [Kramdown](https://jekyllrb.com/docs/configuration/markdown/) (GitHub friendly) variety of Markdown
 * [Just the Docs](https://just-the-docs.com) Jekyll theme
 * [GitHub pages](https://docs.github.com/en/pages) for hosting and deployment
@@ -13,7 +12,7 @@ The web site is built from the files in the [`/docs`](docs) directory using:
 ## Site setup & previewing local changes
 
 1. Ensure dependencies are installed: https://jekyllrb.com/docs/installation
-1. Clone the site (from the instructions on the front page).
+1. Clone the site (as per the `Code` button on the [front page](/)).
 1. Change into the `/docs` directory.
 1. Run `bundle exec jekyll serve --livereload`.
 
