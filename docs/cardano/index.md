@@ -6,7 +6,7 @@ title: Cardano secure workflow
 # Cardano secure workflow
 
 {: .note }
-This section is intended for operators and developers who need a "cold" environment for low-level Cardano commands or stake pool operations.  If you intend to run a "light" (browser plugin) wallet in the Frankenwallet, skip forward to the section on the "cool" Frankenwallet which allows restricted use on the Internet:
+This section is intended for operators and developers who need a "cold" (= "air gapped") environment for low-level Cardano commands or stake pool operations.  If you intend to run a "light" (browser plugin) wallet in the Frankenwallet, skip forward to the section on the "cool" Frankenwallet which allows restricted use on the Internet:
 
 [Cool environments](/cool){: .btn .btn-purple }
 

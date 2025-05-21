@@ -3,11 +3,12 @@ layout: page
 nav_order: 70
 title: Cool environments
 ---
-# Cool environments (Internet restricted)
+# Cool (Internet restricted) environments for light wallets & dApps
 {: .no_toc }
 - TOC
 {:toc}
 
+## Cool environment basics {#cool-basics}
 
 If you have decided to go on with your Frankenwallet having restricted Internet access, rather than no Internet access at all, you will able able to use the applications in this section which depend somehow on Internet connectivity.  Therefore we're calling this the **cool**{: .text-blue-100 } environment (since it's not quite cold).
 
@@ -89,3 +90,7 @@ Without habitually authenticating crypto links via Internet search (which you sh
 > tip
 >
 > Over time your "scratch" file — encrypted in Libreoffice with your "low security" password for routine update on the host computer — will accumulate a list of trustworthy links that you can click into in the Frankenwallet for wallet downloads, software updates, dApp bookmarks, and anything you would otherwise risk a costly misdirection if you had to search for on the Internet.
+
+
+
+
