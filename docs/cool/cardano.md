@@ -16,9 +16,22 @@ This page is intended for Cardano users and asset holders who only need a "cool"
 
 # under construction 2025-05-18...
 
-## LIGHT WALLET USAGE - use cases, record keeping
+## Light wallet usage
+
+### Avoid Internet search when selecting wallet software
+
+### Workflow for recording wallet passphrases
+
+LIGHT WALLET USAGE - use cases, record keeping
+
+## dApp usage
+
+### Workflow for recording dApp passphrases
+
+difference betwen "Vault" applications and asset storage
+
+---
 
 {: .note }
 ➤ 
 
-## DAPP USAGE - use cases, record keeping

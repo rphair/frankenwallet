@@ -63,6 +63,6 @@ Unless you are certain your "scratch file" will **not** contain any compromising
 
 While your low security (verification) keys and high security (signing) keys [should be kept in separate, dedicated directories](/usage/backups/#backup-creation), intermediate files can also be kept in different folders on your Frankenwallet disk, including:
 1. subfolders for particular projects (token mints, smart contract development & testing)
-1. subfolders for each date of operations (especially for stake pools: with ISO date & activity performed)
+1. subfolders for each date of operations (especially for stake pools: e.g. with folders named by ISO date + the activity performed)
 
 ... according to whatever scheme suits your operations & crypto resources.  The only requirement of course is to keep all of this sensitive but unencrypted data **on the Frankenwallet disk** and far away from your host folder!

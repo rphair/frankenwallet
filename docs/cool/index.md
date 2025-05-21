@@ -3,11 +3,11 @@ layout: page
 nav_order: 70
 title: Cool environments
 ---
+# Cool environments (Internet restricted)
 {: .no_toc }
 - TOC
 {:toc}
 
-# Cool environments (Internet restricted)
 
 If you have decided to go on with your Frankenwallet having restricted Internet access, rather than no Internet access at all, you will able able to use the applications in this section which depend somehow on Internet connectivity.  Therefore we're calling this the **cool**{: .text-blue-100 } environment (since it's not quite cold).
 
@@ -56,3 +56,36 @@ This means reversing whatever steps you may have taken to disconnect your new Fr
 > tip
 >
 > Browsers (particularly the [Google Chrome substitute Brave](/install/browser/#for-google-chrome-users)) and their software dependencies go out of date quickly: so any "cool" Frankenwallet should also permit software updates: but **do not** enable updates from [closed source repositories](/install/process/#settings-update) unless you believe the disk is justifiable.
+
+## Principal security recommendation: Avoid Internet search & login! {#no-messaging}
+
+{: .warning }
+> All of your familiar messaging apps that store crypto references (e.g. Telegram, Discord) are **forbidden** in this *security* model: as containing black-box, closed-source components.
+
+... If you feel compelled to install these software packages in the Frankenwallet, there is really no point going through any of these security / privacy isolation rigours and you might as well consider your bootable environment as any other persistent Linux USB drive.
+
+{: .warning }
+> All web sites in which you must log in to access email, messaging, and file sharing are **forbidden** in this *privacy* model.
+
+... All web sites that offer messaging constantly scrape the browser, and when possible the system itself, for identifying information which will be tied your cryptocurrency activity if you access these sites in the Frankenwallet.
+
+So as you go forward on your favourite blockchain to install browser-based wallets and use dApps, the key to avoid the above software & web site usage is to:
+
+## Record commonly used references and data in the "scratch" file {#record-common-data}
+
+{: .important-title }
+> Problem
+>
+> Crypto communities know well that download links for fake wallets and scam dApp URLs are propagated through malicious app store entries, videos, online groups, and fake pages & web sites promoted for search engine performance.
+
+➤ Solution: **Authenticate the correct links** to wallets and dApps you routinely use — or plan to use — and **record them in your "scratch" file**.
+
+Likely your pattern of ordinary desktop usage has determined the software and web sites you know to be correct: based on many confirmations from the crypto communities you are a part of.  When you pair these wallet names and dApps with their official web sites, record them for use in the Frankenwallet.
+
+Without habitually authenticating crypto links via Internet search (which you should avoid in the Frankenwallet anyway, as betraying your privacy through data-mining search engines), you won'tbe directed to installing a fake wallet or use a fake dApp that will drain your accounts.
+* In fact, this method of keeping a list, table, or spreadsheet of authenticated links will likely even benefit your ordinary, unsecured (host computer) workflow.
+
+{: .new-title }
+> tip
+>
+> Over time your "scratch" file — encrypted in Libreoffice with your "low security" password for routine update on the host computer — will accumulate a list of trustworthy links that you can click into in the Frankenwallet for wallet downloads, software updates, dApp bookmarks, and anything you would otherwise risk a costly misdirection if you had to search for on the Internet.
