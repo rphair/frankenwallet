@@ -13,6 +13,9 @@ color_scheme: green
 timezone: Etc/UTC
 permalink: pretty
 
+# should be added in override /_includes/footer_custom.html if this variable gets too hairy:
+footer_content: "FOOBER"   # REMOVE ME before first audit !!!!!!!!!!!!
+
 # Not thrilled about this UX but we can think about other options:
 back_to_top: true
 back_to_top_text: "(back to top)"
@@ -38,6 +41,13 @@ callouts:
   warning:
     title: Warning
     color: red
+
+# https://just-the-docs.com/docs/navigation/main/external
+nav_external_links:
+  - title: CONTRIBUTING
+    url: https://github.com/rphair/frankenwallet/blob/main/CONTRIBUTING.md
+      #    hide_icon: false # set to true to hide the external link icon - defaults to false
+      #    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
 
 # OPERATIONAL SETTINGS
 

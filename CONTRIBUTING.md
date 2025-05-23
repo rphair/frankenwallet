@@ -1,5 +1,7 @@
 # Contributing to [The Frankenwallet](https://frankenwallet.com)
 
+_(if your contribution is feedback or a correction, submit an [issue](https://github.com/rphair/frankenwallet/issues) according to [these guidelines](https://github.com/rphair/frankenwallet#suggesting-updates-to-the-documentation))_
+
 ## Overview
 
 The web site is built from the files in the [`/docs`](docs) directory using:
@@ -31,8 +33,8 @@ Once your intended change looks & works properly in your local fork, you can sub
 The [workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) (process GitHub uses to build the site) is defined here: [.github/workflows/pages.yml](.github/workflows/pages.yml)
 * ... which is based on: [just-the-docs-template](https://github.com/just-the-docs/just-the-docs-template) > [.github/workflows/pages.yml](https://github.com/just-the-docs/just-the-docs-template/blob/main/.github/workflows/pages.yml)
 
-This updates the site whenever content is pushed to the `/docs` folder in the `main` branch, which happens whenever:
-1. a [pull request](/pulls) that you submit is merged
+This updates the public web site whenever content is pushed to the `/docs` folder in the `main` branch, which happens whenever:
+1. a [pull request](/pulls) that you submit is merged by the maintainer
 1. the maintainer pushes content directly
 
 From the time content is pushed or merged, a Jekyll rebuild and content update on frankenwallet.com currently takes 60 to 90 seconds.  Each automatic rebuild of the site can be seen & monitored here: https://github.com/rphair/frankenwallet/deployments
