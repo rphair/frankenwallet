@@ -26,6 +26,9 @@ For contribution guidelines and the process how the web site is built, see **[CO
 
 ## Related links
 
+Tutorials:
+* Medium article 2024-01: [The Frankenwallet: Secure workflow and Internet privacy for Cardano and other cryptocurrencies](https://rxphair.medium.com/frankenwallet-secure-private-crypto-workflow-505b841ef23b)
+
 For announcements regarding the Frankenwallet:
 * Subscribe to the discussion [Annoucements @ Frankenwallet](https://github.com/rphair/frankenwallet/discussions/1).
 * Follow https://twitter.com/COSDpool.
