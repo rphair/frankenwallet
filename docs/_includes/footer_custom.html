@@ -1,4 +1,5 @@
 {%- if site.footer_content -%}
-  {% comment %} we leave this here in case footer becomes static someday {% endcomment %}
+  {%- comment -%} for whatever site-wide static content we might have someday: {%- endcomment -%}
   <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
 {%- endif -%}
+<p>© 2020-{{ site.time | date: "%Y" }} Robert Phair, plus any other substantial authors from page histories, by <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0 (Attribution, ShareAlike) license</a>.</p>
