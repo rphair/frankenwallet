@@ -14,7 +14,7 @@ timezone: Etc/UTC
 permalink: pretty
 
 # should be added in override /_includes/footer_custom.html if this variable gets too hairy:
-footer_content: "FOOBER"   # REMOVE ME before first audit !!!!!!!!!!!!
+# footer_content: "FOO"
 
 # Not thrilled about this UX but we can think about other options:
 back_to_top: true
