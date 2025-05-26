@@ -29,6 +29,7 @@ back_to_top_text: "(back to top)"
 
 # CONTENT PLUGINS (should match Gemfile)
 plugins:
+  - jekyll-sitemap
   - jekyll-target-blank
 
 # https://just-the-docs.com/docs/configuration/#callouts
