@@ -15,7 +15,7 @@ gem "just-the-docs"        # always download the latest release
 gem "jekyll-sass-converter", ">=3.1.0"
 
 # CONTENT PLUGINS (should match _config.yml)
-# https://github.com/jekyll/jekyll-sitemap
-gem 'jekyll-sitemap'
 # https://github.com/keithmifsud/jekyll-target-blank
 gem 'jekyll-target-blank'
+# https://github.com/jekyll/jekyll-sitemap
+gem 'jekyll-sitemap'
