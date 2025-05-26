@@ -18,7 +18,7 @@ Many operators will be accustomed to building their own software, but there are 
 Therefore our recommendation is to download the official, pre-built [`cardano-node` Releases](https://github.com/IntersectMBO/cardano-node/releases) as they become available, according to the guidelines on this page.
 
 {: .note }
-If there is sufficient demand & justification, these instructions will be extended with a procedure (based on [Cardano Developer Portal > Getting `cardano-node`](https://developers.cardano.org/docs/get-started/cardano-node/installing-cardano-node) to build the Cardano CLI (and Node) in the Frankenwallet itself... the original Frankenwallet instructions included this, before the official release packages for Linux became prompt & reliable.
+If there is sufficient demand & justification, these instructions will be extended with a procedure (based on [Cardano Developer Portal > Getting `cardano-node`](https://developers.cardano.org/docs/get-started/cardano-node/installing-cardano-node)) to build the Cardano CLI (and Node) in the Frankenwallet itself... the original Frankenwallet instructions included this, before the official release packages for Linux became prompt & reliable.
 
 ## Preparation on host computer
 
