@@ -7,11 +7,18 @@ title: The Frankenwallet
 description: Air-gapped transaction building & key backup, secured browser wallets, and private workflow for Cardano & other cryptocurrencies.
 theme: just-the-docs
 url: https://frankenwallet.com
-aux_links:
-  Frankenwallet on GitHub: https://github.com/rphair/frankenwallet
 color_scheme: green
 timezone: Etc/UTC
 permalink: pretty
+
+# there appears no way to "substitute" strings in YAML so we'll try to collect all commonly used
+#   repository-dependent strings here (in case this location is moved)
+aux_links:
+  Frankenwallet on GitHub: https://github.com/rphair/frankenwallet
+# (taking after the deprecated variable names here: https://just-the-docs.com/docs/configuration/#footer-content)
+gh_repository: "https://github.com/rphair/frankenwallet"
+gh_branch: "main"  # the branch of current content in the repository
+gh_source: "docs"  # subdirectory of current content in the repository
 
 # should be added in override /_includes/footer_custom.html if this variable gets too hairy:
 # footer_content: "FOO"

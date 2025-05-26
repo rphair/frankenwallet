@@ -23,5 +23,3 @@ In the year this was being retasked for public view (2021), we have catalogued a
 more operators, builders and users should become aware of its existence and thus encourage the refinement of this material: so it can be understood as easily as possible *and* so that users can be more confident of its security.
 
 We also expect the Frankenwallet will bridge the gap between the devoted Cardano community and long time enthusiasts of *other cryptocurrencies*.  For instance Ethereum users extending or migrating to Cardano will have a common tool to generate addresses, keys and transactions offline: since the flexible Ubuntu OS will allow Cardano and these other blockchain CLIs to be installed in the same environment.
-
-{{ paginator.previous_page }}
