@@ -23,7 +23,7 @@ The Frankenwallet model will be exactly the same *except* that it won't require 
 
 ## 1. Assembling the transaction details on the host machine {#assemble}
 
-### Keep a current `protocol.json` file in your host folder {#protocol-file}
+### Keep a current `protocol.json` file in your [host folder](/prepare/#host-folder) {#protocol-file}
 
 {: .new-title }
 > tip
