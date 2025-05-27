@@ -54,7 +54,7 @@ The fact that the original author, and any contributors thereafter, have taken r
 
 Details: [CC BY-SA 4.0 Legal Code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) > [Section 5 – Disclaimer of Warranties and Limitation of Liability](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en#s5)
 
-### Found an error, or want to make a suggestion?
+### Found an error, or want to make a suggestion? {#suggestions}
 
 Head over the the Frankenwallet repository (linked in the upper right hand corner) and submit:
 - an Issue (to discuss a matter of form or content):

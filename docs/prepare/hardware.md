@@ -60,8 +60,7 @@ Again, we hope Apple Mac users interested in the Frankenwallet will find some ap
 - [How to Boot a Linux Live USB Drive on Your Mac](https://www.howtogeek.com/213396/how-to-boot-a-linux-live-usb-drive-on-your-mac/)
 - [Create a bootable USB stick on macOS](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#1-overview)
 - [How to Create and Boot From a Linux USB Drive on Mac](https://www.makeuseof.com/tag/how-to-boot-a-linux-live-usb-stick-on-your-mac/)
-- [How to Install and Dual Boot Linux on Your Mac](https://www.makeuseof.com/tag/install-linux-macbook-pro/)
-  - suggests how you might set up the encrypted Linux partition by hand.
-- if Mac can't use GRUB it should be able to use [rEFind](https://sourceforge.net/projects/refind/)?
+- [How to Install and Dual Boot Linux on Your Mac](https://www.makeuseof.com/tag/install-linux-macbook-pro/) - suggests how you might set up the encrypted Linux partition by hand.
+- if Mac can't use GRUB it should be able to use [rEFind](https://sourceforge.net/projects/refind/)...?
 - [Adding Encrypted Persistence to a Kali Linux Live USB Drive](https://www.kali.org/docs/usb/usb-persistence-encryption/)
 - [mkusb](https://help.ubuntu.com/community/mkusb) - general tool to create boot drives
