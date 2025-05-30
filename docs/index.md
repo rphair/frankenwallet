@@ -33,11 +33,11 @@ title: The Frankenwallet
 
 Most readers interested in this subject will already know how to:
 
-- [install Linux](https://ubuntu.com/tutorials/install-ubuntu-desktop) (our reference is Ubuntu 24.04, chosen based on popularity and especially to match the majority of Cardano stake pool & other servers)
-- [install the Cardano node](https://developers.cardano.org/docs/get-started/cardano-node/installing-cardano-node) and CLI software **and/or** the CLI for their preferred blockchain
-- use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme)
+1. [install Linux](https://ubuntu.com/tutorials/install-ubuntu-desktop) (our reference is Ubuntu 24.04, chosen based on popularity and especially to match the majority of Cardano stake pool & other servers)
+1. use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme)
+1. (according to usage & security requirements) install CLI software (e.g.  [`cardano-cli`](https://developers.cardano.org/docs/get-started/cardano-node/installing-cardano-node)) or light (browser-based) wallets for your preferred blockchain(s)
 
-Therefore, please be familiar with the external references above, so we can focus on:
+Therefore, please be familiar with at least #1 and #2 above, so we can focus on:
 
 - particular installation procedures & parameters to ensure an **encrypted OS partition** (and, where possible, an encrypted boot partition);
 - a model for **secure workflow**: to allow common tasks to be done repeatedly in the Frankenwallet, while allowing the data & procedures for these tasks to be recorded, stored, and backed up on the host machine;
