@@ -22,6 +22,6 @@ FROM PROJECT PROPOSAL: Why the CC BY-SA 4.0 (Attribution, ShareAlike) license?
 
 This differs from the default "Attribution" CC BY 4.0 in that derivative works must also be open sourced according to the same license.
 
-The NonCommercial component for Creative Commons licensing doesn't seem well suited to the open source promotion of this material, because of drawbacks given in "Wikimedia: The Creative Commons licencing scheme: NC – NonCommercial" including restricted use in academic contexts and prohibition on Wikipedia itself. Therefore "CC BY-SA 4.0" appears best to support growing communities around open source documentation.
+The NonCommercial component for Creative Commons licensing doesn't seem well suited to the open source promotion of this material, because of drawbacks given in [Wikimedia: The Creative Commons licencing scheme: NC – NonCommercial](https://meta.wikimedia.org/wiki/Open_Content_-_A_Practical_Guide_to_Using_Creative_Commons_Licences/The_Creative_Commons_licencing_scheme#a%29_NC_%E2%80%93_NonCommercial) including restricted use in academic contexts and prohibition on Wikipedia itself. Therefore "CC BY-SA 4.0" appears best to support growing communities around open source documentation.
 
 As with all Creative Commons licenses, it also includes a well-known standard limitation of liability which makes it very clear — vitally for the persistence of this project — that users employing the Frankenwallet in the management of their secure assets will be doing so AT THEIR OWN RISK.
