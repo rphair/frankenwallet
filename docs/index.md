@@ -21,7 +21,7 @@ title: The Frankenwallet
 
 - [x] Anyone who **cannot afford — either financially or logistically** (e.g. frequent travellers) — **a second machine or hardware wallet**.
 
-- [x] Anyone who finds the **small form factor** of a hardware wallet appealing, and has wondered how you might get the same (or better) features on a **cheap, ordinary memory stick**.
+- [x] Anyone who finds the **small form factor** of a hardware wallet appealing, and has wondered how you might get the same (or more diverse) features on a **cheap, ordinary memory stick**.
 
 - [x] Anyone who has wished they could have a **full featured operating system** — with general purpose software, including the ability to edit & save encrypted key files, archives and other records — on their premium hardware wallet.
 
