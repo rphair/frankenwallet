@@ -124,7 +124,7 @@ sudo apt install vim
 ```
 
 {: .note }
-> If you are fond of any other Linux command line editor (another popular choice = [`nano`](https://en.wikipedia.org/wiki/GNU_nano)) then put its package name here in place of, or in addition to, `vim` (for popular choices, generally the package name is the same as the command name).
+> If you are fond of any other Linux command line editor (another popular choice = [`nano`](https://en.wikipedia.org/wiki/GNU_nano)) then put its package name here in place of, or in addition to, `vim`.  For popular choices, generally the package name is the same as the command name.
 
 ➤ Now you can **disconnect again from the Internet**, and leave it unconnected indefinitely… until if and when you need to download any CLI software or install network dependent applications for a "cool" environment.
 
