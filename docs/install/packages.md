@@ -112,8 +112,19 @@ srm mySecretFile
 The greatest benefit of the Frankenwallet is to use LibreOffice and the 7z archive for encrypted storage of keys and passphrases, or other confidential material about your transactions, private addresses, etc... given that you now have an environment on which to cold-encrypt these documents:
 
 ```bash
-    sudo apt install libreoffice p7zip-full p7zip-rar
+sudo apt install libreoffice p7zip-full p7zip-rar
 ```
+
+### Text editor essentials
+
+Long time users of the text editor `vi` may find it difficult without the modern extensions in the `vim` package — but not realise these are missing until after the air gap is engaged:
+
+```bash
+sudo apt install vim
+```
+
+{: .note }
+> If you are fond of any other Linux command line editor (another popular choice = [`nano`](https://en.wikipedia.org/wiki/GNU_nano)) then put its package name here in place of, or in addition to, `vim` (for popular choices, generally the package name is the same as the command name).
 
 ➤ Now you can **disconnect again from the Internet**, and leave it unconnected indefinitely… until if and when you need to download any CLI software or install network dependent applications for a "cool" environment.
 
