@@ -42,7 +42,7 @@ Assuming you have followed the Installation steps correctly, you will already ha
 - [set up a dedicated drive](/install/process) which you _only_ use when you're making a crypto transaction;
 - [isolated a separately booted Linux](/install/login) to reduce the otherwise constant exposure of your crypto wallets to both universal and targeted security intrusions;
 - [eliminated Internet dependent and closed source software](/install/settings) which would otherwise "fingerprint" your usage of blockchain resources and web sites;
-- [hardened your Inernet brower](/install/browser) so that visiting dApp / DeFi sites and installing browser wallet extensions will not expose these to privacy violations coming from the browser itself.
+- [hardened your Internet browser](/install/browser) so that visiting dApp / DeFi sites and installing browser wallet extensions will not expose these to privacy violations coming from the browser itself.
 
 Therefore, from this point the "cool" configuration is simple:
 
