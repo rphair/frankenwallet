@@ -26,11 +26,11 @@ XFCE probably would save about 1GB of RAM and a lot of disk bandwidth across the
 
 Please consider whether the following risks are real enough to justify your choice of Frankenwallet vs. other platforms, noting that all these risks also apply to a "second air-gapped machine" as well:
 
-- Your Evil Maid temporarily steals your Frankenwallet and installs something in the unencrypted `/boot` partition that intercepts your [device decryption password](/prepare/password-high) as you type it.
+1. Your Evil Maid temporarily steals your Frankenwallet and installs something in the unencrypted `/boot` partition that intercepts your [device decryption password](/prepare/password-high) as you type it... _and then_ steals it again once able to decrypt your main partition and read your files.
   - Note this is not a risk if your system boots with UEFI and therefore was able to encrypt the `/boot` partition as well as the OS partition when the Frankenwallet was created.
-- Your Evil Maid sneaks onto the computer where you use Frankenwallet and patches in a malicious BIOS that can log the key presses even as they are entered into programs that are loaded by GRUB (including the LUKS prompt where you enter your drive's decryption password).
+2.  Your Evil Maid sneaks onto the computer where you use Frankenwallet and patches in a malicious BIOS that can log the key presses even as they are entered into programs that are loaded by GRUB (including the LUKS prompt where you enter your drive's decryption password).
 
-Therefore you should make sure that no super-hacking Evil Maids are ever able to physically get to the Frankenwallet *or* the computer(s) that you use it on.  More seriousl, and generally:
+Therefore you should make sure that no super-hacking Evil Maids are ever able to physically get to the Frankenwallet *or* the computer(s) that you use it on.  More seriously, and generally:
 
 {: .warning }
 If and when using the Frankenwallet on a physically insecure public computer, keep in mind the risk that computer might have a tampered or institutionally compromised BIOS.
