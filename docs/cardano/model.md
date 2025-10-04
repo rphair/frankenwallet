@@ -11,10 +11,10 @@ title: Transaction flow
 
 ## Stick to the general "air gap" transaction workflow {#model}
 
-First, familiarise yourself (if not already familiar) with the page [Cardano Developer Portal > **Secure Transaction Workflow**](https://developers.cardano.org/docs/get-started/secure-workflow) which outlines [this general model](https://developers.cardano.org/docs/get-started/secure-workflow#a-model-for-a-secure-transaction) for the use of an air gapped machine:
-1. (**insecure**) [**Assemble**](https://developers.cardano.org/docs/get-started/secure-workflow#1-assemble-all-transaction-details) blockchain data for your transaction from the Internet and live Cardano node
-1. (**secure**) [**Build**](https://developers.cardano.org/docs/get-started/secure-workflow#2-build-tx-details-into-a-signed-transaction) the transaction and sign it with private keys kept only in secure environment
-1. (**insecure**) [**Upload**](https://developers.cardano.org/docs/get-started/secure-workflow#3-upload-and-submit-the-tx-file) and execute the signed transaction
+First, familiarise yourself (if not already familiar) with the page [Cardano Developer Portal > **Secure Transaction Workflow**](https://developers.cardano.org/docs/get-started/security/secure-workflow) which outlines [this general model](https://developers.cardano.org/docs/get-started/security/secure-workflow#a-model-for-a-secure-transaction) for the use of an air gapped machine:
+1. (**insecure**) [**Assemble**](https://developers.cardano.org/docs/get-started/security/secure-workflow#1-assemble-all-transaction-details) blockchain data for your transaction from the Internet and live Cardano node
+1. (**secure**) [**Build**](https://developers.cardano.org/docs/get-started/security/secure-workflow#2-build-tx-details-into-a-signed-transaction) the transaction and sign it with private keys kept only in secure environment
+1. (**insecure**) [**Upload**](https://developers.cardano.org/docs/get-started/security/secure-workflow#3-upload-and-submit-the-tx-file) and execute the signed transaction
 
 The Frankenwallet model will be exactly the same *except* that it won't require a "transfer memory stick" to move files between the insecure and secure environments (as introduced on the ["What's unique..."](/intro/usp) page) because those 2 environments already share a drive: your host computer's disk itself.
 
