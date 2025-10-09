@@ -52,7 +52,10 @@ Therefore, please be familiar with at least #1 and #2 above, so we can focus on:
 
 The fact that the original author, and any contributors thereafter, have taken responsibility for maintaining and improving this material does not imply any responsibility for losses that may happen to you: as you use this material — as we always should in this field — entirely at your own risk.
 
-Details: [CC BY-SA 4.0 Legal Code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) > [Section 5 – Disclaimer of Warranties and Limitation of Liability](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en#s5)
+Please see also [Disclaimer](https://github.com/rphair/frankenwallet#disclaimer) on the source repository.
+
+More details: [CC BY-SA 4.0 Legal Code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) > [Section 5 – Disclaimer of Warranties and Limitation of Liability](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en#s5)
+
 
 ### Found an error, or want to make a suggestion? {#suggestions}
 
