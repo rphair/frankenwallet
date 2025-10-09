@@ -12,7 +12,7 @@ In the cases where there may be more than one preference, or additional material
 
 The material provided here gives recommendations to combine common open-source software packages and tools (generally covered by disclaimers in their own software distributions) in a manner expected to provide additional privacy and security for potentially valuable and confidental resources.
 
-As per general open-source licensing standards (see [LICENSING.md]()), these recommendations are offered without any responsibility for loss of resources, security, or privacy that may result: even if the instructions here are followed correctly.  Any user of this material must carefully consider all consequences and accept total responsibility for their own actions before proceeding.
+As per general open-source licensing standards (see [LICENSING.md](LICENSING.md)), these recommendations are offered without any responsibility for loss of resources, security, or privacy that may result: even if the instructions here are followed correctly.  Any user of this material must carefully consider all consequences and accept total responsibility for their own actions before proceeding.
 
 See also the corresponding notice on the front page of the public web site built from this material: [The Frankenwallet > Disclaimer](https://frankenwallet.com/#disclaimer)
 
