@@ -24,7 +24,7 @@ Once your intended change looks & works properly in the site built locally from 
 
 ## Build the Frankenwallet web site locally
 
-The web site is built from the files in the [`/docs`](docs) directory using:
+For both the public web site and any local copies, the web site is built from the files in the [`/docs`](docs) directory using:
 * the [Jekyll](https://jekyllrb.com/) static site generator ([documentation](https://jekyllrb.com/docs/)) which incorporates:
   * the [Liquid](https://shopify.github.io/liquid/) templating language, with [extensions to Liquid syntax for Jekyll](https://jekyllrb.com/docs/liquid/)
   * the [Kramdown](https://jekyllrb.com/docs/configuration/markdown/) (GitHub friendly) variety of Markdown
@@ -42,7 +42,7 @@ Clicking the preview link that it shows (generally `http://127.0.0.1:4000`) will
 * Changes to `_config.yml` will require restarting the `bundle` command.
 * Updates that create new style sheets will require reloading the browser preview.
 
-## Automation of frankenwallet.com site build
+## Automation of public web site site build
 
 The [workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) (process GitHub uses to build the site) is defined here: [.github/workflows/pages.yml](.github/workflows/pages.yml)
 * ... which is based on: [just-the-docs-template](https://github.com/just-the-docs/just-the-docs-template) > [.github/workflows/pages.yml](https://github.com/just-the-docs/just-the-docs-template/blob/main/.github/workflows/pages.yml)
