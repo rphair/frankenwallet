@@ -24,6 +24,12 @@ Clicking the preview link that it shows (generally `http://127.0.0.1:4000`) will
 
 ## Submitting changes
 
+
+## MOVED FROM FRONT PAGE Contributing new material & corrections
+
+Interested and informed users are welcome to contribute new material by pull request: https://github.com/rphair/frankenwallet/pulls
+
+
 Once your intended change looks & works properly in your local fork, you can submit changes to the repository for review as [pull requests](https://github.com/rphair/frankenwallet/pulls).  For more about this process, see GitHub Docs > [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests), especially:
 * [Working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
 * [Proposing changes to your work with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
