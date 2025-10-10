@@ -48,7 +48,7 @@ The [workflow](https://docs.github.com/en/pages/getting-started-with-github-page
 * ... which is based on: [just-the-docs-template](https://github.com/just-the-docs/just-the-docs-template) > [.github/workflows/pages.yml](https://github.com/just-the-docs/just-the-docs-template/blob/main/.github/workflows/pages.yml)
 
 This updates the public web site whenever content is pushed to the `/docs` folder in the `main` branch, which happens whenever:
-1. a [pull request](/pulls) that you submit is merged by the maintainer
+1. a [pull request](https://github.com/rphair/frankenwallet/pulls) that you submit is merged by the maintainer
 1. the maintainer pushes content directly
 
 From the time content is pushed or merged, a Jekyll rebuild and content update on frankenwallet.com currently takes 60 to 90 seconds.  Each automatic rebuild of the site can be seen & monitored here: https://github.com/rphair/frankenwallet/deployments
