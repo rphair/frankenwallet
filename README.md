@@ -29,7 +29,7 @@ You are welcome to [submit a Discussion topic](https://github.com/rphair/franken
 
 ### Issues
 
-If you are **certain of** a change recommendation, or have a definite query, please check for any existing [project Issues](https://github.com/rphair/frankenwallet/issues) that match your concern: to post your feedback there if possible.  Otherwise, submit a new issue for response by the maintainer(s).  Issues that will be especially helpful to consider:
+If you are **certain of** a change recommendation, or have a definite query, please check for any existing [project Issues](https://github.com/rphair/frankenwallet/issues) that match your concern: to post your feedback there if possible.  Otherwise, submit a new issue for response by the maintainer(s).  Issues especially helpful to consider are:
 * errors that need to be corrected: technical, grammatical or presentational
 * security issues which you think require either a fix or an explanation
 * platform issues (host computer, external drives, software) you have found, along with any resolutions
@@ -43,7 +43,7 @@ As explained on the web site front page, users planning to build the Frankenwall
 
 Therefore the definition of "support" for this project is to respond to ***high level*** questions about how the Frankenwallet software components work together.  There are many other support forums for Linux software and system administration, and questions of that nature should be pursued there before submitting issues here.
 
-The goal of Frankenwallet "support" is for a growing community of participants to answer peer-to-peer questions about how to build the best tools & workflow for security and privacy of cryptocurrencies.  Well-considered issues and discussions will help us achieve this: especially in the course of review by representative community members and subject matter experts (see [CONTRIBUTING > Reviews](CONTRIBUTING.md#review)).
+The goal of Frankenwallet "support" is for a growing community of participants to answer peer-to-peer questions about how to build the best tools & workflow for security and privacy of cryptocurrencies.  Well-considered issues and discussions will help us achieve this: especially in the course of review by representative community members and subject matter experts (see [CONTRIBUTING > Review the Frankenwallet](CONTRIBUTING.md#review)).
 
 ## Resources
 

@@ -45,7 +45,8 @@ Clicking the preview link that it shows (generally `http://127.0.0.1:4000`) will
 ## Automation of public web site site build
 
 The [workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) (process GitHub uses to build the site) is defined here: [.github/workflows/pages.yml](.github/workflows/pages.yml)
-* ... which is based on: [just-the-docs-template](https://github.com/just-the-docs/just-the-docs-template) > [.github/workflows/pages.yml](https://github.com/just-the-docs/just-the-docs-template/blob/main/.github/workflows/pages.yml)
+
+... which is based on: [just-the-docs-template](https://github.com/just-the-docs/just-the-docs-template) > [.github/workflows/pages.yml](https://github.com/just-the-docs/just-the-docs-template/blob/main/.github/workflows/pages.yml)
 
 This updates the public web site whenever content is pushed to the `/docs` folder in the `main` branch, which happens whenever:
 1. a [pull request](https://github.com/rphair/frankenwallet/pulls) that you submit is merged by the maintainer
