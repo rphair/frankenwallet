@@ -18,7 +18,7 @@ These categories of reviewers have been described here for the Cardano user comm
 
 If your review has been confident enough to submit a change directly, the maintainer(s) would be happy to consider your Pull Request (though generally it will be help to [post a related issue or discussion](README.md#community) first).
 
-Once your intended change looks & works properly in your site built locally from your own fork, you can submit changes to the repository for review as [pull requests](https://github.com/rphair/frankenwallet/pulls).  For more about this process, see GitHub Docs > [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests), especially:
+Once your intended change looks & works properly in the site built locally from your own fork, you can submit changes to the repository for review.  For more about this process, see GitHub Docs > [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests), especially:
 * [Working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
 * [Proposing changes to your work with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
 
