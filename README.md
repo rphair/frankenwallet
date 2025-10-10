@@ -32,7 +32,7 @@ Interested and informed users are welcome to contribute new material by pull req
 
 For contribution guidelines and the process how the web site is built, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
-## Related links
+## Resources
 
 Tutorials:
 * Medium article 2024-01: [The Frankenwallet: Secure workflow and Internet privacy for Cardano and other cryptocurrencies](https://rxphair.medium.com/frankenwallet-secure-private-crypto-workflow-505b841ef23b)
