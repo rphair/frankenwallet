@@ -17,6 +17,7 @@ As per general open-source licensing standards (see [LICENSE.md](LICENSE.md)), t
 See also the corresponding notice on the front page of the public web site built from this material: [The Frankenwallet > Disclaimer](https://frankenwallet.com/#disclaimer)
 
 ## Suggesting updates to the documentation
+
 [//]: # (This heading must stay the same because it's linked from M1 PoA)
 
 After first confirming it hasn't already been posted, submit specific suggestions as a **New issue** in the issue queue: https://github.com/rphair/frankenwallet/issues
