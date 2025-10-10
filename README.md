@@ -16,9 +16,9 @@ As per general open-source licensing standards (see [LICENSE.md](LICENSE.md)), t
 
 See also the corresponding notice on the front page of the public web site built from this material: [The Frankenwallet > Disclaimer](https://frankenwallet.com/#disclaimer)
 
-## Suggesting updates to the documentation
-
-[//]: # (This heading must stay the same because it's linked from M1 PoA)
+## Community discussion, questions, and support
+[//]: # (the heading before I renamed it; used in M1 PoA:)
+<a id="suggesting-updates-to-the-documentation"></a>
 
 After first confirming it hasn't already been posted, submit specific suggestions as a **New issue** in the issue queue: https://github.com/rphair/frankenwallet/issues
 * errors that need to be corrected: technical, grammatical or presentational
@@ -45,3 +45,4 @@ For email updates on the project, including community feedback & discussions:
 * Tick the box for _All Activity_.
 
 To support our work on the Frankenwallet, Cardano users please delegate your ada to **COSD** stake pool: https://cosd.com/pool
+
