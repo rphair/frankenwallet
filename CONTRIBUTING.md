@@ -24,8 +24,6 @@ Once your intended change looks & works properly in the site built locally from 
 
 ## Build the Frankenwallet web site locally
 
-### Overview
-
 The web site is built from the files in the [`/docs`](docs) directory using:
 * the [Jekyll](https://jekyllrb.com/) static site generator ([documentation](https://jekyllrb.com/docs/)) which incorporates:
   * the [Liquid](https://shopify.github.io/liquid/) templating language, with [extensions to Liquid syntax for Jekyll](https://jekyllrb.com/docs/liquid/)
