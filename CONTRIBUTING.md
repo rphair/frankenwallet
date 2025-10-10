@@ -1,8 +1,6 @@
-# Contributing to [The Frankenwallet](https://frankenwallet.com)
+## Build the Frankenwallet
 
-_(if your contribution is feedback or a correction, submit an [issue](https://github.com/rphair/frankenwallet/issues) according to [these guidelines](https://github.com/rphair/frankenwallet#suggesting-updates-to-the-documentation))_
-
-## Overview
+### Overview
 
 The web site is built from the files in the [`/docs`](docs) directory using:
 * the [Jekyll](https://jekyllrb.com/) static site generator ([documentation](https://jekyllrb.com/docs/)) which incorporates:
@@ -11,7 +9,7 @@ The web site is built from the files in the [`/docs`](docs) directory using:
 * [Just the Docs](https://just-the-docs.com) Jekyll theme
 * [GitHub pages](https://docs.github.com/en/pages) for hosting and deployment
 
-## Site setup & previewing local changes
+### Site setup & previewing local changes
 
 1. Ensure dependencies are installed: https://jekyllrb.com/docs/installation
 1. Clone the site, as per the `Code` button on the [front page](https://github.com/rphair/frankenwallet).
@@ -22,19 +20,7 @@ Clicking the preview link that it shows (generally `http://127.0.0.1:4000`) will
 * Changes to `_config.yml` will require restarting the `bundle` command.
 * Updates that create new style sheets will require reloading the browser preview.
 
-## Submitting changes
-
-
-## MOVED FROM FRONT PAGE Contributing new material & corrections
-
-Interested and informed users are welcome to contribute new material by pull request: https://github.com/rphair/frankenwallet/pulls
-
-
-Once your intended change looks & works properly in your local fork, you can submit changes to the repository for review as [pull requests](https://github.com/rphair/frankenwallet/pulls).  For more about this process, see GitHub Docs > [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests), especially:
-* [Working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
-* [Proposing changes to your work with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
-
-## Automation
+### Automation
 
 The [workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) (process GitHub uses to build the site) is defined here: [.github/workflows/pages.yml](.github/workflows/pages.yml)
 * ... which is based on: [just-the-docs-template](https://github.com/just-the-docs/just-the-docs-template) > [.github/workflows/pages.yml](https://github.com/just-the-docs/just-the-docs-template/blob/main/.github/workflows/pages.yml)
@@ -44,3 +30,25 @@ This updates the public web site whenever content is pushed to the `/docs` folde
 1. the maintainer pushes content directly
 
 From the time content is pushed or merged, a Jekyll rebuild and content update on frankenwallet.com currently takes 60 to 90 seconds.  Each automatic rebuild of the site can be seen & monitored here: https://github.com/rphair/frankenwallet/deployments
+# Contributing to [The Frankenwallet](https://frankenwallet.com)
+
+_(if your contribution is feedback or a correction, submit an [issue](https://github.com/rphair/frankenwallet/issues) according to [these guidelines](README.md#community-discussion-questions-and-support))_
+
+## Review the Frankenwallet
+<a id="review"></a>
+
+To guarantee the best operational results, and to achieve the best possible assurances of privacy and security, the project would benefit greatly from [community discussion & questions](README.md#community) by knowledgeable users, operators and developers taking an overall view of all the material here, rather than just particular problems.
+
+These categories of reviewers have been described here for the Cardano blockchain in particular, though the author hopes that users of other blockchains — as well as operators and evelopers having a general interest in practical security — will identify with common elements in these initial calls for review and contribute according to their own experience:
+* [Call for general user review](https://forum.cardano.org/t/frankenwallet-call-for-general-user-review/150242)
+* [Call for operator review](https://forum.cardano.org/t/frankenwallet-call-for-spo-preliminary-review/150243)
+* [Call for developer review](https://forum.cardano.org/t/frankenwallet-call-for-developer-review/150245)
+
+### Submitting changes
+
+If your review has been confident enough to submit a change directly, the maintainer(s) would be happy to consider your Pull Request... though generally it will be help to [post a related issue or discussion](README.md#community) first.
+
+Once your intended change looks & works properly in your site built locally from your own fork, you can submit changes to the repository for review as [pull requests](https://github.com/rphair/frankenwallet/pulls).  For more about this process, see GitHub Docs > [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests), especially:
+* [Working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
+* [Proposing changes to your work with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests)
+

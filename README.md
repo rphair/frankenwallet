@@ -19,6 +19,7 @@ See also the corresponding notice on the front page of the public web site built
 ## Community discussion, questions, and support
 [//]: # (the heading before I renamed it; used in M1 PoA:)
 <a id="suggesting-updates-to-the-documentation"></a>
+<a id="community"></a>
 
 For contribution guidelines and the process of how the web site is built, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
@@ -42,7 +43,7 @@ As explained on the web site front page, users planning to build the Frankenwall
 
 Therefore the definition of "support" for this project is to respond to ***high level*** questions about how the Frankenwallet software components work together.  There are many other support forums for Linux software and system administration, and questions of that nature should be pursued there before submitting issues here.
 
-The goal of Frankenwallet "support" is for a growing community of participants to answer peer-to-peer questions about how to build the best tools & workflow for security and privacy of cryptocurrencies.  Well-considered issues and discussions will help us achieve this: especially in the course of review by representative community members and subject matter experts (see [CONTRIBUTING > Reviews](CONTRIBUTING.md#reviews)).
+The goal of Frankenwallet "support" is for a growing community of participants to answer peer-to-peer questions about how to build the best tools & workflow for security and privacy of cryptocurrencies.  Well-considered issues and discussions will help us achieve this: especially in the course of review by representative community members and subject matter experts (see [CONTRIBUTING > Reviews](CONTRIBUTING.md#review)).
 
 ## Resources
 
