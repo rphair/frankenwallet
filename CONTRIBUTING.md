@@ -11,6 +11,7 @@ These categories of reviewers have been described here for the Cardano blockchai
 * [Call for general user review](https://forum.cardano.org/t/frankenwallet-call-for-general-user-review/150242)
 * [Call for operator review](https://forum.cardano.org/t/frankenwallet-call-for-spo-preliminary-review/150243)
 * [Call for developer review](https://forum.cardano.org/t/frankenwallet-call-for-developer-review/150245)
+
 ... though the author hopes that users of other blockchains — as well as operators and evelopers having a general interest in practical security — will identify with common elements in these initial calls for review and contribute according to their own experience:
 
 ### Submitting changes
