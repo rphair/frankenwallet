@@ -5,18 +5,18 @@ _(if your contribution is feedback or a correction, submit an [issue](https://gi
 ## Review the Frankenwallet
 <a id="review"></a>
 
-To guarantee the best operational results, and to achieve the best possible assurances of privacy and security, the project would benefit greatly from [community discussion & questions](README.md#community) by knowledgeable users, operators and developers taking an overall view of the Frankenwallet process and principles: rather than just particular problems.
+To guarantee the best operational results, and to achieve the best possible assurances of privacy and security, the project would benefit greatly from [community discussion](README.md#community) by knowledgeable users, operators and developers taking an overall view of the Frankenwallet process and principles: rather than just particular problems.
 
-These categories of reviewers have been described here for the Cardano blockchain in particular:
+These categories of reviewers have been described here for the Cardano user community in particular:
 * [Call for general user review](https://forum.cardano.org/t/frankenwallet-call-for-general-user-review/150242)
 * [Call for operator review](https://forum.cardano.org/t/frankenwallet-call-for-spo-preliminary-review/150243)
 * [Call for developer review](https://forum.cardano.org/t/frankenwallet-call-for-developer-review/150245)
 
-... though the author hopes that users of other blockchains — as well as operators and evelopers having a general interest in practical security — will identify with common elements in these initial calls for review and contribute according to their own experience:
+... though the author hopes that users of other blockchains — as well as operators and developers having a general interest in practical security — will identify with common elements in these initial calls for review and contribute according to their own experience.
 
 ### Submitting changes
 
-If your review has been confident enough to submit a change directly, the maintainer(s) would be happy to consider your Pull Request... though generally it will be help to [post a related issue or discussion](README.md#community) first.
+If your review has been confident enough to submit a change directly, the maintainer(s) would be happy to consider your Pull Request (though generally it will be help to [post a related issue or discussion](README.md#community) first).
 
 Once your intended change looks & works properly in your site built locally from your own fork, you can submit changes to the repository for review as [pull requests](https://github.com/rphair/frankenwallet/pulls).  For more about this process, see GitHub Docs > [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests), especially:
 * [Working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
