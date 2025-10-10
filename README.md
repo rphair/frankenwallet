@@ -20,27 +20,25 @@ See also the corresponding notice on the front page of the public web site built
 [//]: # (the heading before I renamed it; used in M1 PoA:)
 <a id="suggesting-updates-to-the-documentation"></a>
 
-For contribution guidelines and the process how the web site is built, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+For contribution guidelines and the process of how the web site is built, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ### Discussions
 
-You are welcome to [submit a Discussion topic](https://github.com/rphair/frankenwallet/discussions) when you find a potential problem or improvement that you're **still uncertain of**.  The maintainer(s), and any interested community members, will respond in hope of resolving the discussion or producing a change recommendation.
+You are welcome to [submit a Discussion topic](https://github.com/rphair/frankenwallet/discussions) when you find a potential problem or improvement that you're **still uncertain of**.  The maintainer(s), with any interested community members, will respond in hope of resolving the discussion or producing a change recommendation.
 
 ### Issues
 
-If you are **certain of** a change recommendation, or have a definite query, please check for any existing [project Issues](https://github.com/rphair/frankenwallet/issues) that match your concern, and post your feedback there if possible.  Otherwise, submit a new issue for response by the maintainer(s).
-
-Issues that will be especially helpful to consider:
+If you are **certain of** a change recommendation, or have a definite query, please check for any existing [project Issues](https://github.com/rphair/frankenwallet/issues) that match your concern: to post your feedback there if possible.  Otherwise, submit a new issue for response by the maintainer(s).  Issues that will be especially helpful to consider:
 * errors that need to be corrected: technical, grammatical or presentational
 * security issues which you think require either a fix or an explanation
-* platform issues (host computer, external drives, software) you have foundm, along with any resolutions
+* platform issues (host computer, external drives, software) you have found, along with any resolutions
 
 ### Support
 
-As explained on the repository front page, builders of the Frankenwallet should already be familiar with the following topics:
-1. How to install Linux: preferably the [Ubuntu Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview);
-1. How to use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme) with some fluency (i.e. not just copy / pasting everything);
-1. Some experience installing your required blockchain software (e.g. cardano-cli or Eternl wallet) on a conventional system.
+As explained on the web site front page, users planning to build the Frankenwallet should already be familiar with the following topics:
+1. how to install Linux: preferably the [Ubuntu Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview);
+1. how to use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme) with some fluency (i.e. not just copy / pasting everything);
+1. some experience installing your required blockchain software (e.g. [cardano-cli](https://github.com/IntersectMBO/cardano-cli) or [Eternl wallet](https://eternl.io)) on a conventional system.
 
 Therefore the definition of "support" for this project is to respond to ***high level*** questions about how the Frankenwallet software components work together.  There are many other support forums for Linux software and system administration, and questions of that nature would be pursued there before submitting issues here.
 

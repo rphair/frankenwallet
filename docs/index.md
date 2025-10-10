@@ -35,7 +35,7 @@ Most readers interested in this subject will already know how to:
 
 1. [install Linux](https://ubuntu.com/tutorials/install-ubuntu-desktop) (our reference is Ubuntu 24.04, chosen based on popularity and especially to match the majority of Cardano stake pool & other servers)
 1. use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme)
-1. (according to usage & security requirements) install CLI software (e.g.  [`cardano-cli`](https://developers.cardano.org/docs/get-started/cardano-node/installing-cardano-node)) or light (browser-based) wallets for your preferred blockchain(s)
+1. (according to usage & security requirements) install CLI software (e.g. [`cardano-cli`](https://github.com/IntersectMBO/cardano-cli)) or light (browser-based) wallets for your preferred blockchain(s)
 
 Therefore, please be familiar with at least #1 and #2 above, so we can focus on:
 
