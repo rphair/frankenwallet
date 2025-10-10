@@ -39,7 +39,7 @@ Tutorials:
 
 For email updates on the project, including community feedback & discussions:
 * Create a GitHub account if you don't have one.
-* Click the Watch button on the top bar of this page.
+* Click the _Watch_ button on the top bar of this page.
 * Tick the box for _All Activity_.
 
 To support our work on the Frankenwallet, Cardano users please delegate your ada to **COSD** stake pool: https://cosd.com/pool
