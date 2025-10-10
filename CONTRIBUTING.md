@@ -42,7 +42,7 @@ Clicking the preview link that it shows (generally `http://127.0.0.1:4000`) will
 * Changes to `_config.yml` will require restarting the `bundle` command.
 * Updates that create new style sheets will require reloading the browser preview.
 
-## Automation of public web site site build
+## Automation of public web site build
 
 The [workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) (process GitHub uses to build the site) is defined here: [.github/workflows/pages.yml](.github/workflows/pages.yml)
 
