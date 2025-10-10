@@ -37,8 +37,9 @@ For contribution guidelines and the process how the web site is built, see **[CO
 Tutorials:
 * Medium article 2024-01: [The Frankenwallet: Secure workflow and Internet privacy for Cardano and other cryptocurrencies](https://rxphair.medium.com/frankenwallet-secure-private-crypto-workflow-505b841ef23b)
 
-For announcements regarding the Frankenwallet:
-* Subscribe to the discussion [Annoucements @ Frankenwallet](https://github.com/rphair/frankenwallet/discussions/1).
-* Follow https://twitter.com/COSDpool.
+For email updates on the project, including community feedback & discussions:
+* Create a GitHub account if you don't have one.
+* Click the Watch button on the top bar of this page.
+* Tick the box for _All Activity_.
 
 To support our work on the Frankenwallet, Cardano users please delegate your ada to **COSD** stake pool: https://cosd.com/pool
