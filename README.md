@@ -40,9 +40,9 @@ As explained on the web site front page, users planning to build the Frankenwall
 1. how to use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme) with some fluency (i.e. not just copy / pasting everything);
 1. some experience installing your required blockchain software (e.g. [cardano-cli](https://github.com/IntersectMBO/cardano-cli) or [Eternl wallet](https://eternl.io)) on a conventional system.
 
-Therefore the definition of "support" for this project is to respond to ***high level*** questions about how the Frankenwallet software components work together.  There are many other support forums for Linux software and system administration, and questions of that nature would be pursued there before submitting issues here.
+Therefore the definition of "support" for this project is to respond to ***high level*** questions about how the Frankenwallet software components work together.  There are many other support forums for Linux software and system administration, and questions of that nature should be pursued there before submitting issues here.
 
-Alternatively: the goal of Frankenwallet "support" is for a growing community of participants to answer each others' questions about how to build the best tools & workflow for security and privacy of cryptocurrencies.  Well-considered issues and discussions will help us achieve this: especially in the course of review by representative community members and subject matter experts (see [CONTRIBUTING > Review](CONTRIBUTING.md#reviews).
+The goal of Frankenwallet "support" is for a growing community of participants to answer peer-to-peer questions about how to build the best tools & workflow for security and privacy of cryptocurrencies.  Well-considered issues and discussions will help us achieve this: especially in the course of review by representative community members and subject matter experts (see [CONTRIBUTING > Reviews](CONTRIBUTING.md#reviews)).
 
 ## Resources
 
