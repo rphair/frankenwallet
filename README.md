@@ -17,6 +17,7 @@ As per general open-source licensing standards (see [License tab](https://github
 See also the corresponding notice on the front page of the public web site built from this material: [The Frankenwallet > Disclaimer](https://frankenwallet.com/#disclaimer)
 
 <a id="community"></a>
+
 [//]: # (the heading before I renamed it; used in M1 PoA:)
 <a id="suggesting-updates-to-the-documentation"></a>
 ## Community discussion, questions, and support
