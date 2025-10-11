@@ -37,7 +37,7 @@ If you are **certain of** a change recommendation, or have a definite query, ple
 ### Support
 
 As explained on the web site front page, users planning to build the Frankenwallet should already be familiar with the following topics:
-1. how to install Linux: preferably the [Ubuntu Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview);
+1. how to install Linux: preferably the [Ubuntu Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) as used here;
 1. how to use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme) with some fluency (i.e. not just copy / pasting everything);
 1. some experience installing your required blockchain software (e.g. [cardano-cli](https://github.com/IntersectMBO/cardano-cli) or [Eternl wallet](https://eternl.io)) on a conventional system.
 
