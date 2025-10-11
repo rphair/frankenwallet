@@ -1,6 +1,6 @@
 # Contributing to [The Frankenwallet](https://frankenwallet.com)
 
-_(if your contribution is feedback or a correction, submit an [issue](https://github.com/rphair/frankenwallet/issues) according to [these guidelines](README.md#community-discussion-questions-and-support))_
+_(if your contribution is feedback or a correction, or if you simply want to discuss the material, follow [these guidelines](README.md#community-discussion-questions-and-support))_
 
 ## Review the Frankenwallet
 <a id="review"></a>
