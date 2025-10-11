@@ -8,5 +8,10 @@
   <a href="{{ site.gh_repository }}/blob/{{    site.gh_branch }}{% if site.gh_source %}/{{ site.gh_source }}{% endif %}/{{ page.path }}">View &amp; edit this page</a>
 </p>
 <p>
+  <a href="{{ site.gh_repository }}/commits/{{ site.gh_branch }}{% if site.gh_source %}/{{ site.gh_source }}{% endif %}/{{ page.path }}">Page editing history</a>
+  &mdash;
+  <a href="{{ site.gh_repository }}/blob/{{    site.gh_branch }}{% if site.gh_source %}/{{ site.gh_source }}{% endif %}/{{ page.path }}">View &amp; edit this page</a>
+</p>
+<p>
   © 2020-{{ site.time | date: "%Y" }} Robert Phair, plus any other substantial authors from editing history, by <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0 (Attribution, ShareAlike) license</a>.
 </p>

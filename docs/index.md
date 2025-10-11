@@ -56,17 +56,15 @@ See also the corresponding [Disclaimer](https://github.com/rphair/frankenwallet#
 
 More details: [CC BY-SA 4.0 Legal Code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) > [Section 5 – Disclaimer of Warranties and Limitation of Liability](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en#s5)
 
-
 ### Found an error, or want to make a suggestion? {#suggestions}
 
-Head over the the Frankenwallet repository (linked in the upper right hand corner) and submit:
-- an Issue (to discuss a matter of form or content):
-- a Pull Request (to submit a particular change: generally after submitting an Issue first)
+On the Frankenwallet repository (linked from the upper right hand corner), choose to submit:
+- a Discussion (of content or presentation);
+- an Issue (to suggest an improvement to content or presentation);
+- a Pull Request (to propose a particular change: if substantial, generally after submitting an Issue);
+- a more general review (see [CONTRIBUTING > Review](https://github.com/rphair/frankenwallet/blob/main/CONTRIBUTING.md#review-the-frankenwallet)) including any or all of these things.
 
-{: .note }
-Keep in mind this material is **under construction** until further notice, with calls for community comments planned for **late May 2025**: so to avoid duplication of effort, please save issues & change requests until then.
-
-The goal will be to keep refining not only the instructions but the guides themselves: most importantly, the security standards.  If you have a well defined suggestion or correction, please post it on the repository when the community feedback period is announced (in mid-2025).
+The goal will be to keep refining not only the written instructions but the concepts themselves: most importantly, the security standards.
 
 ## Where to begin?
 
