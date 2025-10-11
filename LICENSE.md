@@ -16,8 +16,9 @@ Notices:
 - You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation .
 - No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
-### Why the CC BY-SA 4.0 (Attribution, ShareAlike) license? (from project proposal)
+### Why the CC BY-SA 4.0 (Attribution, ShareAlike) license?
 <a id="license-why"></a>
+##### from project proposal:
 
 This differs from the default "Attribution" CC BY 4.0 in that derivative works must also be open sourced according to the same license.
 
