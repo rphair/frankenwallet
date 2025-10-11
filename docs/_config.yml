@@ -53,7 +53,7 @@ callouts:
 # https://just-the-docs.com/docs/navigation/main/external
 nav_external_links:
   - title: CONTRIBUTING
-    url: https://github.com/rphair/frankenwallet/blob/main/CONTRIBUTING.md
+    url: https://github.com/rphair/frankenwallet?tab=contributing-ov-file
       #    hide_icon: false # set to true to hide the external link icon - defaults to false
       #    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
 
