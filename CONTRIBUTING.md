@@ -9,7 +9,7 @@ _(if your contribution is feedback or a correction, or if you simply want to dis
 <a id="review"></a>
 ## Review the Frankenwallet
 
-To guarantee the best operational convenience, and to achieve the best possible assurances of privacy and security, the project would benefit greatly from [community discussion](https://github.com/rphair/frankenwallet#community) by knowledgeable users, operators and developers taking an overall view of the Frankenwallet process and principles: rather than just particular problems.
+To guarantee the best possible privacy and security while maintaining sufficient convenience of operation, the project would benefit greatly from [community discussion](https://github.com/rphair/frankenwallet#community) by knowledgeable users, operators and developers taking an overall view of the Frankenwallet process and principles: rather than just particular problems.
 
 These categories of reviewers have been described here for the Cardano user community in particular:
 * [Call for general user review](https://forum.cardano.org/t/frankenwallet-call-for-general-user-review/150242)
