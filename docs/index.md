@@ -64,7 +64,7 @@ On the Frankenwallet repository (linked from the upper right hand corner), choos
 - a Discussion (of content or presentation);
 - an Issue (to suggest an improvement to content or presentation);
 - a Pull Request (to propose a particular change: if substantial, generally after submitting an Issue);
-- a more general review (see [CONTRIBUTING > Review](https://github.com/rphair/frankenwallet/blob/main/CONTRIBUTING.md#review-the-frankenwallet)) including any or all of these things.
+- a more general review (see [Contributing > Review](https://github.com/rphair/frankenwallet/tree/main?tab=contributing-ov-file#review-the-frankenwallet)) including any or all of these things.
 
 The goal will be to keep refining not only the written instructions but the concepts themselves: most importantly, the security standards.
 
