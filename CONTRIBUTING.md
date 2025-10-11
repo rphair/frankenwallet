@@ -6,8 +6,8 @@
 
 _(if your contribution is feedback or a correction, or if you simply want to discuss the material, follow [these guidelines](https://github.com/rphair/frankenwallet#community-discussion-questions-and-support))_
 
-## Review the Frankenwallet
 <a id="review"></a>
+## Review the Frankenwallet
 
 To guarantee the best operational results, and to achieve the best possible assurances of privacy and security, the project would benefit greatly from [community discussion](https://github.com/rphair/frankenwallet#community) by knowledgeable users, operators and developers taking an overall view of the Frankenwallet process and principles: rather than just particular problems.
 
