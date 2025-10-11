@@ -1,11 +1,15 @@
 # Contributing to [The Frankenwallet](https://frankenwallet.com)
 
-_(if your contribution is feedback or a correction, or if you simply want to discuss the material, follow [these guidelines](README.md#community-discussion-questions-and-support))_
+[//]: # (note it's impossible to link back to the repository root with a relative link:)
+[//]: # (https://stackoverflow.com/questions/40422790/relative-link-to-repos-root-from-markdown-file)
+[//]: # (https://github.com/github/markup/issues/1502)
+
+_(if your contribution is feedback or a correction, or if you simply want to discuss the material, follow [these guidelines](https://github.com/rphair/frankenwallet#community-discussion-questions-and-support))_
 
 ## Review the Frankenwallet
 <a id="review"></a>
 
-To guarantee the best operational results, and to achieve the best possible assurances of privacy and security, the project would benefit greatly from [community discussion](README.md#community) by knowledgeable users, operators and developers taking an overall view of the Frankenwallet process and principles: rather than just particular problems.
+To guarantee the best operational results, and to achieve the best possible assurances of privacy and security, the project would benefit greatly from [community discussion](https://github.com/rphair/frankenwallet#community) by knowledgeable users, operators and developers taking an overall view of the Frankenwallet process and principles: rather than just particular problems.
 
 These categories of reviewers have been described here for the Cardano user community in particular:
 * [Call for general user review](https://forum.cardano.org/t/frankenwallet-call-for-general-user-review/150242)
@@ -16,7 +20,7 @@ These categories of reviewers have been described here for the Cardano user comm
 
 ### Submitting changes
 
-If your review has been confident enough to submit a change directly, the maintainer(s) would be happy to consider your Pull Request (though generally it will be help to [post a related issue or discussion](README.md#community) first).
+If your review has been confident enough to submit a change directly, the maintainer(s) would be happy to consider your Pull Request (though generally it will be help to [post a related issue or discussion](https://github.com/rphair/frankenwallet#community) first).
 
 Once your intended change looks & works properly in the site built locally from your own fork, you can submit changes to the repository for review.  For more about this process, see GitHub Docs > [Collaborating with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests), especially:
 * [Working with forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
@@ -52,5 +56,4 @@ This updates the public web site whenever content is pushed to the `/docs` folde
 1. a [pull request](https://github.com/rphair/frankenwallet/pulls) that you submit is merged by the maintainer
 1. the maintainer pushes content directly
 
-From the time content is pushed or merged, a Jekyll rebuild and content update on frankenwallet.com currently takes 60 to 90 seconds.  Each automatic rebuild of the site can be seen & monitored here: https://github.com/rphair/frankenwallet/deployments
-
+From the time content is pushed or merged, a Jekyll rebuild and content update on frankenwallet.com currently takes about a minute.  Each automatic rebuild of the site can be seen & monitored here: https://github.com/rphair/frankenwallet/deployments
