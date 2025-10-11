@@ -48,7 +48,7 @@ Therefore, please be familiar with at least #1 and #2 above, so we can focus on:
 {: .warning-title }
 > use at your own risk
 >
-> Nobody can anticipate the wide range of adversaries, attack methods, and operator errors which might lead to the loss of your privacy and/or funds even if you follow this security model.  This material is a "best guess" tradeoff between security and convenience.
+> Nobody can anticipate the wide range of adversaries, attack methods, and operator errors which might lead to the loss of your privacy and/or funds even if you strictly follow this security model.  This material is a "best guess" tradeoff between security and convenience.
 
 The fact that the original author, and any contributors thereafter, have taken responsibility for maintaining and improving this material does not imply any responsibility for losses that may happen to you: as you use this material — as we always should in this field — entirely at your own risk.
 
