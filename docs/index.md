@@ -54,7 +54,9 @@ The fact that the original author, and any contributors thereafter, have taken r
 
 See also the corresponding [Disclaimer](https://github.com/rphair/frankenwallet#disclaimer) on the source repository.
 
-More details: [CC BY-SA 4.0 Legal Code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) > [Section 5 – Disclaimer of Warranties and Limitation of Liability](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en#s5)
+More details: [CC BY-SA 4.0 Legal Code](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en)
+- (see [why this license was chosen](https://github.com/rphair/frankenwallet?tab=License-1-ov-file#license-why))
+- > [Section 5 – Disclaimer of Warranties and Limitation of Liability](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en#s5)
 
 ### Found an error, or want to make a suggestion? {#suggestions}
 
