@@ -18,7 +18,8 @@ Notices:
 
 ### Why the CC BY-SA 4.0 (Attribution, ShareAlike) license?
 <a id="license-why"></a>
-##### from project proposal:
+
+_(from project proposal)_
 
 This differs from the default "Attribution" CC BY 4.0 in that derivative works must also be open sourced according to the same license.
 
