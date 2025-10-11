@@ -2,7 +2,7 @@
 
 ## Air-gappable transaction building & key backup and secured browser wallets for Cardano & other cryptos
 
-This repository contains the source material automatically built into the official web site: **https://frankenwallet.com**
+This repository contains the source material automatically built into the official web site: **[frankenwallet.com](https://frankenwallet.com)**
 
 As with all security procedures, these instructions are subjective and will contain many personal preferences and opinions.  The original author hopes that more of these opinions, preferences & experiences building the Frankenwallet will be contributed over time so this becomes a peer reviewed, independently evolving community resource.
 
