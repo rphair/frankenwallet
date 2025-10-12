@@ -95,9 +95,7 @@ Ensure your own personal pledge keys aren't inadvertently shared with others thi
 Be very careful about the "high" security files: since many stake pool configuration instructions include a pledge address signing key (generally called `payment.skey`) with the list of "stake pool" files.
 Stake pools with multiple owners who have separated the pledge between them will — unless deliberately agreed otherwise — want to keep the ownership of these funds completely separate... so ensure you look through these archives to **remove any confidential payment keys**{: .text-red-300 } before sending this archive to anyone else.
 
-{: .new-title }
-> tip
->
+{: .important }
 > Separate any such "private" resource files into *a third archive* and only share the other two sets (low and high security) _of the pool configuration files themselves_.
 
 Generally, it would be up to that pool's operators which of these keys would be considered "private" from the other operators.  Some pools might have asymmetric levels of privilege — an "owner" plus a less privileged "operator" — with the partitioning between shared and unshared keys being arranged accordingly.
