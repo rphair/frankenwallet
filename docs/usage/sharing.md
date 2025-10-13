@@ -90,7 +90,7 @@ This has the further advantage of only requiring a single "cold" Frankenwallet f
 Sharing both "high" and "low" security `7z` file archives constructed as stake pool backups — each time either archive is updated — would be practical to run a stake pool between two or more remote operators, and would provide a further advantage of maintaining a running backup of the sets of keys.
 
 {: .warning }
-Ensure your own personal pledge keys aren't inadvertently shared with others this way: unless doing so deliberately!
+Ensure your own personal [pledge](https://docs.cardano.org/about-cardano/learn/pledging-rewards) keys aren't inadvertently shared with others this way: unless doing so deliberately!
 
 ➤ Be very careful about the "high" security files: since many stake pool configuration instructions include a pledge address signing key (generally called `payment.skey`) with the list of "stake pool" files.
 

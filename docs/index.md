@@ -25,7 +25,7 @@ title: The Frankenwallet
 
 - [x] Anyone who has wished they could have a **full featured operating system** — with general purpose software, including the ability to edit & save encrypted key files, archives and other records — on their premium hardware wallet.
 
-- [x] Anyone using memory sticks to **store or back up private keys** — for bare addresses or assets like stake pool pledges & smart contract accounts — who has worried about an unencrypted memory stick being lost or stolen.
+- [x] Anyone using memory sticks to **store or back up private keys** — for bare addresses or assets like [stake pool pledges](https://docs.cardano.org/about-cardano/learn/pledging-rewards) & smart contract accounts — who has worried about an unencrypted memory stick being lost or stolen.
 
 - [x] Anyone wishing for an option for an **off-site backup** of their keys, wallet seed phrases, and other cryptocurrency asset records… given that AES based encryption is considered unbreakable when properly used.
 

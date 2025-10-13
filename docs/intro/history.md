@@ -7,7 +7,7 @@ title: Why was it developed?
 # Why was the Frankenwallet developed?
 (in words of original author)
 
-## Literally, [COSD](https://cosd.com/pool) could not secure its stake pool pledge without the Frankenwallet.
+## Literally, [COSD](https://cosd.com/pool) could not secure its stake pool [pledge](https://docs.cardano.org/about-cardano/learn/pledging-rewards) without the Frankenwallet.
 
 I began documenting this standard in the first 4 epochs of the [Cardano Shelley era](https://roadmap.cardano.org/shelley), while creating the stake pool amidst very real fears about placing my entire life savings into a bare Cardano address without being able to know if the system I was working on was compromised.
 
