@@ -24,9 +24,9 @@ Conversely, the same protection we believe protects our Frankenwallet backups al
 
 This argument, if accepted, means that the only chance to decrypt your shared data has been lost if they cannot use your Frankenwallet or read its files — and likewise your data will be equally safe at the other end as long as your associates follow the same protocol.
 
-## Shared resource workflow
+## Shared resource workflow {#sharing-workflow}
 
-### 1. Set a shared decryption password
+### 1. Set a shared encryption password {#shared-password}
 
 This should be a password that satisfies all the requirements of a [high security password](/prepare/password-high).  To repeat, at the risk of being pedantic: any password you have *ever* entered over the Internet might be used to decrypt the file at some point as your are sharing it.
 
@@ -35,7 +35,7 @@ Beyond the choice of a non-trivial password with enough entropy (and assuring yo
 {: .highlight }
 To visualise why: for example, if using Gmail to send your hard-encrypted data, you're not just trusting Google but _all of its present and future employees_ not to have indexed a password list from every compromised server or system you've ever used before.
 
-### 2. Ensure all the partners have their own Frankenwallet
+### 2. Ensure all the partners have their own Frankenwallet {#all-endpoints}
 
 They should also agree to the same security standards: which will generally mean they should have the same type of Frankenwallet:
 
@@ -45,7 +45,7 @@ They should also agree to the same security standards: which will generally mean
 
 You may also choose to agree on a [file encryption level]: but this is less important because generally such a guarded confidential exchange would only be justifiable for [high security](/usage/security/#use-cases-high-security) data.  
 
-### 3. Share the shared key 
+### 3. Share the shared key {#share-key}
 
 {: .warning }
 > It's beyond the scope of this article to identify a means of *online* exchange of the preliminary key for such an exchange.  Keeping a secret key *truly* secret is the oldest problem in cryptography: long predating the computer age.
@@ -59,7 +59,7 @@ A "layered" approach is often used in the industry, e.g. opening the key exchang
 >
 > See & get started with (if not already): [OpenPGP > Email Encryption](https://www.openpgp.org/software)  
 
-### 4. Share the commonly encrypted files
+### 4. Share the commonly encrypted files {#share-files}
 
 Now you and your associates can follow this common procedure to share encrypted resources:
 
