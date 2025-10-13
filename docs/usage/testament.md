@@ -2,7 +2,7 @@
 layout: page
 nav_order: 50
 parent: Usage
-title: "Case 2: Will & Testament"
+title: "Use case 2: Will & Testament"
 ---
 # Use case 2: Preparing a cryptocurrency will & testament 
 {: .no_toc }
