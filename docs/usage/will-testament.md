@@ -91,7 +91,7 @@ Here you must imagine a person trying to reconstruct your entire fortune from a 
 - list its URL, username, and login password;
 - list all registered details for authentication purposes (email, phone, any PINs, address as on KYC);
 - list any other means of authenticating your login or identity:
-  - e.g. [TOTP (authenticator app)](https://en.wikipedia.org/wiki/Time-based_one-time_password) setup code or other authentication tokens
+  - e.g. [TOTP (authenticator app)](https://en.wikipedia.org/wiki/Time-based_one-time_password) setup code plus any one-time authentication tokens
   - e.g. any PINs required for certain activities like trading or transfer  
   - including **login details for the registered email address**: likely needed for ID challenges.
 
@@ -115,7 +115,7 @@ In these cases, your instructions might direct them to an archive — to be decr
 ### IV. Advice on distribution {#distribution} 
 
 This is a subjective, perhaps narrative document in your own words about how, when, and to whom the funds should be distributed, including (but not limited to):
-- what percentage, or which types of resources, you would like to distributed to each inheritor
+- what percentage, or which types of resources, you want distributed to each inheritor
 - whether you would like each of these resources distributed as cryptocurrency or fiat currency
 - how cryptocurrency should be converted to fiat: in which jurisdiction, and with what services *including URLs*
 - any message you would like to be distributed confidentially along with these funds

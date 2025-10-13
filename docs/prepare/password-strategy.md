@@ -27,7 +27,7 @@ You will need to know you can type both the low & high security passwords repeat
 
 ## About passwords used for AES and assurances AES is "unbreakable" {#aes-hashed-passwords}
 
-AES itself, lacking a practical attack surface as conceded by cryptographers for nearly 3 decades, is considered unbreakable in itself (best source: [Bruce Schneier: tag AES](https://www.schneier.com/tag/aes/)).  Any mitigation attempts seem only to reduce the difficulty to that of trying 2^128 keys: i.e. a job for a cosmic scale computer.  Therefore your goal is to have a password, which will be "hashed" to this key, with the same unpredictability as a randomly generated 128-bit number.
+AES, beyond the consideration of its implementations in [encryption software](/intro/encryption), lacks a comprehensive attack surface as conceded by cryptographers for nearly 3 decades, and is therefore still considered unbreakable in itself (best source: [Bruce Schneier: tag AES](https://www.schneier.com/tag/aes/)).  Any mitigations of brute-forcing 256-bit encryption only reduce the difficulty to roughtly that of trying 2^128 keys: still a job for a cosmic scale computer.  Therefore your goal is to have a password, which will be "hashed" to this key, with the same unpredictability as a randomly generated 128-bit number.
 
 Assuming that there are 80 possible characters you can type on the computer keyboard (26 uppercase + 26 lowercase + 10 digits + 18 punctuation marks), this is how we derive the 20 minimum number of characters for your password (assuming it's apparently of random & unrelated characters, with any meaning or relationship existing in your mind alone):
 
@@ -38,3 +38,5 @@ $ bc -l
 ```
 
 With a 20-character password providing enough key variation that the key can't be brute-forced, all remaining attacks have to be on the password itself.  This confirms the absolutely strict requirement that **the Frankenwallet password can never, never be entered outside the Frankenwallet** (where all data is absolutely encrypted and unobservable to the host computer) or in some other system that is *completely stateless* and also unobservable.
+
+So please stay most aware of the operational issues that to passwords themselves, rather than assuming vulnerabilities in the encryption algorithms: since, as we reviewed in our [introduction to software encryption](/intro/encryption), the only practical attack points will be where keys are set, verified, or exchanged: rather than breaking the cipher itself.
