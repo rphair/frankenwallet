@@ -4,7 +4,7 @@ nav_order: 50
 parent: Preparation
 title: Password strategy
 ---
-# More about passwords & encryption
+# More about encryption passwords
 
 (based on the original author's operational experience as a UNIX & security administrator)
 
@@ -39,4 +39,6 @@ $ bc -l
 
 With a 20-character password providing enough key variation that the key can't be brute-forced, all remaining attacks have to be on the password itself.  This confirms the absolutely strict requirement that **the Frankenwallet password can never, never be entered outside the Frankenwallet** (where all data is absolutely encrypted and unobservable to the host computer) or in some other system that is *completely stateless* and also unobservable.
 
-So please stay most aware of the operational issues that to passwords themselves, rather than assuming vulnerabilities in the encryption algorithms: since, as we reviewed in our [introduction to software encryption](/intro/encryption), the only practical attack points will be where keys are set, verified, or exchanged: rather than breaking the cipher itself.
+## Conclusion
+
+So please stay most aware of both the quality and confidentially issues of passwords themselves, rather than assuming vulnerabilities in the encryption algorithms: since, as we reviewed in our [introduction to software encryption](/intro/encryption), the only practical attack points will be where keys are set, verified, or exchanged: rather than breaking the cipher itself.
