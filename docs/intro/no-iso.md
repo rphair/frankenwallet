@@ -9,7 +9,7 @@ The question you might have, put into more detail:
 
 > *“Here we have a several hour build procedure that potentially thousands of users will all have to do on their own.  Wouldn't it be a great benefit to the community to make a downloadable USB image, which has all these things included, that people could begin using immediately... saving us thousands of collective man-hours of work?”*
 
-Due to the security and operational concerns below, this might not actually save the operator any time.  Additionally, with an ISO users would miss the invaluable experience of becoming intimately familiar with the security basis for their cryptocurrency livelihood by creating it from scratch: as well as being able to recreate that scenario across different hardware configurations (e.g. an internal hard drive partition [documentation forthcoming]).
+Due to the security and operational concerns below, this might not actually save the operator community *any* time.  With a readily available standardised installation ISO, users would miss the invaluable experience of becoming intimately familiar with the security basis for their cryptocurrency livelihood by creating it from scratch: as well as being able to recreate that scenario across different hardware configurations (e.g. [on an internal hard drive partition](/install/internal)).
 
 {: .highlight }
 **Reason 1**: An exploit of any prefabricated environment generally affects many users at once.

@@ -62,10 +62,10 @@ Therefore you must also designate software in a way that is completely unambiguo
 1.  If that button is missing or not working, install the Lace extension directly from its official page ([on Firefox](https://addons.mozilla.org/en-GB/firefox/addon/lace-wallet/)) or ([on Chrome](https://chromewebstore.google.com/detail/lace/gafhhkghbfjjkeiendhlofajokpaflmk)).
 1.  All the following "Cardano wallet" 24-word phrases can then be copied & pasted into the Lace screen where it says "Import wallet".  If you cannot paste the whole phrase, make sure all individually selected words are an exact match.  
 
-Likewise, list here any **exact web locations** from which your inheritors will need to construct:
-- wallet holdings for all the blockchains on which you are listing resources;
-- all URLs to log into any crypto exchanges that could be storing funds custodially;
-- all URLs of dApps necessary to reclaim funds from staking arrangements and liquidity pools.
+Generally: list here the **exact URLs** (to avoid any possibility of fakes) of:
+- sites from where your executor should download each type of wallet they will need;
+- crypto exchanges where your executor should check for stored funds;
+- any dApps necessary to reclaim funds from staking arrangements and liquidity pools.
 
 Don't shy away from including abundant and *redundant* detail!  The fewer people that need to provide "help" to nontechnical, or less technical users, the lesser the chances that your funds will be lost or stolen in the process.  
 
@@ -91,9 +91,14 @@ Here you must imagine a person trying to reconstruct your entire fortune from a 
 - list its URL, username, and login password;
 - list all registered details for authentication purposes (email, phone, any PINs, address as on KYC);
 - list any other means of authenticating your login or identity:
-  - e.g. TOTP setup code or other authentication tokens
+  - e.g. [TOTP (authenticator app)](https://en.wikipedia.org/wiki/Time-based_one-time_password) setup code or other authentication tokens
   - e.g. any PINs required for certain activities like trading or transfer  
   - including **login details for the registered email address**: likely needed for ID challenges.
+
+{: .new-title }
+> suggestion
+>
+> If you can commit to keeping such balances updated, the restoration process would be more certain if you would leave **approximate balances and dates** for **each wallet and account** to help your executor confirm they've been restored properly.
 
 {: .important-title }
 > for complex resources
@@ -169,7 +174,7 @@ Now, while in your prime, you have a chance to explain what you are giving them:
 
 ➤ All it takes is a spark to wipe out a **memory stick**{: .text-red-300 }, and your legacy along with it.  The [failure modes of flash drives](https://en.wikipedia.org/wiki/USB_flash_drive#Failures){: .text-red-300 } statistically create too much opportunity for either a manufacturing defect or prior degradation from read/write cycles to cause a failure when your document is needed the most.
 
-➤ The author's choice would be **optical media**{: .text-green-200 }, especially a **CD**{: .text-green-200 } which has a much better statistical failure immunity and life expectancy: with much greater *scratch resistance* than a **DVD**{: .text-red-300 }.  You can also easily make multiple copies of the CD and leave them in different places if concerned about loss: or even to designate a "backup" executor.
+➤ The author's choice would be **optical media**{: .text-green-200 }, especially a **CD**{: .text-green-200 } which has a much better statistical failure immunity and life expectancy: with much greater *scratch resistance* than a **DVD**{: .text-red-300 }.  You can also easily make multiple copies of the CD and leave them in different places if concerned about loss: including with other people, to ensure at least one copy is available for your executor when the time comes.
 
 ➤ Don't use a **rewritable disc**{: .text-red-300 }: these are weaker in both physical and logical structure.
 
@@ -178,7 +183,7 @@ It is absolutely vital that any media you prepare be **marked with the date on t
 {: .important-title }
 > no need to encrypt optical discs
 >
-> Though possible to make encrypted optical discs, accessing these would be much more prone to error than than reading an unencrypted ISO CD containing your already strongly encrypted testament file plus any other encrypted archives needed for your assets.
+> Though possible to make encrypted optical discs, accessing these would be much more prone to operator error than than reading an unencrypted ISO CD containing your already strongly encrypted testament file plus any other encrypted archives needed for your assets.
 
 ### 4. Deliver the password to another trusted person {#password-custody}
 

@@ -4,12 +4,12 @@ nav_order: 60
 parent: Introduction
 title: Is software encryption OK?
 ---
-# Is software encryption enough to secure my life savings or livelihood?
+# Is software encryption enough to secure my life savings and livelihood?
+{: .no_toc }
+- TOC
+{:toc}
 
-> *"some style to illustrate a dramatic quote: in skeptical user's own words"*
-
-
-## ... NEW WRITING GOES HERE ...
+## 
 
 
 ## About AES implementations in the programs you will be using {#aes-implementations}
@@ -21,3 +21,7 @@ Beyond that, the parameters for AES seem only to make a difference mathematicall
 ➤ This is why the high security requirement has been set so the password to encrypt private key archives, and documents with the seed phrases for user funds, is never entered outside the Frankenwallet and therefore cannot be observed… so any opportunity to intercept the password from a program failure or even a "zero-day bug" never takes place.
 
 ➤ Since these files and archives are never encrypted or decrypted outside the Frankenwallet or other stateless device, they cannot be exposed to password entry vulnerabilities… since all an attacker would ever see, when that data emerges in the host environment, is the fully AES-encrypted file.
+
+
+
+
