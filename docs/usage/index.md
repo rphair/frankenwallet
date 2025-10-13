@@ -13,4 +13,7 @@ Therefore this section will discuss common features of general usage, as well as
 
 [Relaxed workflow ("cool" = Internet enabled)](/cool){: .btn .btn-green }
 
-➤ Read these next sections first, for essential techniques applicable to both security models...
+{: .important-title }
+> continue here for common applications
+>
+> Regardless of your planned workflow, please read these next sections first: for essential techniques applicable to both security models and for illustrative usage scenarios...
