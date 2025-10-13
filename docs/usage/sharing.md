@@ -15,14 +15,14 @@ The Frankenwallet design will help physically separated co-workers, as well as p
 
 Computer scientists and operators will recall the general principle that [key exchange](https://en.wikipedia.org/wiki/Key_exchange) is most vulnerable when a communication channel is first established.  At this point, a potential "man in the middle" has their main, and generally their only, opportunity to compromise the key on which the rest of a otherwise perfectly encrypted communication channel is based.
 
-On conventional systems — and for [your backups](/usage/backups) or deliberately shared resources that we'll look at in this use case — that opportunity comes whenever these files are encrypted.  The Frankenwallet's [zero trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) model assumes that the user's host system also hosts an attacker with the ability to observe or record passwords that are entered there: so resources encrypted there might be intercepted and decrypted on either the host system or wherever they are transferred to.
+On conventional systems — and for [your backups](/usage/backups) or deliberately shared resources that we'll look at in this use case — that opportunity comes whenever these files are encrypted.  The Frankenwallet's [zero trust](https://en.wikipedia.org/wiki/Zero_trust_architecture) model assumes that the user's host system also hosts an attacker with the ability to observe or record passwords that are entered there: so resources encrypted there might be identified and decrypted on either the host system or any place to which they are transferred.
 
-Conversely, the same protection we believe protects our Frankenwallet backups also applies to other files and archives encrypted in the Frankenwallet for use by others.  Once our counterpart possesses our own designated encryption password — never entered outside *their own* Frankenwallet, as it never would be on ours — the same security guarantees for those resources in our own Frankenwallet will also apply to theirs.
+So the **good news** is that the same protection we believe protects our Frankenwallet backups also applies to other files and archives encrypted in the Frankenwallet for use by others.  Once our counterpart possesses our own designated encryption password — never entered outside *their own* Frankenwallet, as it would also be confined to our ours — the same security guarantees for those resources in our own Frankenwallet will also apply to theirs.
 
 {: .note }
 > This assumes acceptance of the "unbreakability" of [software AES encryption](/intro/encryption) as recommended throughout this project.
 
-This argument, if accepted, means that the only chance to decrypt your shared data has been lost if they cannot use your Frankenwallet or read its files — and likewise your data will be equally safe at the other end as long as your associates follow the same protocol.
+This argument, if accepted, means that your attacker's only chance to decrypt your shared data has been lost if they cannot use your Frankenwallet nor read its own files — and likewise your data will be equally safe at the other end as long as your associates follow the same protocol.
 
 ## Shared resource workflow {#sharing-workflow}
 
