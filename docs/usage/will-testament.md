@@ -105,7 +105,7 @@ Here you must imagine a person trying to reconstruct your entire fortune from a 
 >
 > Naive users will likely not understand too many text keys copied into a document format, so this approach could be error prone for multi-part resources like a Cardano stake pool.
 
-In these cases, your instructions might direct them to an archive — to be decrypted per your instructions, and included on the same media as the testament file — [as set up for transfer to a co-operator](/usage/sharing) so a potential new opemight download all the stake pool resources and continue the pool as your legacy.  If that seems unjustifiable given the circumstances, just include the key details **for the [stake pool pledge](https://docs.cardano.org/about-cardano/learn/pledging-rewards)**.
+In these cases, your instructions might direct them to an archive — included on the same media as the testament file, to be decrypted per your instructions — as it would be [as set up for transfer to a co-operator](/usage/sharing) so a potential new operator might download the whole stake pool configuration and continue the pool as your legacy.  If that seems unjustifiable given the circumstances, just include the key details **for the [stake pool pledge](https://docs.cardano.org/about-cardano/learn/pledging-rewards)**.
 
 {: .new-title }
 > tip
