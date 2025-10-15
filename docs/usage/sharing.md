@@ -2,7 +2,7 @@
 layout: page
 nav_order: 40
 parent: Usage
-title: "Use case 1: Sharing resources"
+title: "Use case 1: Share resources"
 ---
 # Use case 1: Sharing keys and resources with associates and co-workers
 {: .no_toc }
