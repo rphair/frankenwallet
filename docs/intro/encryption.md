@@ -4,7 +4,7 @@ nav_order: 60
 parent: Introduction
 title: Is software encryption OK?
 ---
-## Software encryption methods & their guarantees of security
+# Software encryption methods & their guarantees of security
 {: .no_toc }
 - TOC
 {:toc}
