@@ -45,7 +45,7 @@ These are some hypothetical questions to consider — for the above reason, all 
 
 ### Is the chain of software delivery by Linux media & update reliable? {#repositories}
 
-Linux itself is just as susceptible to naive malware downloads as any OS like Windows would be, but our instructions (with any exceptions justified by their own security references) will only include packages that come from official Linux software repositories — notably Libreoffice, `7z`, and `srm`.
+Linux itself is just as susceptible to naive malware downloads as any OS like Windows would be, but our instructions (with any exceptions justified by their own security references) will only include packages that come from official Linux software repositories — notably LibreOffice, `7z`, and `srm`.
 
 All packages in these repositories go through a rigid and manually cross-checked process for security auditors to confirm any changes and to ensure the distributed binaries match their open-source repositories (see [The Debian Free Software Guidelines (DFSG)](https://www.debian.org/social_contract.html#guidelines)).  
 
@@ -53,7 +53,7 @@ All packages in these repositories go through a rigid and manually cross-checked
 
 The commonly known ability to [unlock PDF documents without knowing the password](https://www.adobe.com/in/acrobat/how-to/unlock-pdf.html) should not lead users to believe *all* document encryption is equally "cosmetic" and therefore simply removable from the file.
 
-Libreoffice, <a id="release-note"></a>[ever since version 3.5](https://wiki.documentfoundation.org/ReleaseNotes/3.5#Different_Encryption_Algorithm) (in [year 2012](https://www.libreoffice.org/about-us/libreoffice-timeline)), has encrypted all document data with 256-bit AES for all ODF files: i.e. when saving in its native Writer (Document), Calc (Spreadsheet), and related formats.
+LibreOffice, <a id="release-note"></a>[ever since version 3.5](https://wiki.documentfoundation.org/ReleaseNotes/3.5#Different_Encryption_Algorithm) (in [year 2012](https://www.libreoffice.org/about-us/libreoffice-timeline)), has encrypted all document data with 256-bit AES for all ODF files: i.e. when saving in its native Writer (Document), Calc (Spreadsheet), and related formats.
 
 As this announcement indicates and source code view would confirm, all document data is encrypted *inside the document structure itself* according to a key that's only created from whatever password you enter when you [**Save with password**](https://help.libreoffice.org/25.8/en-GB/text/shared/guide/protection.html).
 
@@ -63,7 +63,7 @@ This would be a "back door" for the file itself, avoiding the much greater chall
 
 The reassurance on this point is the same as for the [chain of software delivery](#repositories): any code to do this would have to be entirely new and therefore reviewed by other code contributors, release managers, and repository maintainers before distributing it even to initial audiences.
 
-But an even greater reassurance would be what it would do *to the affected files themselves*.  It is not only human beings that read encrypted LibreOffice documents and 7z archives... they are also routinely read and catalogued into document systems that parse these files, beginning with metadata.  Anyone working on such a system would see a historically unprecedented apperance of extraneous metadata in all newly created files, and would naturally and urgently question and report it: making even such an unlikely tampering very short-lived before that part of the code would be cut out.
+But an even greater reassurance would be what it would do *to the affected files themselves*.  It is not only human beings that read encrypted LibreOffice documents and 7z archives... they are also routinely read and catalogued into document systems that parse these files, beginning with metadata.  Anyone working on such a system would see a historically unprecedented appearance of extraneous metadata in all newly created files, and would naturally and urgently question and report it: making even such an unlikely tampering very short-lived before that part of the code would be cut out.
 
 ### Can the password I enter be "grabbed" from a program by something else on the system? {#system-leaks}
 
@@ -71,7 +71,7 @@ Any uncertainty around this question points to why we are using the Frankenwalle
 
 Short of "bugs" in the program that would leak a password into the operating environment somehow, the remaining opportunity would be deliberate "hacking" by reading or poking at the system or running program's private memory space to see if these tiny opportunities could be exploited.
 
-In practice, these types of attackes are extremely difficult even under the ideal circumstance where a malicious intruder has already "hacked" a desktop or server and therefore has the opportunity for iterative methods that might eventually find a region of system memory where a password could be kept in cleartext.
+In practice, these types of attacks are extremely difficult even under the ideal circumstance where a malicious intruder has already "hacked" a desktop or server and therefore has the opportunity for iterative methods that might eventually find a region of system memory where a password could be kept in cleartext.
 
 If you think this seems practically almost impossible, you are absolutely right.  This is made statistically even more improbable by the Frankenwallet's installation being "private" and there not known to be a target for such a difficult and long-term attack which could only be perpetrated by a specialised expert: who has somehow compromised your device during the limited amount of time you use it, through its limited (or no) Internet usage.  
 
