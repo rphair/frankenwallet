@@ -14,7 +14,7 @@ This is a special case of "resource sharing" for a single draft of confidential 
 {: .new-title }
 > tip
 >
-> Even if you are not an operator or developer, browse the background & purpose of [use case \#1](/usage/sharing) first, since most of the theory & preparatory steps will also apply here.
+> Even if you are not an operator or developer, browse the background & purpose of [use case #1](/usage/sharing) first, since most of the theory & preparatory steps will also apply here.
 
 The main differences will be in:
 
