@@ -35,9 +35,11 @@ In other words, the numbers in the preceding paragraphs — indicating stellar i
 
 At the time of this writing (late 2025) there is a [history of mitigation](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#Known_attacks) — in which Dr. Schneier has been intimately involved, presenting what many believe is the best possible effort — demonstrating some reductions of this cosmic problem: which still fail to apply in any practical circumstance that would allow full 256-bit AES to be broken.  
 
+### _"But won't quantum computing make AES irrelevant?"_ {#quantum}
+
 We are now entering an era where quantum approaches to breaking ciphers will advance along with more mundane applications: but the same laws of physics that apply thermodynamic limitations to information density will also apply at some level to limit the density of optical frequency wave superpositions... and so Schneier's inventory of information density requirements would still apply.
 
-Still we can assume we are headed, at some point, for an age in which quantum computing will require the redesign of encryption strategies at all levels.  Yet socially we will have years of advance notice before such technology creates a general vulnerability of full 256-bit AES: meaning that any insecurities from the Frankenwallet's perspective are determined *only* by assurances of the integrity of keys themselves: i.e. how workflow software handles your **passwords**.  
+Still we can assume we are headed, at some point, for an age in which quantum computing will require the redesign of encryption strategies at all levels.  Yet socially we will have years of advance notice before such technology creates a general vulnerability of full 256-bit AES: meaning that any insecurities from the Frankenwallet's perspective are still determined *only* by assurances of the integrity of keys themselves: i.e. how workflow software handles your **passwords**.  
 
 ## Survey of potential vulnerabilities {#vulnerabilities}
 
