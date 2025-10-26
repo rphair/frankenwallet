@@ -238,15 +238,15 @@ Next we prepare the encrypted root filesystem.  Go down & select the larger dis
 
 ![screenshot](/assets/images/internal-162159.png)
 
-... and then choose this undocumented (though long supported) selection for the partition type, called "physical volume for encryption":
+... and then choose this undocumented (though long supported) selection for the partition type, called `physical volume for encryption`:
 
 ![screenshot](/assets/images/internal-162348.jpg)
 
-This opens up a dialogue box where you can again apply the high-security Frankenwallet password to the encrypted volume that will contain your Frankenwallet's `/` directory and all your confidential files with potentially cleartext keys: in other words certainly *use your maximum security password* again here!
+This opens up a dialogue box where you can again apply the high-security Frankenwallet password to the encrypted volume that will contain your Frankenwallet's `/` directory and all your confidential files with potentially cleartext keys: i.e. you certainly want *your maximum security password* here!
 
 ![screenshot](/assets/images/internal-162444.png)
 
-After the encrypted volume is created, note that it still won't be used to contain the root (`/`) directory yet:
+After the encrypted volume is created, it still won't be used to contain the root (`/`) directory yet:
 
 ![screenshot](/assets/images/internal-162546.png)
 
@@ -267,11 +267,11 @@ After hitting the `Install Now` button, if you've prepared properly you'll get t
 >
 > This comment that it will be changing "partition tables" is **no cause for concern** because it only applies to the virtual device for the encrypted volume (in this case, `nvme0n1p10_crypt`): *not* your disk's partition table!
 
-This inappropriate warning is because the main option of the installer (the one we can't use)  creates a "logical volume" for encrypted partitions used for the operating system: and so it's displayed here even though we haven't set up one of these. 😜
+This inappropriate warning is given because the main option of the installer (the one we can't use)  creates a "logical volume" for encrypted partitions used for the operating system: and so it's displayed here even though we haven't set up one of these. 😜
 
 
-{: .important}
-> *"Why can't I just put /boot in my root, where it normally would be?"*
+{: .highlight}
+> *"Wait... Why can't I just put `/boot` in my root, where it normally would be?"*
 
 This seems like it would make sense because `/` is already being encrypted, and it would save the trouble of having 2 separate encrypted filesystems.  In fact, this configuration is [known to work in Linux even if `/boot` is encrypted](https://wiki.archlinux.org/title/GRUB#Encrypted_/boot).  But if you select this in the installer, it will say:
 
@@ -279,7 +279,10 @@ This seems like it would make sense because `/` is already being encrypted, and 
 - You have selected the root file system to be stored on an encrypted partition.  This feature requires a separate `/boot` partition on which the kernel and `initrd` can be stored.
 - You should go back and setup a `/boot` partition.
 
-Here is a point to consider: even though it's possible (at an expert level) to merge these two partitions after the installation, due to the limitation of GRUB compatibility to LUKS1 this would also mean your Frankenwallet root — containing all your vital, high-value confidential data — would be encrypted with an older and less secure encryption method.
+Here is a point to consider: even though it would be possible (at an expert level) to merge these two partitions after the installation: 
+
+{: .highlight}
+> Due to the limitation of GRUB compatibility to LUKS1, this would also mean your Frankenwallet root — containing all your vital, high-value confidential data — would be encrypted with an older and less secure encryption method.
 
 ### Manually fine-tune the initial GRUB configuration {#fix-grub-config}
 
@@ -287,14 +290,18 @@ The final 2 installation screens — to set the time zone and set up your user a
 
 Unfortunately the GRUB building options *are not set properly to install an encrypted `/boot` partition* unless the official "Erase and install on whole disk" option is selected.  So we *must ensure manually* that the option `GRUB_ENABLE_CRYPTODISK=y` is added to the GRUB configuration file `/etc/default/grub` at the root `/target` where the new system is being built.
 
-WATCH OUT
+{: .warning-title }
+> watch out
+>
+> If the GRUB configuration isn't "patched" with this option, the installation will fail with the message: _Unable to install GRUB ... Executing `grub-install` failed ... This is a fatal error._
 
-- If the GRUB configuration isn't "hot-wired" with this option, the installation will fail with the message: "Unable to install GRUB ... Executing `grub-install` failed ... This is a fatal error"
+This quick patch can be done in 1 of two ways, depending upon the exact distro & installer version you are using.  While at one of these final 2 screens (the "time zone" or "user info" pages), open a Terminal shell and:
 
-This quick patch can be done in 1 of two ways, depending upon the exact distro & installer version you are using.  While at one of these final 2 screens (the time zone or user info pages), open a Terminal shell and:
-
-➤ 1. First check if `/target` is already mounted: which it likely will be to set the new system's time zone.  If so you'll see a `/target` directory in the Terminal and file manager, and you can simply edit the `/target/etc/default/grub` file to add the following line anywhere in that file:
-
+➤ 1. First check if `/target` is already mounted: which it likely will be to set the new system's time zone.  If so you'll see a `/target` directory in the Terminal and file manager, and you can simply edit the file
+```
+/target/etc/default/grub
+```
+... to add the following line anywhere in that file:
 ```  
 GRUB_ENABLE_CRYPTODISK=y  
 ```
@@ -316,7 +323,7 @@ When the installation is successful, you'll see this confirmation:
 
 ![screenshot](/assets/images/internal-192001.png)
 
-... and if this has happened with no complaints about GRUB failing to build, hitting the "Restart" button after the installation will reboot with the newly encrypted GRUB components.
+... and if this has happened with no complaints about GRUB failing to build, hitting the `Restart Now` button after the installation will reboot with the newly encrypted GRUB components.
 
 ## Verification of encrypted startup & new partitions {#verify-boot}
 
@@ -339,9 +346,9 @@ Then you'll see the familiar GRUB menu, in which the Frankenwallet installation 
 
 The decryption of the Frankenwallet partition itself (the root, not the `/boot` that we just decrypted from GRUB) will proceed as illustrated for the regular installation: ["Logging in" to Frankenwallet](https://frankenwallet.com/install/login/#login)
 
-### FYI: why the Frankenwallet password must be entered twice {#password-twice}
+### FYI: Why the Frankenwallet password must be entered twice {#password-twice}
 
-If you had read the first section carefully, you won't be surprised when you are expected to enter this password a second time.  This is because the encrypted root filesystem also needs to be unlocked: in fact by the second password that you entered into the installer screen under *physical volume for encryption*.
+If you read the first section of this page carefully, you won't be surprised when you are expected to enter this password a second time.  This is because the encrypted root filesystem _also_ needs to be unlocked: in fact by the second password that you entered into the installer screen under `physical volume for encryption`.
 
 There are standard procedures to unlock that filesystem automatically: which can be done securely since now the root filesystem, which can store a [LUKS encryption Keyfile](https://wiki.archlinux.org/title/Dm-crypt/Device_encryption#Keyfiles), is also encrypted.  These procedures are relatively complex and error-prone, and so would require a higher technical level if included here.  The best illustrations on setting this up in the author's experience are in these two guides:
 
@@ -377,22 +384,22 @@ cosd@coldfw:~/Desktop$ blkid
 
 ### Verify encrypted partitions from insecure host machine {#verify-host}
 
-You can especially rejoice when you see that the new partitions are also encrypted and therefore inaccessible to hackers when next rebooting into your host system; as per this view in the File Manager, and `blkid` as above:
+You can especially rejoice when you see that the new partitions are also encrypted, and therefore inaccessible to hackers, when next rebooting into your host system... as per this view in the File Manager, and `blkid` as above:
 
 ![screenshot](/assets/images/internal-231532.png)
 
-### Final step: Stop GRUB rebuild when host machine gets a kernel updateA {#kernel-no-update-grub}
+## Final step: Stop GRUB rebuild after host machine kernel updates {#kernel-no-update-grub}
 
 As long as your host system contains a Frankenwallet (or any other encrypted partition that you still need to be bootable from GRUB), you will need to suppress the normal regeneration of GRUB every time your OS repositories push out a new version of the Linux kernel and its associated files.
 
-Otherwise the GRUB regenerated on your insecure system will lose its Frankenwallet entries: and, of course, to mount these encrypted filesystems onto the host system for regenerating GRUB there would be a severe violation of the Frankenwallet principles.
+Otherwise the GRUB regenerated on your insecure system will lose its Frankenwallet entries: and, of course, to mount these encrypted filesystems onto the host system (so that a complete GRUB could be regenerated there) would be a severe violation of the Frankenwallet principles.
 
-Therefore the best approach is to allow the kernel updates to be installed but _only regenerate GRUB **when booted into the Frankenwallet**_... which will in turn probe for the new host kernel and insert its updated boot entry into your GRUB.
+Therefore the best approach is to allow the kernel updates to be installed but _only regenerate GRUB **when booted into the Frankenwallet**_... which will in turn probe for the new host kernel and insert its updated boot entries into your GRUB.
 
 The current best practice to suppress GRUB from rebuilding when there's a kernel update, according to the consistently recommended solution also summarised by Google AI ([linux disable grub rebuilding when new kernel](https://www.google.com/search?q=linux+disable+grub+rebuilding+when+new+kernel)), is:
 
 ```  
-# sudo apt-mark hold grub-pc grub-efi grub-common  
+sudo apt-mark hold grub-pc grub-efi grub-common  
 ```  
 which will confirm:
 
@@ -403,22 +410,24 @@ grub-common set on hold.
 ```
 
 {: .warning}
-> If you forget to do this, you'll lose access to your Frankenwallet the next time GRUB updates from a new kernel release in the insecure environment.
+> If you forget to do this, you'll lose access to your Frankenwallet the next time GRUB updates from a new kernel release on your host environment.
 
-If this does happen, just reboot into the Frankenwallet and follow the standard instructions to [reinstall GRUB](https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html); usually just:
+If this does happen, just reboot into the Frankenwallet and follow the standard instructions to [reinstall GRUB](https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html); usually just running these two commands:
 
 1. `grub-install /dev/nvme0n1   # your disk without any partition suffix`
 2. `update-grub                 # to rebuild GRUB from its config files`
 
 ## Removing an internal Frankenwallet {#removing}
 
-You've already have seen how you can use `gparted` to reclaim the disk space used by those partitions, so the only other changes required are on the host system:
+You've already have seen how `gparted` would work to delete the Frankenwallet's disk partitions and reclaim the disk space that they used... so the only other changes required on the host system are:
 
 ➤ 1. Undo the suppression of GRUB rebuilding after new kernel releases that was required in the previous step:
 
 ```  
 sudo apt-mark unhold grub-pc grub-efi grub-common
-
+```  
+which will confirm:
+```  
 Cancelled hold on grub-pc.  
 Cancelled hold on grub-efi.  
 Cancelled hold on grub-common.  
@@ -426,31 +435,29 @@ Cancelled hold on grub-common.
 
 ➤ 2. Then regenerate your host system's own native GRUB, which will also remove any requirement for a decryption password to be entered the next time the system boots:
 
-```  
-grub-install /dev/nvme0n1   # your disk without the partition name`  
-update-grub  
-```
+1. `grub-install /dev/nvme0n1   # your disk without any partition suffix`
+2. `update-grub`
 
 ## Troubleshooting
 
 The most important emergency tool for Linux installers & administrators to be aware of is [`boot-repair`](https://help.ubuntu.com/community/Boot-Repair) (documented best on Ubuntu, but working equally well across the whole Linux ecosystem) which collects information about your bootable partitions and rebuilds GRUB automatically.
 
-`boot-repair` may need some manual work to recognise your Frankenwallet encrypted `/boot` drive (see [this issue](https://bugs.launchpad.net/boot-repair/+bug/2077234) for that use case)... or you may wish to use it to restore your computer's original configuration, which will revert any special procedures for entering the decryption password before the GRUB menu and avoid having to suppress kernel upgrades on your host system.
+`boot-repair` may need some manual work to recognise your Frankenwallet encrypted `/boot` drive (see [this issue](https://bugs.launchpad.net/boot-repair/+bug/2077234) for that use case)... or you may wish to use it to restore your computer's original configuration, which will revert any special procedures for entering the decryption password before the GRUB menu and avoid having to suppress automatic kernel upgrades on your host system.
 
 In any case `boot-repair` is an essential item for Frankenwallet creators to know about — and an essential, commonly used tool in the Linux toolbox — so please keep this handy in any case before & after all Linux installations.
 
 ## Alternative configuration: install encrypted partitions to a larger external drive {#alternatives}
 
-As suggested in the beginning, you may avoid the inconvenience of entering the `/boot` decryption password every time the system is booted (even when only intending to use your regular host system) by following the more common security configuration of leaving the Frankenwallet on an external drive... *but* with a high performance USB SATA SSD drive that you also use for other things like data transfer and system backups.
+As suggested in the beginning, you may avoid the inconvenience of entering the `/boot` decryption password every time the system is booted (even when only intending to use your regular host system) by following the more common security configuration of leaving the Frankenwallet on an external drive... *but* using a high performance USB SATA SSD drive that you also use for other things like data transfer and system backups.
 
-Technically you could also do this with a high performance memory stick, but the required performance rating for a good Frankenwallet UX would be expensive: and even then would work roughly with the Linux cache in a way that leaves it vulnerable to delays on refreshing the data that's written there.
+Technically you could also do this with a high performance memory stick, but the required performance rating for a good Frankenwallet UX on a memory stick would be expensive: and even then would have trouble keeping up with the Linux disk cache in a way that leaves it vulnerable to delays on flushing out data that's constantly being written.
 
 The author has seen excellent external Frankenwallet performance through a modern, fast SSD attached with a USB-to-SATA cable as approximately shown in [this illustration](/intro/name): though specially made USB and eSATA SSD drives will of course work just as well or better.
 
 {: .note}
 > This is also the currently best recommended option if you might consider having a second Frankenwallet on the internal disk: or even more than two.  Otherwise you will have to go through a manual procedure to *also mount the encrypted partition(s) of all other Frankenwallets* every time regenerating GRUB on one of the Frankenwallets.
 
-The installation procedure above easily adapts to one of these drives: perhaps more easily, since you'd only have to move your external device's data partition without the concern of making an operating system corrupted or unbootable.  Also, you would be spared any difficulty of changing the boot/GRUB behaviour requiring a password each time you boot your unencrypted system... since the device with the encrypted GRUB on it would be detached.
+The installation procedure above easily adapts to installing on a large external drive, even one that's partially used: perhaps more easily, since you'd only have to move your external device's data partition without the concern of making an operating system corrupted or unbootable.  Also, you would be spared any difficulty of changing the boot/GRUB behaviour requiring a password each time you boot your unencrypted system... since the device with the encrypted GRUB on it would be detached.
 
 The setup procedure would be:
 
@@ -466,9 +473,9 @@ The setup procedure would be:
 
 ➤ Once the device is built, no modifications to the host computer are necessary.
 
-{: .note-title}
+{: .important-title}
 > be prepared
 >
-> You can immediately run the standard procedure for `boot-repair` (as per [Troubleshooting](#troubleshooting)) if the installer "decides" to remove GRUB from your computer's internal disk in the act of installing it on the new drive: sometimes done to avoid a "duplicate" GRUB when there is more than one disk connected during the install. 😖
+> You can immediately run the standard procedure for `boot-repair` (as per [Troubleshooting](#troubleshooting)) if the installer "decides" to remove GRUB from your computer's internal disk in the act of installing it on the new drive: sometimes done to avoid a "duplicate" GRUB when there is more than one disk connected during the install.
 
-However, there is no more risk of this happening than when you likely first created a Frankenwallet on a memory stick: it appears dependent upon how your BIOS handles internal drives, the type of drive hardware, whether or not you have the opportunity to disconnect them in BIOS before the installation procedure, the generation of the installer, etc. 😎
+However, there is no more risk of this happening than when you likely first created a Frankenwallet on a memory stick: it appears dependent upon how your BIOS handles external drives, the type of drive hardware, whether or not you have the opportunity to disconnect them in BIOS before the installation procedure, the generation of the installer, et cetera. 😎
