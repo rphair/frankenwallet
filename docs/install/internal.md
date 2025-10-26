@@ -105,11 +105,10 @@ We right-click that partition and select `Resize/Move`:
 
 ![screenshot](/assets/images/internal-153201.png)
 
-CAUTION
-{: .info-title} 
+{: .important-title} 
 > be advised
 >
-> Moving the end of a partition backward is generally much faster & more error-resistant than trying to move forward the beginning of a partition, which contains the densest concentration of file system structure.
+> Moving the end of a partition backward is generally much faster & more error-resistant than trying to move forward the beginning of a partition: which contains the densest concentration of file system structure.
 
 {: .warning} 
 > If the process of resizing your partition is interrupted before finishing, your data will likely be irrevocably lost.
@@ -117,8 +116,8 @@ CAUTION
 We create space here for two partitions (note `0` space "preceding" indicates the filesystem won't need to move: only truncating the end):
 
 - 1GB (1024 MB) = the encrypted `/boot`
-- + 24GB = the encrypted root (15GB minimum + long term space for software, optional OS updates, etc.)
-- = 25GB = total to shrink the existing partition 
+- \+ 24GB = the encrypted root (15GB minimum + long term space for software, optional OS updates, etc.)
+- = **25GB** = total to shrink the existing partition 
 
 For those who have not used `gparted` before, keep in mind the requested changes appear in a list of pending operations below, while showing you how your disk will look afterward, but will not actually be applied until hitting the `Apply All Operations` button at the top:
 
@@ -164,7 +163,7 @@ After quitting `gparted` we set up the smaller `/boot` partition as an encrypted
 {: .new-title}
 > confirmation
 >
-> You can check the distinction between the two encryption versions at this standard industry reference [here](https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019#LUKS_Encrypt): "In summary, the LUKS container for /boot/ must currently use LUKS version 1 whereas the container for the operating system's root file-system can use the default LUKS version 2."
+> You can check the distinction between the two encryption versions at this standard industry reference [here](https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019#LUKS_Encrypt): _In summary, the LUKS container for `/boot` must currently use LUKS version 1 whereas the container for the operating system's root filesystem can use the default LUKS version 2._
 
 Open a Terminal shell and use `lsblk` to confirm the 2 new partitions you created after the end of the larger partition:
 
@@ -199,7 +198,7 @@ control  newboot
 ```
 
 {: .note}
-> There's no need to create & configure a volume for the Frankenwallet *root* (the larger of the two partitions) since we will create that in the installer screens in the next step.
+> There's no need to create & configure a volume for the Frankenwallet *root* (the larger of the two partitions) since we will create that in the installer screens at the next stage.
 
 However, those installer screens won't be able to use the new `/boot` without a "partition table" (likely a bug or artefact in the installer)... so to bypass this problem we take this final step of create a "dummy" filesystem there:
 
