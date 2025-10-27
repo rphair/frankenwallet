@@ -95,7 +95,7 @@ First, run the command `gparted` — either from the Terminal shell or by enteri
 The image incidentally shows enough free space in the middle of the disk to install the Frankenwallet: but generally your computer's internal disk will have no space between its partitions.  So we'll follow a procedure to take some space out of the drive from the partition which you can see has the most free space: which in this case is the Linux `HOME` partition.
 
 {: .highlight} 
-> (please forgive the image quality for using photographs to illustrate choices from pop-up menus: which disable built-in screenshots)
+> (please forgive the image quality for using photographs to illustrate choices from pop-up menus: which disable the Linux Mint built-in screenshots)
 
 We right-click that partition and select `Resize/Move`:
 
@@ -116,7 +116,7 @@ We right-click that partition and select `Resize/Move`:
 We create space here for two partitions (note `0` space "preceding" indicates the filesystem won't need to move: only truncating the end):
 
 - 1GB (1024 MB) = the encrypted `/boot`
-- \+ 24GB = the encrypted root (15GB minimum + long term space for software, optional OS updates, etc.)
+- \+ 24GB = the encrypted root (15GB minimum + long term space for software & any OS updates)
 - = **25GB** = total to shrink the existing partition 
 
 For those who have not used `gparted` before, keep in mind the requested changes appear in a list of pending operations below, while showing you how your disk will look afterward, but will not actually be applied until hitting the `Apply All Operations` button at the top:
@@ -143,16 +143,16 @@ We select that `unallocated` space to create two partitions within it (with the 
 
 ![screenshot](/assets/images/internal-153524.jpg)
 
-... and then doing the same to create a 24 GB "cleared" partition in the larger space:
+... and then doing the same to create a 24 GB `cleared` partition in the larger space:
 
 ![screenshot](/assets/images/internal-153756.png)
 
-Upon completion, you'll have 2 new "cleared" partitions:
+Upon completion, you'll have 2 new `cleared` partitions:
 
 ![screenshot](/assets/images/internal-153813.png)
 
 {: .note}
-> After "Applying all operations" again (`gparted` will warn you if you quit without doing that!), these will show in `gparted` as "unknown" — since "cleared" is not a filesystem state, but only a one-time procedure to confirm no filesystem traces are there:
+> After "Applying all operations" again (`gparted` will warn you if you quit without doing that!), these will show in `gparted` as "unknown" — since `cleared` is not a filesystem state, but only a one-time procedure to confirm no filesystem traces are there:
 
 ![screenshot](/assets/images/internal-153840.png)
 
@@ -225,14 +225,14 @@ We will hit the `Change` button after selecting each of the resources we just cr
 
 ![screenshot](/assets/images/internal-161643.jpg)
 
-Make sure it will still be used as an EXT4 filesystem (you can reformat again, or not: it doesn't matter), and most importantly choose it to be used as `/boot` in the pull-down menu:
+Make sure it will still be used as an EXT4 filesystem (you can format it again, or not: it doesn't matter), and most importantly choose it to be used as `/boot` in the pull-down menu:
 
 ![screenshot](/assets/images/internal-161735.png)
 
 ![screenshot](/assets/images/internal-161809.png)
 
 {: .note}
-> If it complains about "no partition table" before it gets to this stage, it means you forgot to a create filesystem for it as in the previous section!
+> If it complains about "no partition table" on the `/dev/mapper` device before it gets to this stage, it means you forgot to a create filesystem for it as in the previous section!
 
 Next we prepare the encrypted root filesystem.  Go down & select the larger disk partition we created and click `Change`:
 
@@ -317,7 +317,7 @@ while [ ! -d /target/etc/default/grub.d ]; do sleep 0.1; done; echo "GRUB_ENABLE
 {: .new-title}
 > ready to go!
 >
-> The system installation will begin after submitting the User Info screen (on Mint) or after one final confirmation of the partitions it will use (on Ubuntu), and will generally be distro-dependent: so ensure you've done the GRUB path before your save your User Info!
+> The system installation will begin after submitting the User Info screen (on Mint) or after one final confirmation of the partitions it will use (on Ubuntu), and will generally be distro-dependent: so ensure you've done the GRUB patch before your save your User Info!
 
 When the installation is successful, you'll see this confirmation:
 
@@ -327,7 +327,7 @@ When the installation is successful, you'll see this confirmation:
 
 ## Verification of encrypted startup & new partitions {#verify-boot}
 
-After the installation completes — upon hitting "Restart", removing the installation media, and starting your computer again — as expected, you'll first see a sparse GRUB prompt for the LUKS passphrase for the `/boot` volume (showing its disk partition and UUID) which it needs to read before any GRUB partitions are accessible from the usual menu:
+After the installation completes — upon hitting "Restart", removing the installation media, and starting your computer again — as expected, you'll first see a sparse GRUB prompt for the LUKS passphrase for the `/boot` volume (showing its disk partition and UUID) which it needs to read before any bootable partitions are accessible from the usual menu:
 
 ![screenshot](/assets/images/internal-193912.jpg)
 
@@ -335,7 +335,7 @@ Entering the passphrase successfully will respond like this (be prepared for abo
 
 ![screenshot](/assets/images/internal-193943.jpg)
 
-Then you'll see the familiar GRUB menu, in which the Frankenwallet installation will appear at the top (since ***it*** generated GRUB) — where it will also be the new default selection — and your regular operating system(s) will appear further down the menu (in this case, the author's unencrypted Ubuntu):
+Then you'll see the familiar GRUB menu, in which the Frankenwallet installation will appear at the top (since ***it*** generated GRUB) — where it will also be the new default selection — and your regular operating system(s) will appear further down the menu (in this case, the author's host Ubuntu):
 
 ![screenshot](/assets/images/internal-193954.jpg)
 
@@ -392,7 +392,7 @@ You can especially rejoice when you see that the new partitions are also encrypt
 
 As long as your host system contains a Frankenwallet (or any other encrypted partition that you still need to be bootable from GRUB), you will need to suppress the normal regeneration of GRUB every time your OS repositories push out a new version of the Linux kernel and its associated files.
 
-Otherwise the GRUB regenerated on your insecure system will lose its Frankenwallet entries: and, of course, to mount these encrypted filesystems onto the host system (so that a complete GRUB could be regenerated there) would be a severe violation of the Frankenwallet principles.
+Otherwise the GRUB regenerated on your insecure host system will lose its Frankenwallet entries: and, of course, to mount these encrypted filesystems onto the host system (so that a complete GRUB could be regenerated there) would be a severe violation of the Frankenwallet principles.
 
 Therefore the best approach is to allow the kernel updates to be installed but _only regenerate GRUB **when booted into the Frankenwallet**_... which will in turn probe for the new host kernel and insert its updated boot entries into your GRUB.
 
@@ -450,20 +450,20 @@ In any case `boot-repair` is an essential item for Frankenwallet creators to kno
 
 As suggested in the beginning, you may avoid the inconvenience of entering the `/boot` decryption password every time the system is booted (even when only intending to use your regular host system) by following the more common security configuration of leaving the Frankenwallet on an external drive... *but* using a high performance USB SATA SSD drive that you also use for other things like data transfer and system backups.
 
-Technically you could also do this with a high performance memory stick, but the required performance rating for a good Frankenwallet UX on a memory stick would be expensive: and even then would have trouble keeping up with the Linux disk cache in a way that leaves it vulnerable to delays on flushing out data that's constantly being written.
+Technically you could also do this with a high performance memory stick, but the required performance rating for a good Frankenwallet UX on a memory stick would be expensive: and even then it would have trouble keeping up with the Linux disk cache in a way that causes periodic hanging, and possibly filesystem corruption, from accumulated delays on flushing out all written file data.
 
 The author has seen excellent external Frankenwallet performance through a modern, fast SSD attached with a USB-to-SATA cable as approximately shown in [this illustration](/intro/name): though specially made USB and eSATA SSD drives will of course work just as well or better.
 
 {: .note}
-> This is also the currently best recommended option if you might consider having a second Frankenwallet on the internal disk: or even more than two.  Otherwise you will have to go through a manual procedure to *also mount the encrypted partition(s) of all other Frankenwallets* every time regenerating GRUB on one of the Frankenwallets.
+> This is also the currently best recommended option if you might otherwise consider having a second Frankenwallet on the internal disk: or even more than two.  Otherwise you will have to go through a manual procedure to *also mount the encrypted partition(s) of all other Frankenwallets* every time regenerating GRUB on one of the Frankenwallets.
 
-The installation procedure above easily adapts to installing on a large external drive, even one that's partially used: perhaps more easily, since you'd only have to move your external device's data partition without the concern of making an operating system corrupted or unbootable.  Also, you would be spared any difficulty of changing the boot/GRUB behaviour requiring a password each time you boot your unencrypted system... since the device with the encrypted GRUB on it would be detached.
+The installation procedure above easily adapts to installing on a large external drive, even one that's partially used: perhaps more easily, since you'd only have to move your external device's data partition without the concern of making an operating system corrupted or unbootable.  Also, you would be spared any difficulty of changing the boot/GRUB behaviour requiring a password each time you boot your unencrypted system... since the device with the encrypted GRUB on it could be detached.
 
 The setup procedure would be:
 
 ➤ Boot into your installation media as above with the external drive attached.
 
-➤ Prepare your partitions the same way as above: either resizing your drive's data partition to leave the required space at the beginning (will take longer to shrink *and* especially to move its beginning) or at the end (generally much faster).
+➤ Prepare your partitions the same way as above: either resizing your drive's data partition to create the required space at the beginning (will take longer to shrink *and* especially to move its beginning) or at the end (generally much faster).
 
 ➤ Prepare the `/boot` partition in the same way at the command line, and set up the root and `/boot` partitions by selecting them on the external drive the same way in the installer.
 
@@ -476,6 +476,6 @@ The setup procedure would be:
 {: .important-title}
 > be prepared
 >
-> You can immediately run the standard procedure for `boot-repair` (as per [Troubleshooting](#troubleshooting)) if the installer "decides" to remove GRUB from your computer's internal disk in the act of installing it on the new drive: sometimes done to avoid a "duplicate" GRUB when there is more than one disk connected during the install.
+> You can immediately run the standard procedure for `boot-repair` (as per [Troubleshooting](#troubleshooting)) ***if*** the installer "decides" to remove GRUB from your computer's internal disk in the act of installing it on the new drive: sometimes done to avoid a "duplicate" GRUB when there is more than one disk connected during the install.
 
-However, there is no more risk of this happening than when you likely first created a Frankenwallet on a memory stick: it appears dependent upon how your BIOS handles external drives, the type of drive hardware, whether or not you have the opportunity to disconnect them in BIOS before the installation procedure, the generation of the installer, et cetera. 😎
+However, there is no more risk of this happening than when you likely first created a Frankenwallet on a memory stick: it appears dependent upon how your BIOS handles external drives, the type of drive hardware, whether or not you can disconnect an internally connected disk in BIOS before the installation procedure, the generation of the installer, and other system dependent factors. 😎
