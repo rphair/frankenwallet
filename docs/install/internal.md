@@ -35,7 +35,7 @@ At the time of this writing, if you search Google for [debian should not encrypt
 Installing from the Ubuntu installer (also used by both Debian and Mint) with what it calls "whole disk encryption" will do exactly this: it will set up an encrypted volume for all system and user files but leave the UEFI and `/boot` partitions unencrypted.  This is acceptable for an external drive that's removed during normal operation, but security conscious users would recognise the following flaw if installing this way on any part of an unremovable disk:
 
 {: .highlight-title} 
-> residual security risk with unencrypted boot partition
+> residual security risk for unencrypted boot partitions
 > 
 > A motivated hacker of your host system, seeing that you also have an encrypted partition and a separate unencrypted `/boot` partition, could substitute a hacked kernel or [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) there that would provide remote access to devices or other back doors.
 
