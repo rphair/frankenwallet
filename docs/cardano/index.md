@@ -15,7 +15,7 @@ This section is intended for operators and developers who need a "cold" (= "air 
 {: .new-title }
 > coming soon: Stake pool operator scripts
 >
-> Many operators will likely be interested in a secure environment for the stake pool operator scripts, which is scheduled for integration testing & documentation after the current material passes its first stage of Project Catalyst audit: currently on track for **May 2025**, so the SPO scripts will appear in this section shortly afterward.
+> Many operators will likely be interested in a secure environment for the stake pool operator scripts, which is scheduled for integration testing & documentation after the October 2025 web site extensions: i.e. some time early in November.  An introduction to the SPO Scripts workflow will appear here shortly afterward.
 
 ## Third party software not required
 

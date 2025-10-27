@@ -34,3 +34,8 @@ Therefore you should make sure that no super-hacking Evil Maids are ever able to
 
 {: .warning }
 If and when using the Frankenwallet on a physically insecure public computer, keep in mind the risk that computer might have a tampered or institutionally compromised BIOS.
+
+{: .new-title }
+> tip
+>
+> If you are fluent enough in Linux to use it in your daily workflow and build & rebuild systems, and the subject of more tamper-proof encryption interests you, please read and consider following at least some aspects of the alternative configuration at [Installing the Frankenwallet on an internal disk partition](/install/internal) — mainly addressing the challenges of encrypting the `/boot` partition.
