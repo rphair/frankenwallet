@@ -335,6 +335,9 @@ Entering the passphrase successfully will respond like this (be prepared for abo
 
 ![screenshot](/assets/images/internal-193943.jpg)
 
+{: .note}
+> If the password is entered incorrectly, you'll see a sparse text-only screen with the `grub>` prompt that is displayed when there is no readable GRUB configuration.  It won't prompt to retry the password, so generally the best way to proceed is to turn the computer off & on again.
+
 Then you'll see the familiar GRUB menu, in which the Frankenwallet installation will appear at the top (since ***it*** generated GRUB) — where it will also be the new default selection — and your regular operating system(s) will appear further down the menu (in this case, the author's host Ubuntu):
 
 ![screenshot](/assets/images/internal-193954.jpg)
@@ -384,7 +387,7 @@ cosd@coldfw:~/Desktop$ blkid
 
 ### Verify encrypted partitions from insecure host machine {#verify-host}
 
-You can especially rejoice when you see that the new partitions are also encrypted, and therefore inaccessible to hackers, when next rebooting into your host system... as per this view in the File Manager, and `blkid` as above:
+You can especially rejoice when you see that the new partitions are also encrypted, and therefore inaccessible to hackers, when next rebooting into your host system... as per this view in the File Manager, also verifiable by `blkid` as above:
 
 ![screenshot](/assets/images/internal-231532.png)
 
