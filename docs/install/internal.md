@@ -39,9 +39,9 @@ Installing from the Ubuntu installer (also used by both Debian and Mint) with wh
 > 
 > A motivated hacker of your host system, seeing that you also have an encrypted partition and a separate unencrypted `/boot` partition, could substitute a hacked kernel or [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) there that would provide remote access to devices or other back doors.
 
-So, according to the institutionally promoted conception, this mode of intrusion is considered of "little security benefit" and "generally unnecessary" — even though it would provide a guaranteed means of access to your resources stored in an internally installed Frankenwallet.
+According to the institutionally promoted conception, this mode of intrusion is considered of "little security benefit" and "generally unnecessary" — even though it would provide a technical means of access to your encrypted data stored in an internally installed Frankenwallet.
 
-Leaving `/boot` unencrypted suits the current state of the industry because the only defence against such tampering is the centralised institutional signing of boot images so they can be used with Secure Boot enabled in the computer's BIOS settings.  However, long term users of Linux will know that this signing is often delayed: and that "secure boot" would need to be disabled if ever customising one of those boot images.
+Leaving `/boot` unencrypted suits the current state of the industry because the only defence against such tampering is the centralised institutional signing of boot images so they can be used with Secure Boot enabled in the computer's BIOS settings.  However, long term users of Linux will know that this signing is often delayed: and that "secure boot" would need to be disabled if ever customising one of those boot images (e.g. if setting up a [`keyfile`](#password-twice)).
 
 Therefore it is unfortunate for our security requirements that Linux platform engineers don't consider tamper-proofing the the `/boot` partition a priority... since this is exactly how a motivated hacker would continue their search for cryptocurrency on a hacked host system.
 
