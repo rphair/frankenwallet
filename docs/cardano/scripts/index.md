@@ -41,7 +41,7 @@ The only package required by the SPO scripts not installed by default in the Deb
 {: .note }
 Though another script archive is available for *testnet* operations, this usage is less significant for the Frankenwallet because of the reduced need for security precautions & secure workflow.
 
-➤ Ensure you have an Internet-enabled host for the SPO scripts to collect the required information and execute the results by [installing the scripts in Online- or Light-Mode](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#online-mode-vs-light-mode-vs-offline-mode) somewhere that you have access to... and are able to run tasks like those listed in [Examples in Online-Mode](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#examples-in-online-mode).
+➤ [Install the scripts in Online- or Light-Mode](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#online-mode-vs-light-mode-vs-offline-mode) — to complement the Offline-Mode scripts you will be installing — and verify they can run the [Examples in Online-Mode](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#examples-in-online-mode).
 
 {: .new-title }
 > tip
