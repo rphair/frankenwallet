@@ -16,7 +16,7 @@ This section is intended for operators and developers who need a "cold" (= "air 
 
 Many operators have come to depend on Cardano's [StakePool Operator Scripts (SPOS)](https://github.com/gitmachtl/scripts) and so — although these scripts may not be necessary for operators who are fluent with `cardano-cli` commands and comfortable managing blockchain resources manually — these scripts should be considered compatible with the Frankenwallet.
 
-These operators should please continue through this section in order to the [SPO Scripts](/cardano/scripts) subsection, which will help them get started quickly and safely with using these scripts in the Frankenwallet.
+These operators should please continue through this section, in order, to the [SPO Scripts](/cardano/scripts) subsection: which will help them get started quickly and safely installing & using these scripts in the Frankenwallet.
 
 ## Third party software not required
 
