@@ -115,7 +115,7 @@ The greatest benefit of the Frankenwallet is to use LibreOffice and the 7z archi
 sudo apt install libreoffice p7zip-full p7zip-rar
 ```
 
-### Text editor essentials
+### Text editor essentials {#vim}
 
 Long time users of the text editor `vi` may find it difficult without the modern extensions in the `vim` package — but not realise these are missing until after the air gap is engaged:
 
@@ -127,6 +127,14 @@ sudo apt install vim
 > If you are fond of any other Linux command line editor (another popular choice = [`nano`](https://en.wikipedia.org/wiki/GNU_nano)) then put its package name here in place of, or in addition to, `vim`.  For popular choices, generally the package name is the same as the command name.
 
 ➤ Now you can **disconnect again from the Internet**, and leave it unconnected indefinitely… until if and when you need to download any CLI software or install network dependent applications for a "cool" environment.
+
+### JSON parsing {#jq}
+
+This isn't needed by the Frankenwallet itself, nor by Cardano softare, but it should be installed in case you choose to set up the [Stake Pool Operator Scripts](/cardano/scripts) which work through JSON files:
+
+```bash
+sudo apt install jq
+```
 
 ## Reboot (for the first time) {#first-reboot}
 
