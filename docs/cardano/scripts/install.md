@@ -9,7 +9,7 @@ title: Installation
 - TOC
 {:toc}
 
-## Install & configure the software {#software}
+## Install & configure the offline scripts {#software}
 
 {: .warning }
 Since your Frankenwallet and host machine are sharing drives, you _must_ install the SPO Scripts on the Frankenwallet disk and ***not* the host machine** disk.
