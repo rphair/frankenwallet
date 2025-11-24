@@ -1,6 +1,7 @@
 ---
 layout: page
 nav_order: 30
+parent: Cardano secure workflow
 title: Cardano SPO Scripts
 ---
 # Cardano Stake Pool Operator Scripts in the Frankenwallet
