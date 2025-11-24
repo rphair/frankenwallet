@@ -29,7 +29,7 @@ It is against these recommendations to mix the security levels of both the "cool
 
 ## What if I need *both* private key secure workflow *and* light wallets? {#both-cool-and-cold}
 
-Then you are an ideal candiate to create & use **two** Frankenwallets... just as the [COSD pool](https://cosd.com) has from the beginning, since this material was first developed from 2020 through 2021.  Isolation between your extremely vulnerable cleartext private keys and your less vulnerable encrypted application data is ***exactly*** the purpose of this security model.
+Then you are an ideal candiate to create & use **two** Frankenwallets... just as the [COSD pool](https://cosd.com/pool) has from the beginning, since this material was first developed from 2020 through 2021.  Isolation between your extremely vulnerable cleartext private keys and your less vulnerable encrypted application data is ***exactly*** the purpose of this security model.
 
 {: .new-title }
 > tip: if creating two Frankenwallets
