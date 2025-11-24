@@ -65,7 +65,7 @@ Run `01_workOffline.sh execute` as many times as necessary to execute all your t
 Operators interested in backing up this material outside the Frankenwallet will basically follow the procedure in [Backups from Frankenwallet to host machine](/usage/backups), but with one important difference:
 
 {: .highlight }
-The pool files won't be separated between [low security](/prepare/password-low) and [high security](/prepare/password-high) requirements (based on the consequences of a security breach): so when encrypting the whole directory for backup it should be with your **high**- security Frankenwallet password.
+The pool files won't be separated between [low security](/prepare/password-low) and [high security](/prepare/password-high) requirements (based on the consequences of a security breach): so when encrypting the whole directory for backup it should be with your **high**-security Frankenwallet password.
 
 Recall that the lower-security files were kept encrypted with a password that the user would feel comfortable entering on the host machine: while the higher-security password can never be entered on an Internet-connected system.  
 

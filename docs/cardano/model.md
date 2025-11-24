@@ -21,6 +21,8 @@ The Frankenwallet model will be exactly the same *except* that it won't require 
 {: .highlight }
 > The rest of material below suggests steps you might want to do differently on the Frankenwallet than you would on a traditional "air gap" system with a memory stick transferring your files.
 
+This general model is also used whenever utilities like the Stake Pool Operator Scripts are incorporated into the secure workflow ([see example](/cardano/scripts/usage/#example)).
+
 ## 1. Assembling the transaction details on the host machine {#assemble}
 
 ### Keep a current `protocol.json` file in your [host folder](/prepare/#host-folder) {#protocol-file}

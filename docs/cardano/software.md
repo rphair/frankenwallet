@@ -49,7 +49,7 @@ ln -s cardano-cli-10.3.1 cardano-cli
 
 ## Move CLI binary to the Frankenwallet
 
-Upon your next boot into the Frankenwallet, you'll be able to move the current version into a place where it will be called with every executed `cardano-cli` command and from any operator scripts that you install:
+Upon your next boot into the Frankenwallet, you'll be able to move the current version into a place where it will be called with every executed `cardano-cli` command and from any [operator scripts](/cardano/scripts) that you install:
 
 ➤ Make a subfolder of your Frankenwallet _home directory_ called `/bin`.
 
