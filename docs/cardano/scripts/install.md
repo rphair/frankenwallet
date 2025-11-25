@@ -16,7 +16,7 @@ Since your Frankenwallet and host machine are sharing drives, you _must_ install
 
 Why?  Since scripts can be changed so easily — and have many lines of code that operators couldn't comb all the time for intrusions (though you can [verify their checksums](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#how-to-installcopy-the-scripts)) — we have to avoid the possibility that a compromised host system could add back doors, key extraction, and other malicious code into the SPO Script files.
 
-This point isn't stressed in the SPO Scripts repository, since there it's understood you'd only be installing the offline scripts on a physically separated, dedicated machine that doesn't share disks with any other machine having Internet access: and therefore there would be no opportunities for tampering.
+This point isn't stressed in the SPO Scripts repository, since there it's understood you'd only be installing the offline scripts on a physically separated, dedicated machine that doesn't share disks with any other machine having Internet access: and therefore would present no opportunities for tampering.
 
 {: .highlight-title }
 > be careful
