@@ -39,7 +39,7 @@ Most readers interested in this subject will already know how to:
 
 Therefore, please be familiar with at least #1 and #2 above, so we can focus on:
 
-- particular installation procedures & parameters to ensure an **encrypted OS partition** (and, where possible, an encrypted boot partition);
+- particular installation procedures & parameters to ensure an **encrypted OS partition** (and, if willing to put up with some more work & operating inconvenience, an [encrypted boot partition](/install/internal));
 - a model for **secure workflow**: to allow common tasks to be done repeatedly in the Frankenwallet, while allowing the data & procedures for these tasks to be recorded, stored, and backed up on the host machine;
 - OS and application **security tuning**: in case the chosen security configuration permits restricted Internet access (for blockchain synchronisation, dApp access, and/or software upgrades).
 
