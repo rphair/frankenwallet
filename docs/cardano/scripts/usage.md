@@ -41,7 +41,10 @@ This follows the SPO Scripts documentation section [Sending some funds from one 
 
 ➤ **1. Obtain necessary information from online machine**
 
-Running `01_sendLovelaces.sh` will build the file `offlineTransfer.json` in your "online" SPO Scripts directory as per the example: saving the balances from the wallets used in your transaction.
+Running `01_workOffline.sh` will build the file `offlineTransfer.json` in your "online" SPO Scripts directory as per the example: saving the balances from the wallets used in your transaction; e.g., for each wallet you intend to use:
+```
+./01_workOffline.sh add owner.payment
+```
 
 Once this is complete, copy `offlineTransfer.json` to the Frankenwallet [host folder.](/usage/host-folder)  (If your host machine and the machine with your online SPO scripts are different, you'll also have to transfer it between machines.)
 
