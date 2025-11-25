@@ -50,7 +50,7 @@ Once this is complete, copy `offlineTransfer.json` to the Frankenwallet [host f
 
 ➤ **2. Generate transaction in the Frankenwallet**
 
-Reboot into the Frankenwallet and move `offlineTransfer.json` from the host folder into the Frankenallet's "offline" SPO scripts directory.
+Reboot into the Frankenwallet and move `offlineTransfer.json` from the host folder into the Frankenwallet's "offline" SPO scripts directory.
 
 {: .important }
 This should always involve moving a file from one directory to another... since the Frankenwallet's copy of the SPO scripts should not be installed *anywhere* on the host machine — *including* the host folder — to prevent tampering with the scripts.
