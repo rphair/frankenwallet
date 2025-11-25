@@ -55,7 +55,11 @@ Reboot into the Frankenwallet and move `offlineTransfer.json` from the host fol
 {: .important }
 This should always involve moving a file from one directory to another... since the Frankenwallet's copy of the SPO scripts should not be installed *anywhere* on the host machine — *including* the host folder — to prevent tampering with the scripts.
 
-When you're done using the `01_sendLovelaces.sh` script to update the `offlineTransfer.json` file, move it back from the SPO Scripts directory into the host folder again: for execution by the "online" scripts.
+When you're done using the `01_sendLovelaces.sh` script to update the `offlineTransfer.json` file — e.g. for each transaction you're making:
+```
+./01_sendLovelaces.sh owner.payment smallwallet3 1000000000
+```
+— move it back from the SPO Scripts directory into the host folder again: for execution by the "online" scripts.
 
 ➤ **3. Submit transaction through online machine**
 
