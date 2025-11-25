@@ -65,7 +65,10 @@ When you're done using the `01_sendLovelaces.sh` script to update the `offlineTr
 
 Reboot into your host environment and move/copy the `offlineTransfer.json` file to the "online" SPO Scripts directory.  (If your host machine and the machine with your online SPO scripts are different, you'll also have to transfer it between machines.)
 
-Run `01_workOffline.sh execute` as many times as necessary to execute all your transactions that were assembled in the Frankenwallet.
+Run this as many times as necessary to execute all your transactions that were assembled in the Frankenwallet:
+```
+./01_workOffline.sh execute
+```
 
 ## Backing up the SPO Scripts pool directory {#backups}
 
