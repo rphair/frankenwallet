@@ -67,7 +67,7 @@ Operators interested in backing up this material outside the Frankenwallet will 
 {: .highlight }
 The pool files won't be separated between [low security](/prepare/password-low) and [high security](/prepare/password-high) requirements (based on the consequences of a security breach): so when encrypting the whole directory for backup it should be with your **high**-security Frankenwallet password.
 
-Recall (from [file encryption levels](/usage/security))that the lower-security files were kept encrypted with a password that the user would feel comfortable entering on the host machine: while the higher-security password can never be entered on an Internet-connected system.  
+Recall (from [file encryption levels](/usage/security)) that the lower-security files were kept encrypted with a password that the user would feel comfortable entering on the host machine: while the higher-security password can never be entered on an Internet-connected system.  
 
 - This is to allow users and operators access to less confidential files more freely on the host system... for example, stake and payment addresses which can be used and transmitted openly.
 
