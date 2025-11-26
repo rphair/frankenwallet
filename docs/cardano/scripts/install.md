@@ -78,7 +78,7 @@ Generally this will happen automatically, since your Frankenwallet home director
 If there's any doubt, any time you need to ensure you're not in the host folder nor _any_ part of the filesystems on your host machine:
 
 1.  run `df .` from your shell, or in a Terminal opened in that file manager window;
-2.  check the Filesystem shows as the virtual device for your encrypted Frankenwallet partition (beginning with `/dev/mapper`) rather than a raw disk device on your host computer (e.g. `/dev/sd*` or `/dev/nvme*`).
+2.  check the Filesystem shows as the virtual device for your encrypted Frankenwallet partition (`/dev/mapper*`) rather than a raw disk device on your host computer (e.g. `/dev/sd*` or `/dev/nvme*`).
 
 ### After the import process {#import-after}
 
