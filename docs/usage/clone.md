@@ -35,8 +35,8 @@ Though Clonezilla has the ability to decrypt a filesystem, the device-to-device 
 
 When making a simple copy from one device to another, Clonezilla will clone one LUKS partition to another by copying the encrypted data block-for-block.  This has the following consequences:
 
-- advantage: It will be efficient and secure, without exposing the Frankenwallet password or encrypted data to the application or the environment where it's running.
-- disadvantage: The new disk size must generally be equal to or larger than the old one, and any space difference at the end of a larger partition will be generally left unused.
+- advantage: It will be secure, without exposing the Frankenwallet password or encrypted data to the application or the environment where it's running.
+- disadvantages: The new disk size must generally be equal to or larger than the old one, and any space difference at the end of a larger partition will be generally left unused.  Also, unallocated space will also need to be copied (since `clonezilla` won't know it's unallocated).
 
 There will be opportunities later (explained below) to adjust sizes if they are different: but to get started the recommendation would be to use external drives of roughly the same size (and try to always install on the smallest one first).
 
