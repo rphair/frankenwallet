@@ -34,7 +34,7 @@ This precaution is to avoid cases where an Internet or browser app search for `E
 {: .warning }
 The "scratch" file that keeps your casual records, links, procedures, addresses, and account balances **cannot** be used to store your passphrases, because it require access from the host machine and therefore is encrypted with the [low-security password](/usage/security/#use-cases-low-security).. only the [high-security password](/usage/security/#use-cases-high-security) is suitable to encrypt your passphrases (as per [File encryption levels](/usage/security)).
 
-At this point, if not already, you must therefore designate a file on your host machine to store passphrases and any other Cardano account private key information.  You'll then use thie file for:
+At this point, if not already, you must therefore designate a file on your host machine to store passphrases and any other Cardano account private key information.  You'll then use this file for:
 * recording (copy & paste, whenever allowed) the full wallet passphrase when it is created;
 * keeping the spending password (or hint for that password) next to the passphrase;
 * periodically verifying the passphrase via the Eternl UI or by importing into another wallet.
