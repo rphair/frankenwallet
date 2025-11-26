@@ -69,7 +69,7 @@ Otherwise: to administer your existing pool, follow the SPO Scripts doc section�
 This documentation section (you may have to click **▸ Show Example** if it's not displayed) requires that you *choose a directory* to consolidate all your pool files.
 
 {: .warning }
-Do NOT put this directory in your host folder, or anywhere on your host machine!
+Do NOT put this directory in your host folder, or anywhere on your host machine's disks!
 
 As we had to check with the SPO Scripts themselves, it's even more important that we ensure your *keys* are kept on the Frankenwallet's own encrypted drive.
 
