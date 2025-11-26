@@ -26,7 +26,7 @@ The modes of running Clonezilla present additional benefits to operators and age
 {: .highlight }
 on Wikipedia: [Clonezilla](https://en.wikipedia.org/wiki/Clonezilla) and its elementary component [Partclone](https://en.wikipedia.org/wiki/Partclone)
 
-The program is highly flexible: with even more flexibility if users are able to revert to the Linux command line to arrange custom environments to create and extract partition images.
+The program is highly flexible, with even more flexibility if users are able to revert to the Linux command line to arrange custom environments to create and extract images of disks & partitions.
 
 But since Linux images for Full-Disk Encryption are so consistent (from [installation with LVM and encryption](https://ubuntu.com/tutorials/install-ubuntu-desktop#6-type-of-installation)), you will likely want Clonezilla to simply make an entire disk (`device-to-device`) copy in "beginner mode" so that the procedure will work almost automatically.
 
