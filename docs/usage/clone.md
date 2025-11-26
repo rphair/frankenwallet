@@ -24,7 +24,7 @@ When originally considering the best methods for making multiple copies of a Fra
 The modes of running Clonezilla present additional benefits to operators and agencies who want to distribute their operations among multiple Frankenwallets, as well as individuals simply using it to back up a single device's operations or data.
 
 {: .highlight }
-see Wikipedia: ([Clonezilla](https://en.wikipedia.org/wiki/Clonezilla)) and its elementary component [Partclone](https://en.wikipedia.org/wiki/Partclone)
+on Wikipedia: [Clonezilla](https://en.wikipedia.org/wiki/Clonezilla) and its elementary component [Partclone](https://en.wikipedia.org/wiki/Partclone)
 
 The program is highly flexible: with even more flexibility if users are able to revert to the Linux command line to arrange custom environments to create and extract partition images.
 
