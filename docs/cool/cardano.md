@@ -58,6 +58,6 @@ You will then be able to launch these in the "cool" Frankenwallet without a spur
 >
 > The URLs for all your dApps can be generously bookmarked, even on the browser toolbar, of the Frankenwallet browser without giving away any of your crypto activity as it might if you did this on your host machine.
 
-Keeping these browser bookmarks for all commonly used staking, trading, and other dApp activity will keep your Frankenwallet off of explicit Internet search... and using all these sites _**only** in the Frankenwallet_ will avoid associating any of your crypto account activity with the "real world" identying activities on your host machine.
+Keeping these browser bookmarks for all commonly used staking, trading, and other dApp activity will keep your Frankenwallet off of explicit Internet search... and using all these sites _**only** in the Frankenwallet_ will avoid associating any of your crypto account activity with the "real world" identifying activities on your host machine.
 
 
