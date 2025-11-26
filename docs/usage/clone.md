@@ -110,7 +110,7 @@ This will run the cloning *over any network*, so you won't be limited by the num
 
 With the appropriate network setup, this should also allow working groups to replicate an original Frankenwallet across long distances so that the basic configuration and/or data of a single device can then be used in multiple locations (e.g. for managing institutional crypto wallets).
 
-## Fine-tuning the clone & backups {#fine-tuning}
+## Fine-tuning the clone's partition sizes {#fine-tuning}
 
 ### Adjusting the size of cloned Frankenwallet encrypted partition {#resizing}
 
