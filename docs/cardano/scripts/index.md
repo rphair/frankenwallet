@@ -12,7 +12,7 @@ The Cardano [StakePool Operator Scripts (SPOS)](https://github.com/gitmachtl/scr
 {: .important-title }
 > FYI
 >
-> The term `stake pool` is two words (see [Cardano Developer Portal > Editorial Style Guide](https://developers.cardano.org/docs/contribute/portal-style-guide/#editorial-style-guide)) and the term `SPO` [is synonymous](https://github.com/cardano-foundation/developer-portal/pull/1674) with other blockchains' use of the term `validator`.
+> The term `stake pool` is two words (see [Cardano Developer Portal > Editorial Style Guide](https://developers.cardano.org/docs/contribute/portal-style-guide/#editorial-style-guide)) and the term `SPO` [is synonymous](https://github.com/cardano-foundation/developer-portal/pull/1674) with other blockchains' use of the term [validator](https://www.ledger.com/academy/what-is-a-blockchain-validator).
 
 As you can verify in the [SPO Scripts Mainnet documentation](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#readme) (please read this if you haven't already) the scripts can be installed anywhere... but their most logical use with the Frankenwallet will be in its [cold environment](/usage) configuration, set up to run in [offline mode](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#online-mode-vs-light-mode-vs-offline-mode): just as they would be installed on a dedicated air-gapped machine.
 
