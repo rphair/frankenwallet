@@ -9,7 +9,7 @@ title: Install Cardano CLI
 - TOC
 {:toc}
 
-## Confirm you're OK using an official, pre-built package {#github-package-ok}
+## Confirm you're OK using an official, pre-built package {#github-binaries-ok}
 
 Many operators will be accustomed to building their own software, but there are security challenges in maintaining a suitable build environment without routine Internet access, for both:
 - getting & updating the software to build
@@ -20,7 +20,7 @@ Therefore our recommendation is to download the official, pre-built [`cardano-no
 {: .note }
 If there is sufficient demand & justification, these instructions will be extended with a procedure (based on [Cardano Developer Portal > Getting `cardano-node`](https://developers.cardano.org/docs/get-started/cardano-node/installing-cardano-node)) to build the Cardano CLI (and Node) in the Frankenwallet itself... the original Frankenwallet instructions included this, before the official release packages for Linux became prompt & reliable.
 
-## Preparation on host computer
+## Preparation on host computer {#cli-prep}
 
 ➤ Make a subfolder of your [host folder]() called e.g. `pool-bin`.
 
@@ -47,7 +47,7 @@ rm cardano-cli     # if that link exists
 ln -s cardano-cli-10.3.1 cardano-cli
 ```
 
-## Move CLI binary to the Frankenwallet
+## Move CLI binary to the Frankenwallet {#cli-install}
 
 Upon your next boot into the Frankenwallet, you'll be able to move the current version into a place where it will be called with every executed `cardano-cli` command and from any [operator scripts](/cardano/scripts) that you install:
 
