@@ -5,7 +5,7 @@ parent: Introduction
 title: What does the name mean?
 ---
 # Why "Frankenwallet"?
-(in words of original author)
+(in words of project founder)
 
 When our local Cardano users group began to form, during the 2020 intense "lockdowns" in the expatriate community on a dark continent, a few of us expressed reservations that our travel worn computers were not secure enough to host the crypto wallets which would be storing much of our life savings.
 
