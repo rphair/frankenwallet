@@ -25,7 +25,7 @@ This point isn't stressed in the SPO Scripts repository, since there it's unders
 
 However, operators should be completely assured that offline SPO Scripts that operate on private keys in the Frankenwallet will be tamper-proof *as long as they're **only** installed there*.  And according to their [security model](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#online-mode-vs-light-mode-vs-offline-mode) the consequences of tampering with the *online* SPO scripts wouldn't be as serious.
 
-### Install script package from your host folder {#install-package}
+### Install script package and supporting files from your host folder {#install-package}
 
 (This adapts the SPO Scripts doc section [How to Install/Copy the Scripts](https://github.com/gitmachtl/scripts/tree/master/cardano/mainnet#how-to-installcopy-the-scripts) for the Frankenwallet.)
 
@@ -35,6 +35,12 @@ However, operators should be completely assured that offline SPO Scripts that op
 > tip
 >
 > It's marginally better to keep it as a compressed file in the host environment, rather than uncompressing it there: to avoid presenting the scripts, which can be more easily tampered with than a compressed archive, to the insecure system.
+
+➤ Also save the essential file `shelley-genesis.json` into your host folder:
+```
+cd <hostFolder>
+wget https://book.play.dev.cardano.org/environments/mainnet/shelley-genesis.json
+```
 
 ➤ Reboot into the Frankenwallet.
 
@@ -57,6 +63,12 @@ Continuing the [configuration instructions](https://github.com/gitmachtl/scripts
 ➤ Early in the file, set `workMode="offline"` (vs. the other two choices `"online"` and `"light"`): to match your air-gap configuration and the Frankenwallet's secure place in your workflow.
 
 ➤ In the section after that, ensure the variable `cardano-cli` (plus any others, if necessary) points to the place where it's actually installed (if not in the same `~/bin` directory as suggested).
+
+➤ Move the `shelley-genesis.json` from your host folder into its default location expected by the SPO scripts:
+```
+mkdir ~/cardano
+mv shelley-genesis.json ~/cardano/mainnet-shelley-genesis.json
+```
 
 ## Import pool data from any existing pool {#import}
 
