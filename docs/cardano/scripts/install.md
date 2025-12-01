@@ -36,10 +36,11 @@ However, operators should be completely assured that offline SPO Scripts that op
 >
 > It's marginally better to keep it as a compressed file in the host environment, rather than uncompressing it there: to avoid presenting the scripts, which can be more easily tampered with than a compressed archive, to the insecure system.
 
-➤ Also save the essential file `shelley-genesis.json` into your host folder:
+➤ Also save these essential genesis config files into your host folder:
 ```
 cd <hostFolder>
 wget https://book.play.dev.cardano.org/environments/mainnet/shelley-genesis.json
+wget https://book.play.dev.cardano.org/environments/mainnet/byron-genesis.json
 ```
 
 ➤ Reboot into the Frankenwallet.
@@ -64,10 +65,11 @@ Continuing the [configuration instructions](https://github.com/gitmachtl/scripts
 
 ➤ In the section after that, ensure the variable `cardano-cli` (plus any others, if necessary) points to the place where it's actually installed (if not in the same `~/bin` directory as suggested).
 
-➤ Move `shelley-genesis.json` from your host folder to its default location expected by the SPO scripts:
+➤ Move the genesis config files from your host folder to their default locations expected by the SPO scripts:
 ```
 mkdir ~/cardano
 mv shelley-genesis.json ~/cardano/mainnet-shelley-genesis.json
+mv byron-genesis.json ~/cardano/mainnet-byron-genesis.json
 ```
 
 ## Import pool data from any existing pool {#import}
