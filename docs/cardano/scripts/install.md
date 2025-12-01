@@ -64,7 +64,7 @@ Continuing the [configuration instructions](https://github.com/gitmachtl/scripts
 
 ➤ In the section after that, ensure the variable `cardano-cli` (plus any others, if necessary) points to the place where it's actually installed (if not in the same `~/bin` directory as suggested).
 
-➤ Move the `shelley-genesis.json` from your host folder into its default location expected by the SPO scripts:
+➤ Move `shelley-genesis.json` from your host folder to its default location expected by the SPO scripts:
 ```
 mkdir ~/cardano
 mv shelley-genesis.json ~/cardano/mainnet-shelley-genesis.json
