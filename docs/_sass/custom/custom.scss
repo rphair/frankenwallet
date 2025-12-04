@@ -5,8 +5,8 @@ main img {
           box-shadow: 0px 0px 10px black;
 }
 main a:hover img {
-  -webkit-box-shadow: 0px 0px 10px white;
-          box-shadow: 0px 0px 10px white;
+  -webkit-box-shadow: 0px 0px 20px $green-300;
+          box-shadow: 0px 0px 20px $green-300;
 }
 
 // who knows why these 2 theme colours weren't included in _sass/buttons.scss
