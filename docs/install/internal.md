@@ -152,7 +152,7 @@ Upon completion, you'll have 2 new `cleared` partitions:
 ![screenshot](/assets/images/internal-153813.png)
 
 {: .note}
-> After "Applying all operations" again (`gparted` will warn you if you quit without doing that!), these will show in `gparted` as "unknown" — since `cleared` is not a filesystem state, but only a one-time procedure to confirm no filesystem traces are there:
+> After "Applying all operations" again (`gparted` will warn you if you quit without doing that!), these will show in `gparted` as "unknown" — since `cleared` is not a filesystem state, but only a one-time procedure to confirm no artefacts suggesting the presence of a filesystem remain:
 
 ![screenshot](/assets/images/internal-153840.png)
 
