@@ -200,7 +200,7 @@ control  newboot
 {: .note}
 > There's no need to create & configure a volume for the Frankenwallet *root* (the larger of the two partitions) since we will create that in the installer screens at the next stage.
 
-However, those installer screens won't be able to use the new `/boot` without a "partition table" (likely a bug or artefact in the installer)... so to bypass this problem we take this final step of create a "dummy" filesystem there:
+However, those installer screens won't be able to use the new `/boot` without a "partition table" (likely a bug or artefact in the installer)... so to bypass this problem we take this final step to create a "dummy" filesystem there:
 
 ```  
 root@mint:/home/mint# mkfs.ext4 -L FWBOOT /dev/mapper/newboot  
