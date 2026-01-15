@@ -258,7 +258,7 @@ After the encrypted volume is created, it still won't be used to contain the roo
 
 ![screenshot](/assets/images/internal-164102.png)
 
-After hitting the `Install Now` button, if you've prepared properly you'll get this confirmation:
+After hitting the `Install Now` button, if you've prepared properly you'll get a confirmation like this:
 
 ![screenshot](/assets/images/internal-164115.png)
 
