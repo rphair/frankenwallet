@@ -5,56 +5,52 @@ parent: Preparation
 title: BIOS settings
 ---
 # Check your BIOS settings
+{: .no_toc }
+- TOC
+{:toc}
 
-Select one of the following 2 approaches based on how familiar you are with OS and PC booting principles:
+## 1. Ensure your computer boots in UEFI mode (if possible) {#use-uefi}
+
+Most computers in use today — unless they are more than several years old or have been deliberately set to "Legacy Mode" to support older OS installations — boot operating systems with UEFI.  This allows booting information to be kept in a single disk partition shared by multiple operating systems.
+
+The alternative is called (ambiguously) BIOS mode: in which much simpler boot parameters are stored in the first block on the disk.  Any Windows or Linux installation today will _always_ install systems to boot in UEFI mode unless the disk partitioning or BIOS settings make this impossible.
+
+Still, most modern computers can be forced to boot in "Legacy mode" — which, in the days of almost universale UEFI booting, is another term for "BIOS mode" — if the BIOS parameters select this as a default and/or a manual booting process forces it to look for a BIOS boot block on the connected drives.
+
+Since your first priority is for your Frankenwallet to work on _your_ computer, it's not likely that you'll have to change the Legacy Boot parameter in your BIOS settings.  If you're like most users today (as of 2025) Legacy Boot is only a little-used compatibility flag in case you connect a standard computer to a _very old_ bootable drive.
 
 {: .note }
-If neither of these approaches seems possible to verify based on your level of experience, you are welcome to do what most developers and enthusiasts will do: assume it will be possible to improvise around any difficulty you have in bootingthe system you are building, and continue on to the next step anyway. 🤠
-
-## 1. The simple (beginner) approach {#bios-1-beginners}
-
-Most computers in use today — unless they are more than several years old or have been deliberately set to "Legacy Mode" to suppress it — boot operating systems with UEFI.
-
-Depending on which is set by default on your computer's BIOS settings, you will get one of these configurations when you install Frankenwallet or any other Ubuntu installation in which "whole disk encryption" is selected:
-
-➤ if **UEFI** is active, it will be able to encrypt the `/boot` partition as well the main partition used for the Ubuntu operating system & data.
-
-➤ if UEFI is not active (**legacy mode**), though the main partition will still be encrypted, the  `/boot` partition will remain unencrypted, due to constraints described at the "advanced" links below.
-
-Therefore, you should check your BIOS settings especially on older computers to see if UEFI mode is missing or disabled, and if you go ahead to install your Frankenwallet without UEFI you should:
-
-- (**if** **`/boot`** **is not encrypted**, or if you're not sure) **Never put your Frankenwallet into a system that was not booted from it**... since malicious software on that computer might be able to write to and compromise the unencrypted `/boot` partition.
-- In your host computer's BIOS settings, move the USB / removable disk higher up in the "boot order" or "boot priority" than your computer's disk... to avoid accidentally booting from the host operating system while the Frankenwallet is still connected as an ordinary writable drive.
+If you **do** (inadvertently?) install your Frankenwallet on a computer in Legacy / BIOS mode, it won't have a UEFI partition and therefore will only work on computers set up to boot in Legacy Mode.
 
 {: .warning }
-In case you plan to use your Frankenwallet on multiple host computers: If your Frankenwallet is installed in UEFI mode, it will not boot on (usually very old) computers whose BIOS is set to boot only in Legacy Mode.
+**If** you have one of these very old systems, **and** you unset Legacy Mode so you can boot your system with UEFI for a proper Linux installation on your Frankenwallet, you will likely lock yourself out of the older host operating system that you had been booting.
 
-- The reverse is also true — Legacy Mode installations won't boot on computers that can only boot UEFI formatted disks & media — but most UEFI compliant computers are set to search for boot devices in Legacy Mode after failing to find any UEFI devices… so that isn't so much of a problem.
+➤ If you are in this latter unusual situation, at this point it would be an operational advantage to upgrade that older OS — generally also reinstalling its disk with a modern (GPT) partition table — to assure proper UEFI booting, more extensible disk partitions, and other modern conveniences.
 
-Therefore, if you have a mix of Legacy Mode and UEFI computers, be sure your Frankenwallet is installed on one of the computers set to use Legacy Mode.
+## 2. Ensure an ideal boot order for booting from removable media {#boot-external-first}
 
-## 2. The complicated (expert) approach {#bios-2-experts}
+{: .warning }
+As mentioned several other places in this guide, unless you are willing to take [extraordinary security measures](/install/internal) your Frankenwallet will be built with an unencrypted `/boot` partition: meaning that a compromised system could tamper with the files there and "hack" your Frankenwallet.
 
-Notes on whether encrypted partitions are bootable or accessible through GRUB vs. UEFI Secure Boot, particuarly if you think you would prefer the entire disk (including the `/boot` partition) to be encrypted:
+{: .important }
+Therefore, the general advice is to **never insert the Frankenwallet into your host system or any other running system**.
 
-- [Grub 2 fails to boot a kernel on a luks encrypted volume with Secure Boot enabled](https://bugs.launchpad.net/ubuntu/+source/grub2/+bug/1565950)
+To help avoid doing this accidentally — _and_ to make switching into the Frankenwallet from your host system more convenient — you can adjust your host computer's BIOS settings to **move the USB / removable disk higher up in the "boot order" or "boot priority" than your computer's disk**.
 
-Notes on whether full disk encryption can be set up by the installer (i.e. whether it's possible to encrypt the `/boot` partition as well):
+In this case, if your Frankenwallet is still connected when your computer boots, it will try to boot into the Frankenwallet rather than starting your insecure system and potentially violating the unencrypted `/boot` partition of the still-attached Frankenwallet drive.
 
-- [Ubuntu Documentation \> Full Disk Encryption Howto (2019)](https://help.ubuntu.com/community/Full_Disk_Encryption_Howto_2019#Selecting_UEFI_boot_mode)
-- Note this problem was identified here the year before the current (2021-09-21) Ubuntu installer 20.04 … in which the "fail to boot encrypted volume" problem was fixed with the most current release of GRUB at the time.
+## 3. Feel free to use Secure Boot: but if in doubt, turn it off {#secure-boot}
 
-Without a detailed reading & understanding of these two links above, you might not be able to predict whether your Frankenwallet installation (with full disk encryption, of course) will have an encrypted `/boot` partition... until you try it.
+If necessary, familiarise yourself with this institutionalised feature of commercial boot environments: **[UEFI Secure boot](https://wiki.ubuntu.com/UEFI/SecureBoot)** — 
+which you can think of as a security measure to avoid the `/boot` file tampering described in the previous section.
 
-{: .new-title} 
-> Help Wanted
+Sometimes older systems, or Linux PCs long detached from the influence of Microsoft Updates, will have a BIOS version whose Secure Boot mechanism doesn't recognise the signatures of a newer system's boot images.
+
+{: .new-title }
+> hint
 >
-> If you have more insights about this issue that you would like to see included in these instructions, based on experience or experimentation, please report them [here](https://github.com/rphair/frankenwallet).
+> If your first boot of an installed Linux, or any boot of your Frankenwallet on a different system, indicates a "Secure Boot" problem, the most effective way of solving the problem is to return to the BIOS settings and **disable the "Secure Boot" flag**.
 
-### Notes on Secure Boot and UEFI
-
-For troubleshooting or advanced configuration:
-
-- [ManualFullSystemEncryption](https://help.ubuntu.com/community/ManualFullSystemEncryption) (another Ubuntu up to date article... installer not mentioned)
-- [Migrating an unencrypted PureOS Debian install to fully encrypted](https://github.com/jjakob/wiki/blob/master/Linux/Migrating-an-unencrypted-PureOS-Debian-install-to-fully-encrypted.md)
-- [Encrypting disks on Ubuntu 19.04](https://medium.com/@chrishantha/encrypting-disks-on-ubuntu-19-04-b50bfc65182a)
+For more competent users looking for a more deliberate solution while still preserving this "security" feature (a complicated choice, considering it comes from the same institutions who [allow BIOS itself to be tampered with](https://learnlinuxandlibreoffice.org/news/the-fight-for-a-secure-linux-bios)):
+1. First, you can follow standard references like the documentation link above to somehow ensure your Ubuntu (Debian, Mint) boot images are properly signed.
+2. When this appears to be effective, you should be able to turn Secure Boot mode back on.

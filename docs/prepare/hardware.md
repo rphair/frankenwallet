@@ -43,7 +43,7 @@ Estimates for other blockchain environments will emerge as soon as maintainers c
 {: .new-title }
 > hint
 >
-> An **SSD drive attached over USB** (SATA or integrated) is in fact the best performance ever observed on an external Frankenwallet.
+> An **SSD drive attached over USB** (SATA or integrated) has shown the best performance ever observed on an external Frankenwallet (eSATA should be equally performant).
 
 However, it can leave you with a lot of space unusable on the drive: since by default its `/boot` partition will be unencrypted & shouldn't be attached to a running system, since it would be vulnerable to tampering.  Advanced users can reclaim that space by [encrypting `/boot` on an external drive](/install/internal/#alternatives).
 
