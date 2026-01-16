@@ -5,9 +5,11 @@ parent: Preparation
 title: Hardware requirements
 ---
 # Hardware requirements
-To create the basic Frankenwallet you will need both these 2 things:
+{: .no_toc }
+- TOC
+{:toc}
 
-## 1. a USB removable, writable disk {#hardware-1-disk}
+## 1. a USB removable, writable disk {#hardware-disk}
 
 with the following qualifications:
 
@@ -23,44 +25,50 @@ USB 2.0 memory sticks, including [absurdly obsolete configurations](/intro/name)
 Note not all drives with the same USB revision have the same real-world speeds.  If you have the option of choosing your memory stick for a fast Frankenwallet, I recommend going to [USB UserBenchmark](https://usb.userbenchmark.com/) to look for the highest possible read/write bandwidth.
 
 {: .highlight }
-**Size of drive**: a 32 GB is more than adequate as long as you intend only to support the Cardano CLI or a secured light wallet.
+**Size of drive**: 32 GB is adequate as long as you intend only to support the Cardano CLI or a secured light wallet.
 
-This includes, with a generous margin:
-- 8+ GB for a sparse Ubuntu desktop partition
-- 12+ GB in case you want to _build_ the Cardano node in the Frankenwallet (not required or recommended)
-- plenty of room leftover for:
+This includes, with a flexible margin in each (since they'll all be on the root filesystem):
+1. 15+ GB for a standard Ubuntu desktop partition
+1. 12+ GB in case you want to _build_ the Cardano node in the Frankenwallet (not required or recommended)
+1. plenty of room leftover for:
   - other blockchain software and toolkits
   - operational data & backups you want to keep securely on the Frankenwallet.
 
-An SSD drive attached over SATA would be required to run a node wallet effectively in the Frankenwallet.  Required sizes, at the time of site last update:
-- [for Cardano](https://developers.cardano.org/docs/get-started/cardano-node/installing-cardano-node#hardware-requirements): a 512GB drive
+An SSD drive attached over USB would be required to run a node wallet effectively in the Frankenwallet.  Required sizes, at the time of site last update:
+- [for Cardano](https://developers.cardano.org/docs/get-started/infrastructure/node/installing-cardano-node#hardware-requirements): a 512GB drive
 - [for Ethereum](https://etherscan.io/chartsync/chaindefault): a 2TB drive
 
-We hope to provide estimates for other blockchain environments as soon as we can test them: in the meantime you are welcome to make suggestions [here](https://github.com/rphair/frankenwallet).
+Estimates for other blockchain environments will emerge as soon as maintainers can test them: in the meantime you are welcome to [make suggestions](https://github.com/rphair/frankenwallet#community-discussion-questions-and-support) about other configurations to support.
 
-{: .highlight }
-**a second memory stick**: used _once_ in the installation.
+{: .new-title }
+> hint
+>
+> An **SSD drive attached over USB** (SATA or integrated) is in fact the best performance ever observed on an external Frankenwallet.
 
-Note this is not essential (since you can install from optical media, TFTP boot server, etc.) but most people will want to use one.  Only 8GB capacity is needed, and the slowest ones on the market will be fine for this purpose.
+However, it can leave you with a lot of space unusable on the drive: since by default its `/boot` partition will be unencrypted & shouldn't be attached to a running system, since it would be vulnerable to tampering.  Advanced users can reclaim that space by [encrypting `/boot` on an external drive](/install/internal/#alternatives).
 
-## 2. a Windows PC to attach it to {#hardware-2-pc}
+## 2. a second memory stick {#install-media}
+
+... to be used _once_ for the installation.
+
+This is not essential — since you can install from optical media, TFTP boot server, etc. — but typical admins will find it easiest to use one.  Only 8GB capacity is needed (still; as of 2026), and the slowest memory sticks on the market will be fine for this purpose.
+
+## 3. a Windows PC to attach it to {#hardware-pc}
 
 {: .note }
 If you have a made-for Windows PC — whether it runs Windows, Linux or both — you can skip to the next section. 😎
 
-### What if I have a Mac?
+### What if I have a Mac? {#mac-problems}
 
 Since the conception of the Frankenwallet in 2020 we haven't have enough Apple machines available locally to test whether the boot software on an Apple desktop or laptop will ever properly recognise a bootable Linux partition (either legacy / GRUB or UEFI) on any removable media without specially formatting it with a tool like [Etcher](https://www.balena.io/etcher/):
 
 - Etcher may work very well for the installation media itself, but the Frankenwallet is not just *bootable*… it is [persistent](https://askubuntu.com/questions/295701/what-would-be-the-differences-between-a-persistent-usb-live-session-and-a-instal) — with a live, modifiable file system — as well as created dynamically.
 - So **we know of _no way_** that a boot disk creation tool like Etcher, designed to work on fixed ISO images, could ever make the Frankenwallet bootable after its creation through the Ubuntu installation process.
 
-Again, we hope Apple Mac users interested in the Frankenwallet will find some approaches to this problem and report on their learning experiences [in the repository](https://github.com/rphair/frankenwallet) somehow.  In the meantime we hope the following links will provide some good starting points:
+Again, we hope Apple Mac users interested in the Frankenwallet will find some approaches to this problem and [report on their learning experiences](https://github.com/rphair/frankenwallet#discussions).  In the meantime these links may provide some starting points:
 
-- [How to Boot a Linux Live USB Drive on Your Mac](https://www.howtogeek.com/213396/how-to-boot-a-linux-live-usb-drive-on-your-mac/)
-- [Create a bootable USB stick on macOS](https://ubuntu.com/tutorials/create-a-usb-stick-on-macos#1-overview)
+- [Create a bootable USB stick on macOS](https://documentation.ubuntu.com/desktop/en/latest/how-to/create-a-bootable-usb-stick/#on-macos)
 - [How to Create and Boot From a Linux USB Drive on Mac](https://www.makeuseof.com/tag/how-to-boot-a-linux-live-usb-stick-on-your-mac/)
-- [How to Install and Dual Boot Linux on Your Mac](https://www.makeuseof.com/tag/install-linux-macbook-pro/) - suggests how you might set up the encrypted Linux partition by hand.
-- if Mac can't use GRUB it should be able to use [rEFind](https://sourceforge.net/projects/refind/)...?
-- [Adding Encrypted Persistence to a Kali Linux Live USB Drive](https://www.kali.org/docs/usb/usb-persistence-encryption/)
-- [mkusb](https://help.ubuntu.com/community/mkusb) - general tool to create boot drives
+- [How to Install and Dual Boot Linux on Your Mac](https://www.makeuseof.com/tag/install-linux-macbook-pro/)
+  - suggests how you might set up the encrypted Linux partition by hand.
+  - if Mac can't use GRUB it should be able to use [rEFind](https://sourceforge.net/projects/refind/)...?
