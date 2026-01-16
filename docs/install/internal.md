@@ -308,7 +308,7 @@ GRUB_ENABLE_CRYPTODISK=y
 
 (You can also add it in a separate file as in #2 below... the effect is the same.)
 
-➤ 2. If `/target` is *not* accessible yet: open a Terminal and execute the following shell command, which will wait for `/target` to be created by the installation procedure before adding that line to a config file in the new system' `/etc/default/grub.d`:
+➤ 2. If `/target` is *not* accessible yet: open a Terminal and execute the following shell command, which will wait for `/target` to be created by the installation procedure before adding that line to a config file in the new system's `/etc/default/grub.d` directory:
 
 ```  
 while [ ! -d /target/etc/default/grub.d ]; do sleep 0.1; done; echo "GRUB_ENABLE_CRYPTODISK=y" > /target/etc/default/grub.d/local.cfg  
