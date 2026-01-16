@@ -12,7 +12,13 @@ Here are some points you might still consider along with that premise:
 {: .highlight }
 **Flexibility**: You can do *far* more with a Frankenwallet than with the stake pool or key management tools on a hardware wallet.
 
-We should assume the UI for hardware wallets will be state-of-the art, but some including myself will never be satisfied without a full scale, functional computer screen in the air-gapped environment… which for the Frankenwallet includes the ability to: access the host machine files, create and edit secure text documents and spreadsheets, prepare email and other communications (to save on the host, not send!), package our your will & testament with the encrypted keys & seed phrases in it, etc... only your imagination is the limit.
+We should assume the UI for hardware wallets will be state-of-the art, but some including the author will never be satisfied without a full scale, functional computer screen in the air-gapped environment… which for the Frankenwallet includes the ability to:
+* create and edit secure text documents and spreadsheets
+* access the host machine files through rich-data applications
+* prepare email and other communications (to save on the host, not send!)
+* package your [crypto will & testament](/usage/will-testament) with the encrypted keys & seed phrases in it
+
+...and more: limited only by your imagination and growing with your workflow needs.
 
 {: .highlight }
 **Privacy**: Nobody *ever* needs to know that you have a Frankenwallet.

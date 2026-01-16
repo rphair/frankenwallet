@@ -13,13 +13,13 @@ When one's primary computer is booted from this removable drive, a strict securi
 - store and work securely and flexibly with private keys
 - sign transactions and securely keep records of transaction details
 - follow instructions and save encrypted files on the "insecure" host machine
-- make encrypted backups without ever revealing keys or passwords in the insecure host environment.
+- make encrypted backups without ever revealing keys or passwords in the insecure host environment
 
 ## What the Cardano [COSD pool](https://cosd.com/pool) has hoped to achieve with the Frankenwallet
 
-The result of the Frankenwallet becoming more popular will be the option *not* to have a second machine and/or hardware wallet for secure Cardano operations.  A second machine is an inconvenience to many operators, and either a hardware wallet *or* a dedicated machine would be a prohibitive expense in the growing Cardano community in the developing worlds of Africa and Asia... as well as the growing masses of nomadic workers.
+The result of the Frankenwallet becoming more popular will be the option *not* to have a second machine and/or hardware wallet for secure Cardano operations.  A second machine is an inconvenience to many operators, and either a hardware wallet *or* a dedicated machine would be a prohibitive expense in the growing Cardano community in the developing worlds of Africa and Asia... as well as the growing masses of nomadic professional workers.
 
-In the year this was being retasked for public view (2021), we have catalogued about 20 Cardano Forum requests for a reliable air-gapped environment.  With the current (2025) reversion of this material into a GitHub repository,
+In the year this was being retasked for public view (beginning 2021), the author catalogued about 20 [Cardano Forum](https://forum.cardano.org) requests for a reliable air-gapped environment.  With the current (2025) reversion of this material into a GitHub repository,
 more operators, builders and users should become aware of its existence and thus encourage the refinement of this material: so it can be understood as easily as possible *and* so that users can be more confident of its security.
 
-We also expect the Frankenwallet will bridge the gap between the devoted Cardano community and long time enthusiasts of *other cryptocurrencies*.  For instance Ethereum users extending or migrating to Cardano will have a common tool to generate addresses, keys and transactions offline: since the flexible Ubuntu OS will allow Cardano and these other blockchain CLIs to be installed in the same environment.
+We also expect the Frankenwallet will bridge the gap between the devoted Cardano community and long time enthusiasts of *other cryptocurrencies*.  For instance Ethereum users extending or migrating to Cardano will have a common tool to generate addresses, keys and transactions offline: since the flexible Ubuntu OS will allow Cardano and these other blockchain CLIs to be installed in the same environment, with plenty of space to store the necessary programs and data.

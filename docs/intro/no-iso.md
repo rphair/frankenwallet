@@ -18,9 +18,14 @@ Standardising the process, rather than the result, keeps the target (the complet
 
 It also ensures that **not all Frankenwallets will be the same**.  Keeping this procedure as flexible as possible will leave hackers without a common surface to look for besides the impenetrable exterior of an LUKS encrypted partition.
 
-- Since the interaction between the Frankenwallet and files on the host computer is also left to user discretion, according to their own encryption standards and file naming conventions, hackers will also will be without a standardised set of files to look for as targets containing cryptocurrency assets.
+Since the interaction between the Frankenwallet and files on the host computer is also left to user discretion — according to their own encryption standards and file naming conventions — hackers will also will be without a standardised set of files to look for as targets containing cryptocurrency assets.
 
 {: .highlight }
-**Reason 2**: Even with a pre-fabbed initial image, the user would still not be spared the requirement to maintain the software.
+**Reason 2**: Even with a pre-fabbed initial image, the user would still not be spared the requirement to maintain its cryptocurrency-specific software.
 
 For Cardano CLI ([`cardano-cli`](https://developers.cardano.org/docs/get-started/cardano-cli/get-started/)) for example, its capabilities are constantly expanding and even the basic transaction syntax may change even if you're not using more modern features on the cutting edge of native tokens and smart contracts.  Users would still have to copy and install `cardano-cli` binaries and libraries from a compatible, relatively secure server *or* build these directly on the Frankenwallet.
+
+{: .new-title }
+> hint
+> 
+> Once you have created your first Frankenwallet, you can easily make any number of copies (for yourself or a [secure working group](/usage/sharing)) using the instructions at [Cloning a Frankenwallet](/usage/clone).
