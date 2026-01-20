@@ -10,7 +10,7 @@ You will be mostly following the official instructions here:
 {: .important-title }
 > FYI (don't begin from this link)
 >
-> [**Install Ubuntu desktop**](https://ubuntu.com/tutorials/install-ubuntu-desktop)
+> [**Install Ubuntu desktop**](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop/)
 
 ...except for specific instructions on the next pages.  Since your host computer will likely be busy installing Ubuntu on your Frankenwallet memory stick, follow along the next few pages either:
 
