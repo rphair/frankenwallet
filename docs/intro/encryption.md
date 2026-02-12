@@ -77,7 +77,7 @@ In practice, these types of attacks are extremely difficult even under the ideal
 
 If you think this seems practically almost impossible, you are absolutely right.  This is made statistically even more improbable by the Frankenwallet's installation being "private" and there not known to be a target for such a difficult and long-term attack which could only be perpetrated by a specialised expert: who has somehow compromised your device during the limited amount of time you use it, through its limited (or no) Internet usage.  
 
-### Could bugs appear that leave passwords exposed to due incompetence of the developers? {#inadvertent-bugs} 
+### Could bugs appear that leave passwords exposed due to developer incompetence? {#inadvertent-bugs} 
 
 We have to assume this is theoretically possible: but then the open source ecosystem provides more assurances.  As seen in the LibreOffice [release note](#release-note) above, the code for full 256-bit AES encryption from a user-entered password has been in place since 2012 (thirteen years, at the time of this writing) with no reason to modify it... *and* all kinds of alarms would go off in software repositories if it were.
 
