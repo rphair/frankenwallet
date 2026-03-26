@@ -39,7 +39,7 @@ At the time of this writing (late 2025) there is a [history of mitigation](https
 
 We are now entering an era where quantum approaches to breaking ciphers will advance along with more constructive applications: but the same laws of physics that apply thermodynamic limitations to information density will also apply at some level to limit the density of optical frequency wave superpositions... and so Schneier's inventory of information density requirements is still relevant.
 
-Still we can assume we are headed, at some point, for an age in which quantum computing will require the redesign of encryption strategies at all levels.  Yet socially we will have years of advance notice before such technology creates a general vulnerability of full 256-bit AES: meaning that any insecurities from the Frankenwallet's perspective are still determined *only* by assurances of the integrity of keys themselves: i.e. how workflow software handles your **passwords**.  
+Still we can assume we are headed for an age in which quantum computing will require the redesign of encryption strategies at all levels.  Yet socially we will have years of advance notice before such technology creates a general vulnerability of full 256-bit AES: meaning that any insecurities from the Frankenwallet's perspective are still determined *only* by assurances of the integrity of keys themselves: i.e. how workflow software handles your **passwords**.  
 
 ## Survey of potential vulnerabilities {#vulnerabilities}
 
