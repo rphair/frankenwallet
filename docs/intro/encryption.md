@@ -35,13 +35,22 @@ In other words, the numbers in the preceding paragraphs — indicating stellar i
 
 At the time of this writing (late 2025) there is a [history of mitigation](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#Known_attacks) — in which Dr. Schneier has been intimately involved, presenting what many believe is the best possible effort — demonstrating some reductions of this cosmic problem: which still fail to apply in any practical circumstance that would allow full 256-bit AES to be broken.  
 
-### _"But won't quantum computing make AES irrelevant?"_ {#quantum}
+### _"But won't quantum computing make older algorithms irrelevant: including AES?"_ {#quantum}
 
-We are now entering an era where quantum approaches to breaking ciphers will advance along with more constructive applications: but the same laws of physics that apply thermodynamic limitations to information density will also apply at some level to limit the density of optical frequency wave superpositions... and so Schneier's inventory of information density requirements is still relevant.
+We are now entering an era where quantum approaches to breaking ciphers will advance along with more constructive applications: but the same laws of physics that apply thermodynamic limitations to information density will also apply at some level to limit the density of quantum computational processes... and so Schneier's inventory of information density requirements is still relevant.
 
-Still we can assume we are headed for an age in which quantum computing will require the redesign of encryption strategies at all levels.  Yet socially we will have years of advance notice before such technology creates a general vulnerability of full 256-bit AES: meaning that any insecurities from the Frankenwallet's perspective are still determined *only* by assurances of the integrity of keys themselves: i.e. how workflow software handles your **passwords**.  
+Advances in breaking symmetric algorithms like AES (see Wikipedia > [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) introductory section) are expected to utilise [Grover's algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm) which effectively reduces the brute-force testing iterations of encryption keys to a square root of the non-quantum iterations... in other words, reducing required key length to half what it would have been: e.g. reducing the complexity of 256-bit AES to the 128-bit version (still uncrackable by the same space and time limitations as above).
 
-## Survey of potential vulnerabilities {#vulnerabilities}
+There exist other assurances, including the requirement of _quantum error-correction_ to perform these computations effectively: so the vast increases promised in the number of [qubits](https://en.wikipedia.org/wiki/Qubit) (generally with no error correction) would not apply to this problem without staggering design constraints.  To see how these would apply to the scale of a dedicated AES-cracking quantum supercomputer, see thls top answer ([How is AES-128 still considered to be quantum resistant?](https://crypto.stackexchange.com/questions/113154/how-is-aes-128-still-considered-to-be-quantum-resistant#answer-113155)) for a practical interpretation.
+
+So we may be headed for an age in which quantum computing will require the redesign of many encryption strategies: but the first systems to fall will be asymmetric algorithms which are sensitive to prime factorisation (via [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm)) rather than symmetric block ciphers like AES.
+
+{: .important-title }
+> practical summary
+>
+> We would have years of advance notice before quantum computing creates a general vulnerability of any version of AES: meaning that any insecurities from the Frankenwallet's perspective are still determined *only* by assurances of the integrity of keys themselves: i.e. how workflow software handles your **passwords**.
+
+## Survey of potential password vulnerabilities {#vulnerabilities}
 
 These are some hypothetical questions to consider — for the above reason, all about the handling of your encryption password — for your own considerations of safety, so you can keep an eye on these key software packages and develop your own notions of security assurance or risk:
 
