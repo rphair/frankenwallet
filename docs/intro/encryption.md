@@ -35,7 +35,7 @@ In other words, the numbers in the preceding paragraphs — indicating stellar i
 
 At the time of this writing (late 2025) there is a [history of mitigation](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard#Known_attacks) — in which Dr. Schneier has been intimately involved, presenting what many believe is the best possible effort — demonstrating some reductions of this cosmic problem: which still fail to apply in any practical circumstance that would allow full 256-bit AES to be broken.  
 
-### _"But won't quantum computing make older algorithms irrelevant: including AES?"_ {#quantum}
+### _"But won't quantum computing make older algorithms obsolete: including AES?"_ {#quantum}
 
 We are now entering an era where quantum approaches to breaking ciphers will advance along with more constructive applications: but the same laws of physics that apply thermodynamic limitations to information density will also apply at some level to limit the density of quantum computational processes... and so Schneier's inventory of information density requirements is still relevant.
 
