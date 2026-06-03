@@ -38,9 +38,9 @@ If you are **certain of** a change recommendation, or have a definite query, ple
 ### Support
 
 As explained on the web site front page, users planning to build the Frankenwallet should already be familiar with the following topics:
-1. how to install Linux: preferably the [Ubuntu Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) as used here;
+1. how to install Linux: preferably the [Linux Mint](https://linuxmint-installation-guide.readthedocs.io) or [Ubuntu Desktop](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop) as used here;
 1. how to use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme) with some fluency (i.e. not just copy / pasting everything);
-1. some experience installing your required blockchain software (e.g. [cardano-cli](https://github.com/IntersectMBO/cardano-cli) or [Eternl wallet](https://eternl.io)) on a conventional system.
+1. some experience installing your required blockchain software (e.g. [cardano-cli](https://github.com/IntersectMBO/cardano-cli) or [Eternl wallet](https://wiki.eternl.io)) on a conventional system.
 
 Therefore the definition of "support" for this project is to respond to ***high level*** questions about how the Frankenwallet software components work together.  There are many other support forums for Linux software and system administration, and questions of that nature should be pursued there before submitting issues here.
 

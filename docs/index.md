@@ -33,8 +33,8 @@ title: The Frankenwallet
 
 Most readers interested in this subject will already know how to:
 
-1. [install Linux](https://ubuntu.com/tutorials/install-ubuntu-desktop) (our reference is Ubuntu 24.04, chosen based on popularity and especially to match the majority of Cardano stake pool & other servers)
-1. use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme)
+1. install Linux (our documentation references [Linux Mint](https://linuxmint-installation-guide.readthedocs.io) or [Ubuntu Desktop](https://documentation.ubuntu.com/desktop/en/latest/tutorial/install-ubuntu-desktop));
+1. use the [Linux command line](https://github.com/jlevy/the-art-of-command-line#readme) comfortably;
 1. (according to usage & security requirements) install CLI software (e.g. [`cardano-cli`](https://github.com/IntersectMBO/cardano-cli)) or light (browser-based) wallets for your preferred blockchain(s)
 
 Therefore, please be familiar with at least #1 and #2 above, so we can focus on:
@@ -74,3 +74,7 @@ The goal will be to keep refining not only the written instructions but the conc
 
 {: .highlight }
 **Site last built: {{ site.time | date: "%d %B %Y at %R %Z" }}**
+
+
+
+
