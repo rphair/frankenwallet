@@ -64,7 +64,7 @@ All packages in these repositories go through a rigid and manually cross-checked
 
 The commonly known ability to [unlock PDF documents without knowing the password](https://www.adobe.com/in/acrobat/how-to/unlock-pdf.html) should not lead users to believe *all* document encryption is equally "cosmetic" and therefore simply removable from the file.
 
-LibreOffice, <a id="release-note"></a>[ever since version 3.5](https://wiki.documentfoundation.org/ReleaseNotes/3.5#Different_Encryption_Algorithm) (in [year 2012](https://www.libreoffice.org/about-us/libreoffice-timeline)), has encrypted all document data with 256-bit AES for all ODF files: i.e. when saving in its native Writer (Document), Calc (Spreadsheet), and related formats.
+LibreOffice, <a id="release-note"></a>[ever since version 3.5](https://wiki.documentfoundation.org/ReleaseNotes/3.5#Different_Encryption_Algorithm) (in [year 2012](https://www.libreoffice.org/libreoffice-timeline)), has encrypted all document data with 256-bit AES for all ODF files: i.e. when saving in its native Writer (Document), Calc (Spreadsheet), and related formats.
 
 As this announcement indicates and source code view would confirm, all document data is encrypted *inside the document structure itself* according to a key that's only created from whatever password you enter when you [**Save with password**](https://help.libreoffice.org/25.8/en-GB/text/shared/guide/protection.html).
 

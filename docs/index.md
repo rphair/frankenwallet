@@ -74,7 +74,3 @@ The goal will be to keep refining not only the written instructions but the conc
 
 {: .highlight }
 **Site last built: {{ site.time | date: "%d %B %Y at %R %Z" }}**
-
-
-
-
