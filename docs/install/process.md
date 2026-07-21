@@ -103,20 +103,26 @@ If you get a message something like “cannot create LVM group” or “volume g
 {: .new-title }
 > tip
 >
-> Selecting the country that matches your *current* location will greatly improve the speed of installation & updates, since it chooses package repository servers based on your answer here.
+> Selecting the country that matches your *current* location will improve the speed of installation, since it till download software & updated packages from servers based on your answer here.
 
 **Enter user information** with your particular choices of username and "real life" name:
 
 ![choose username password and login method](/assets/images/018-set-user-and-login-details_cam.jpg)
 
-➤ You should enter the high-security (Frankenwallet) password also for your user password.
+{: .new-title }
+> tip
+>
+> Enter the [low-security Frankenwallet password](/prepare/password-low) also for your user password.
 
-- This means anyone using your device when it’s unattended will have to enter your password to escalate to root privileges.
+Why not the [high-security password](/prepare/password-high)?
+- Anyone stealing your Frankenwallet won't be able to decrypt the drive without having the high-security password already... and so there'd be no point requiring them to enter it again.
+- For the same reason — and because all your hacking targets will be user files rather than root resources — you might be OK with an empty password... but this install screen won't allow that.
+- Having _some_ password required for `sudo` will help prevent some automated attacks if your platform is compromised somehow.
 
 ➤ Tick the option “Log in automatically” — rather than the generally better default “Require my password to sign in”).
 
-- Since this goes against typical desktop security recommendations, consider that nobody can get into the Frankenwallet environment without booting up with the same password (set as your volume decryption password).
-- Therefore, by logging in automatically, you're avoiding having to enter your (hopefully) very long & complex password **twice** every time you use the Frankenwallet.
+- Since this goes against typical desktop security recommendations, consider that nobody can get into the Frankenwallet environment without entering the volume decryption (high-security) password at boot time.
+- Therefore, by logging in automatically, you're avoiding having to enter a (hopefully) very long & complex password **twice** (or 3 times, if you've [encrypted `/boot` & GRUB](/install/internal)) every time you use the Frankenwallet.
 
 Upon confirming the user details, you will see this slide show (with progress indicator below) as it proceeds with the installation:
 
