@@ -15,7 +15,7 @@ _"Is software encryption enough to secure my life savings or livelihood?"_
 ... which must include a more detailed question, even for those having absolute confidence in the Frankenwallet's security itself:  
 
 {: .highlight }
-_"What prevents the files and data that I encrypt there from being broken into as soon as they're stored and transmitted through the outside world?"_
+_"What prevents the files and data that I encrypt in the Frankenwallet from being broken into as soon as they're stored in, or transmitted through, the outside world?"_
 
 ## Why AES encryption is common to Frankenwallet chosen tools {#why-aes}
 
@@ -41,7 +41,7 @@ We are now entering an era where quantum approaches to breaking ciphers will adv
 
 Advances in breaking symmetric algorithms like AES (see Wikipedia > [Post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography) introductory section) are expected to utilise [Grover's algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm) which effectively reduces the brute-force testing iterations of encryption keys to a square root of the non-quantum iterations... in other words, reducing required key length to half what it would have been: e.g. reducing the complexity of 256-bit AES to the 128-bit version (still uncrackable by the same space and time limitations as above).
 
-There exist other assurances, including the requirement of _quantum error-correction_ to perform these computations effectively: so the vast increases promised in the number of [qubits](https://en.wikipedia.org/wiki/Qubit) (generally with no error correction) would not apply to this problem without staggering design constraints.  To see how these would apply to the scale of a dedicated AES-cracking quantum supercomputer, see thls top answer ([How is AES-128 still considered to be quantum resistant?](https://crypto.stackexchange.com/questions/113154/how-is-aes-128-still-considered-to-be-quantum-resistant#answer-113155)) for a practical interpretation.
+There exist other assurances, including the requirement of _quantum error-correction_ to perform these computations effectively: so the vast increases promised in the number of [qubits](https://en.wikipedia.org/wiki/Qubit) (generally with no error correction) would not apply to this problem without staggering design constraints.  To see how these would apply to the scale of a dedicated AES-cracking quantum supercomputer, see this top answer ([How is AES-128 still considered to be quantum resistant?](https://crypto.stackexchange.com/questions/113154/how-is-aes-128-still-considered-to-be-quantum-resistant#answer-113155)) for a practical interpretation.
 
 So we may be headed for an age in which quantum computing will require the redesign of many encryption strategies: but the first systems to fall will be asymmetric algorithms which are sensitive to prime factorisation (via [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm)) rather than symmetric block ciphers like AES.
 
