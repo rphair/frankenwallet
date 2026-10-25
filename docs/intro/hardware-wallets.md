@@ -30,7 +30,7 @@ We should assume the UI for hardware wallets will be state-of-the art, but some 
 {: .highlight }
 Nobody *ever* needs to know that you have a Frankenwallet.
 
-As world governments, regulators, tax authorities and criminals increase their efforts to identify cryptocurrency holders, there is a threat of security breach via the purchase or warranty records for the premium hardware wallets, which naturally require owner authentication and support.  Please see and consider:
+As world governments, regulators, tax authorities and other criminals increase their efforts to identify cryptocurrency holders, there is also a threat of security breach via the purchase or warranty records for the premium hardware wallets: since these generally require purchaser identification and product support.  Please see and consider:
 * (2020-12-20) [**Ledger** users threaten legal action after hacker dumps personal data](https://web.archive.org/web/20251222112849/https://cointelegraph.com/news/ledger-users-threaten-legal-action-after-hacker-dumps-personal-data)
   * ... and its repeat performance (2026-01-05): [Crypto wallet firm Ledger faces customer data breach through payment processor Global-e](https://finance.yahoo.com/news/crypto-wallet-firm-ledger-faces-123240083.html)
 * (2026-09-04) [**Trezor** says 67,000 more US customers affected by ShipMonk data breach](https://cryptobriefing.com/trezor-says-67000-more-us-customers-affected-by-shipmonk-data-breach)
